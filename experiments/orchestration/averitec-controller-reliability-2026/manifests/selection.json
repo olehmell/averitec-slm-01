@@ -1,0 +1,739 @@
+{
+  "schema": "averitec-controller-selection/v1",
+  "seed": 20260918,
+  "runtime_path": "datasets/prepared_averitec/study-80-20-20260917/fit-runtime.jsonl",
+  "runtime_sha256": "ecd52d06881c57437ce86527c533ce348ac924505638f233ee23abd1486e74bb",
+  "source_split_path": "experiments/orchestration/averitec-controller-reliability-2026/support/manifests/study-split-80-20-20260917.json",
+  "source_split_sha256": "b27234b2fda2d163ab32fa67d93ed4efc7949661027bfb46dd1c925031e27997",
+  "selection_config_sha256": "85d108de7dad9f686cac98dcbfb701c42c9c1bf9163d16d29b5fb1a612490903",
+  "cases": [
+    {
+      "case_id": "averitec-dev-0247",
+      "group_id": "group-07015d933b96df102dfe",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0407",
+      "group_id": "group-bd36a624a37e1dc73f0b",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0023",
+      "group_id": "group-a9f6598d263acc38a17b",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0035",
+      "group_id": "group-79b84d6ebfc787b43297",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0381",
+      "group_id": "group-083ac26d5ca8e19feef4",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0172",
+      "group_id": "group-ea751cbe412e80d50730",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0291",
+      "group_id": "group-28cbffb647ed7df11387",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0063",
+      "group_id": "group-3ccbfab778e7aee69b30",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0032",
+      "group_id": "group-3e002578798f4db9b012",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0011",
+      "group_id": "group-931c94aa40f0d86d28a8",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0444",
+      "group_id": "group-b686e7b2c0de96821ef4",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0108",
+      "group_id": "group-6c4e26d40743965a5597",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0389",
+      "group_id": "group-7b77b614205f63f64fc9",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0240",
+      "group_id": "group-8a5cd5059cb19b4b6a98",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0028",
+      "group_id": "group-fc0208f4c03b1690d958",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0305",
+      "group_id": "group-f63b481f3ed80d8bbdf6",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0439",
+      "group_id": "group-9b700b4df0927ccf1a64",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0263",
+      "group_id": "group-be65aa0f741d4b8d1ee2",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0048",
+      "group_id": "group-ca90b1ef5b575696196d",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0075",
+      "group_id": "group-649c9c07b55f0b16a87e",
+      "split": "dev",
+      "role": "development"
+    },
+    {
+      "case_id": "averitec-dev-0390",
+      "group_id": "group-6df5526174014c9ff915",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0280",
+      "group_id": "group-91fefab8871443f049ef",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0036",
+      "group_id": "group-ddf2285aeba3f7153f9d",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0086",
+      "group_id": "group-a43f31fa14a38eb50a70",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0144",
+      "group_id": "group-2677d7d77b327b30f2c6",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0355",
+      "group_id": "group-93b4071f008da616c1ed",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0192",
+      "group_id": "group-1899a9ee17b531ffc925",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0125",
+      "group_id": "group-794f39fd126ecedebbf4",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0440",
+      "group_id": "group-30ad8608080c21b19e5e",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0398",
+      "group_id": "group-777f4845cb31e2dda1fe",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0405",
+      "group_id": "group-13d4fa8e976104ad9fb7",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0186",
+      "group_id": "group-7059d970042d36ecf0c7",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0401",
+      "group_id": "group-94e6ffc8dfc173574411",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0267",
+      "group_id": "group-e15da8875ae10e18c720",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0499",
+      "group_id": "group-fde02cdc60c862060910",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0269",
+      "group_id": "group-ff2f1b073ada73115a46",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0110",
+      "group_id": "group-a45976ff1f0ff8721d0d",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0283",
+      "group_id": "group-d59f8eeb1fee5fb72aa1",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0409",
+      "group_id": "group-153e4eda94c127d08b19",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0059",
+      "group_id": "group-a7f48853e98db403da60",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0321",
+      "group_id": "group-7ec4b6c7cf1e26f2175c",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0423",
+      "group_id": "group-6b69959320e228b61f56",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0333",
+      "group_id": "group-f4ccd031062c9a04928a",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0112",
+      "group_id": "group-2767c31d633fd603e1dc",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0396",
+      "group_id": "group-c2e1b94d57b4793fe883",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0358",
+      "group_id": "group-ed12d5ed909f0e3f5046",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0120",
+      "group_id": "group-bb2b53a7b13f1b5c0be5",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0077",
+      "group_id": "group-14e1ecdd322e46be2922",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0418",
+      "group_id": "group-4399e1f9d83c9851caca",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0113",
+      "group_id": "group-18a073e955f5d9a2dbba",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0056",
+      "group_id": "group-cfbfc74c7bf7eee91004",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0118",
+      "group_id": "group-8eb7ec72529054dcdf82",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0150",
+      "group_id": "group-84b811ec97da46f2a5be",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0114",
+      "group_id": "group-72dac5ae5ce4ec6537a4",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0294",
+      "group_id": "group-804e5e49355544d89438",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0285",
+      "group_id": "group-7d60fcb6430315a10efe",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0375",
+      "group_id": "group-382dc8d7ab18b9a8725a",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0140",
+      "group_id": "group-4572c89dd65b2ed9e2f1",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0330",
+      "group_id": "group-e22c97453479740f5722",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0252",
+      "group_id": "group-2af205d6b671429da51f",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0324",
+      "group_id": "group-1e26899c338cb823064f",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0406",
+      "group_id": "group-44b4a14e3e6b82bd5ff4",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0271",
+      "group_id": "group-ebc7750534e2f21ec2d4",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0132",
+      "group_id": "group-c650ee10f30abcf35009",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0094",
+      "group_id": "group-9d3a95fae8d32cd4b579",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0096",
+      "group_id": "group-2b4e6ebbfa7db3077beb",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0189",
+      "group_id": "group-5beb0ac6570a19f6651f",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0438",
+      "group_id": "group-f38acffdfd144b82f068",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0043",
+      "group_id": "group-d42a3a52795ef53a8af2",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0429",
+      "group_id": "group-2d9aa2ff302cb5624d87",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0270",
+      "group_id": "group-bfcbb5874679edf306af",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0102",
+      "group_id": "group-fe8c2e29c101a8fea0b9",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0430",
+      "group_id": "group-3dfc44e0116e80bd8a40",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0443",
+      "group_id": "group-6568e88aba93a21b8c19",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0419",
+      "group_id": "group-8f2d1f7637c2772b212f",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0340",
+      "group_id": "group-44b74049b9225a1d4a27",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0139",
+      "group_id": "group-4daf14c0b1ca86399138",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0452",
+      "group_id": "group-014df9dfb35f00efceaf",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0121",
+      "group_id": "group-ce02ae2e2f39535ac622",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0164",
+      "group_id": "group-826681e53dcbd47f19ae",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0097",
+      "group_id": "group-89be68889be70c4aee8f",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0380",
+      "group_id": "group-c5f2507909580a605ddd",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0478",
+      "group_id": "group-400f7c5f78af2aad7608",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0392",
+      "group_id": "group-d2c6cac33db053b4459f",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0284",
+      "group_id": "group-5cd8d5e539b90edc5317",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0426",
+      "group_id": "group-03d9a56136e4e5afefb0",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0490",
+      "group_id": "group-543aff850609411cfe07",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0227",
+      "group_id": "group-54d06245a0f7e865bfc6",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0260",
+      "group_id": "group-6125eabcd6fe8a87d6d1",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0058",
+      "group_id": "group-5ef42c330eb97bcb502b",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0143",
+      "group_id": "group-b82b038cbdb4f4d654d0",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0264",
+      "group_id": "group-f313b16bd44300536709",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0031",
+      "group_id": "group-d40d3de47c37c0e56dd2",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0175",
+      "group_id": "group-b7b17e0137c37e8e1dcf",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0088",
+      "group_id": "group-aa013ca2344ae0a3f501",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0041",
+      "group_id": "group-87918d1496ea4769edda",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0469",
+      "group_id": "group-5c88f24c3b610993731c",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0448",
+      "group_id": "group-c7aebf5b0fa4d2e9e66a",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0073",
+      "group_id": "group-5f8003cf33d195b44b1c",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0486",
+      "group_id": "group-bd7021c3e552cf634bbf",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0293",
+      "group_id": "group-4a6f8058e401bf1db0fd",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0050",
+      "group_id": "group-1ac9063a2f86cf6f671f",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0277",
+      "group_id": "group-7363a3ab4a377205530d",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0361",
+      "group_id": "group-64672fcbae44f8118d1a",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0244",
+      "group_id": "group-68fcd66a7c4d46810c31",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0404",
+      "group_id": "group-138a7290f6ae7621c889",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0156",
+      "group_id": "group-f983ef6b2a16adf1bed4",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0393",
+      "group_id": "group-0b082610af5034d0909a",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0387",
+      "group_id": "group-1b9bfb140aece50ea6e2",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0299",
+      "group_id": "group-eb8cfae354efeeee3613",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0070",
+      "group_id": "group-a970fd53c5fdfb499eec",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0226",
+      "group_id": "group-9893ec28036cd01fea99",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0158",
+      "group_id": "group-19efcb4cfc18b27b1d8e",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0424",
+      "group_id": "group-c4d4865721772be4a93f",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0313",
+      "group_id": "group-ef9236d6e3d07d37c07f",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0141",
+      "group_id": "group-aae5bc671baee4f82e06",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0298",
+      "group_id": "group-ea7387e0053bc18b4537",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0169",
+      "group_id": "group-ee509893752fbf6a79e9",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0464",
+      "group_id": "group-798e5e79f516079fc097",
+      "split": "dev",
+      "role": "evaluation"
+    },
+    {
+      "case_id": "averitec-dev-0200",
+      "group_id": "group-8be46cbb9943f04ccc72",
+      "split": "dev",
+      "role": "evaluation"
+    }
+  ],
+  "exclusions": {
+    "prior_exploratory_probe": [
+      "averitec-dev-0002"
+    ],
+    "main_study_holdout": "all groups",
+    "source_split": "train"
+  },
+  "gold_used": false
+}

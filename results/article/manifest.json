@@ -1,0 +1,59 @@
+{
+  "files": {
+    "reference.csv": {
+      "rows": 1000,
+      "sha256": "7110cfe31c2a22a59f286e629ca39c9a90eb2f3478c9c748ed63dc176162719d"
+    },
+    "selection-decisions.csv": {
+      "rows": 21000,
+      "sha256": "b622866d0764633de55ab1ff81589de383d61020cf0114d1fb5500ddb980d6e5"
+    },
+    "verdict-outcomes.csv": {
+      "rows": 2700,
+      "sha256": "e2b2d3fe46090efd777e100df08e9bc23bfdc961bb2f7a42bcba9197a0d1ad83"
+    },
+    "workflow-decisions.csv": {
+      "rows": 45980,
+      "sha256": "f3490a2ef830648ca1df32d528652f8f3f058186b87410a46e0bd76b60e94e7a"
+    }
+  },
+  "privacy": "Pseudonymous case and source-group keys; no source text, prompt, completion, URL, API key, or raw benchmark case identifier.",
+  "schema": "averitec-csit-article-public-microdata/v2",
+  "source_sha256": {
+    "candidates": "219c745aac6f50501a55c4f2511d383505317fd75338b0efaed25f44bbe23b98",
+    "jev_selector_raw_pass_4": "a30aca4b0059a9c478f9b05b0d90e024bbd27a6565561925f4d43f7f65be3a0a",
+    "jev_verdict_raw_pass_4": "612dae708209f472ab1b27d60f87e0fb063693ff63e983a5e1b34f003ed67e51",
+    "reference": "ec4511a237e13a9b1ac16edbc54c9bdd87506b44f080b95d85ab29166664b352",
+    "sealed_choices": "7d55e2c3399cf4d9defab0eedd399047ef47800f12a3e20ac79816a12975e927",
+    "verdict_gold": "e7724886f9a7885dfa6c38710aef644b79b928692a3b89238879d3095b2ea71b",
+    "verdicts_raw_passes_1_3": "cb3d25bc66fbc89c28f27a337e5c22371cde7598eb1bbd834b948dd2038356cd"
+  },
+  "workflow_source_sha256": {
+    "gemini/historical_study_a": "9727d80a4e07105b802dada2165198d7ce5f01556bea01a153786a3567fea73c",
+    "gemini/original_extension_pass1": "77e5d09246bf8b3c00ab35f8b9b5fb90c6a285c46c619efe5a0b0b7e23d9d2a9",
+    "gemini/original_extension_pass3": "79d469690d81fc8633fdca6d70a52151eb5a8212da535dee358bfbbe91ffff97",
+    "jeff/original_pass_1": "610ad84e8c3d0c8a27223d87da3388926c466ddce3e357b9a10fdc8d8d70a918",
+    "jeff/original_pass_1/plan": "2d46d97a14674e83e5afc505e48a127d45a90c565d0371d8154c51708c40c476",
+    "jeff/original_pass_2": "fc7e4f0ff67787315c3502462f4541ba850deab94956fe50c3dece46065debe6",
+    "jeff/original_pass_2/plan": "dcaf90fa331c8221931f3a6b08d99809a14c0dbd1924cff4ff92ff58c097cd41",
+    "jeff/original_pass_3": "ada54117aead488a99e9894c91c64b84b7e7c2de587b7c3ff13d9ba5fd5d2050",
+    "jeff/original_pass_3/plan": "d9f23bb2c59b89443739fc3e46b3c05f6a61f95c28fdb0d7125816a26a0a8414",
+    "jev/historical_study_a": "f08ae4697cc5bbc0cff4410e29ca837b56d4b9344bf842a44419fcdc180309c7",
+    "jev/workflow_recovery_r1": "a8ee15122cfe18d06554bb8288438e75cc90f2bd39914e044100fe9dc9b9597c",
+    "laya_typed/original_pass_1": "2ed7874897475a5f6a617211d16ddbd221c41bc0fa04ece27fd2d7a981979dde",
+    "laya_typed/original_pass_1/plan": "c8385ab97dfd1004e16a488f14f2c9cae8b5852ad100d2d3995b056371dbb40f",
+    "laya_typed/original_pass_2": "71297a0c2b8385c3e6998212a167174febc92b73a53fcef9659aa495e65f251f",
+    "laya_typed/original_pass_2/plan": "4a22e9d76787271c75eed4818f1314fecf55195370320d685d495e4623bd149f",
+    "laya_typed/original_pass_3": "aecf5d7e557f5038f073282923ef83dca991ecff7ce7be3c9c0bd84224c1bdbe",
+    "laya_typed/original_pass_3/plan": "bc2d062885eba955b90c21ba7f9bed98eaebaa0d4b060a092f63fdf7b065ac83",
+    "lfm/original_pass_1": "5da8dad3a54c42ce6cfffcc9ee2490e0bd053f8d23696c9ec0ad835ead641a5f",
+    "lfm/original_pass_2": "5f077287fccb1c8acf55b7327e6f7b56dc56a8d4753bae2fa846df7a9492c8a7",
+    "lfm/original_pass_3": "1bddb50390c89d1d7dcbfef835cfee1adaa18832b9ad83100863bf8877081b6c",
+    "lfm26/original_pass_1": "9f5af26ac784ff244c983b5c616675c574cf4e2450c97dd62b2b5acd992a5080",
+    "lfm26/original_pass_2": "cefa51452ddd4a5eacc10de6109123d0be418c67760f258b83805c10cf2c7090",
+    "lfm26/original_pass_3": "afe4d18a7696a0404d69558067e74b686182cf194464a9d3943d496b08a6dc54",
+    "qwen/original_pass_1": "3b154729d00d8e9c34de0bb795f6878747637c053332392bd9e2aad4058c0fe0",
+    "qwen/original_pass_2": "8364c132f9dbdb04ddd1daa0961ff12f86c0284175109be75b7301bf6abb9ba2",
+    "qwen/original_pass_3": "3f06966294ee7d571c3cef74d68c37d8e8a03b3f6e82e6ba98aa0751bfc3ce07"
+  }
+}

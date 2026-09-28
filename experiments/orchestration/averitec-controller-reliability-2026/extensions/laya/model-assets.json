@@ -1,0 +1,99 @@
+{
+  "schema": "averitec-laya-assets/v1",
+  "package": {
+    "name": "laya",
+    "version": "0.3.3",
+    "requires_python": ">=3.8",
+    "filename": "laya-0.3.3-py3-none-any.whl",
+    "size": 33303,
+    "sha256": "0f0fed09d04e0b9e05a54643e77c6bebb9e881bf3c8e0a5c536b58c71d6659fb",
+    "url": "https://files.pythonhosted.org/packages/d4/56/677fbefdbe5a9f4fbed51feb8bb598c99003a0e6e0dcd59f54596d680676/laya-0.3.3-py3-none-any.whl",
+    "metadata_source": "https://pypi.org/pypi/laya/0.3.3/json",
+    "dependencies": {
+      "torch": ">=2.0.0",
+      "transformers": ">=4.45.0",
+      "safetensors": ">=0.4.0",
+      "huggingface_hub": ">=0.20.0",
+      "numpy": ">=1.20.0"
+    }
+  },
+  "model": {
+    "repository": "convaiinnovations/laya",
+    "revision": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+    "metadata_source": "https://huggingface.co/api/models/convaiinnovations/laya?blobs=true",
+    "tree_source": "https://huggingface.co/convaiinnovations/laya/tree/c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+    "files": [
+      {
+        "path": "encoder/config.json",
+        "size": 2083,
+        "digest_algorithm": "git-sha1",
+        "digest": "5881ba831f2db5ce0f606bbaa1f2668e1e6cb706"
+      },
+      {
+        "path": "model.safetensors",
+        "size": 842609210,
+        "digest_algorithm": "sha256",
+        "digest": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+        "git_lfs": true,
+        "git_blob": "9bef25a12dcb807627a798837cfbb0ea73c0e38d"
+      },
+      {
+        "path": "rl_agent_config.json",
+        "size": 745,
+        "digest_algorithm": "git-sha1",
+        "digest": "3e4fcbf12cf36164ce18a1398aa9f35f58375ae0"
+      },
+      {
+        "path": "tokenizer/tokenizer.json",
+        "size": 3583228,
+        "digest_algorithm": "git-sha1",
+        "digest": "2f4d8583e507b7466d2490e2d6c045647a822698"
+      },
+      {
+        "path": "tokenizer/tokenizer_config.json",
+        "size": 308,
+        "digest_algorithm": "git-sha1",
+        "digest": "9fd800115c5c92353220aa66addfce67a9135f32"
+      },
+      {
+        "path": "typed-decisions/encoder/config.json",
+        "size": 2084,
+        "digest_algorithm": "git-sha1",
+        "digest": "d4be4829750fb04c0aa8b9897c3ea827f76c0109"
+      },
+      {
+        "path": "typed-decisions/model.safetensors",
+        "size": 842609220,
+        "digest_algorithm": "sha256",
+        "digest": "4fa56de72383a9d3efa9cfa78955733c81b9fc8067a587ca4beb82c78107a24e",
+        "git_lfs": true,
+        "git_blob": "3fb9c9678050815e76d0c847115919d7871ace3e"
+      },
+      {
+        "path": "typed-decisions/rl_agent_config.json",
+        "size": 847,
+        "digest_algorithm": "git-sha1",
+        "digest": "5f0e1d5f2366fe8ba2ff330dffaeed53b469e97e"
+      },
+      {
+        "path": "typed-decisions/tokenizer/tokenizer.json",
+        "size": 3583228,
+        "digest_algorithm": "git-sha1",
+        "digest": "2f4d8583e507b7466d2490e2d6c045647a822698"
+      },
+      {
+        "path": "typed-decisions/tokenizer/tokenizer_config.json",
+        "size": 337,
+        "digest_algorithm": "git-sha1",
+        "digest": "ed1ffabc2ce11120754705709569e365e46da71a"
+      }
+    ]
+  },
+  "runtime": {
+    "base_image_filename": "controller-replay-vllm-0.17.0.sif",
+    "base_image_sha256": "88e35b0554e3d1da16dfe8b9944e866adde00566935b69b366acf83d32678c08",
+    "known_transformers_version": "4.57.6",
+    "installation": "isolated_target_no_deps",
+    "network_policy": "asset_preparation_only_then_offline"
+  }
+}

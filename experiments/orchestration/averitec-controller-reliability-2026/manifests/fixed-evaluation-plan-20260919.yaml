@@ -1,0 +1,50 @@
+schema: averitec-controller-fixed-evaluation-plan/v1
+approved_date: 2026-09-19
+authorization: user_approved_100_cases_fixed_five_controllers_and_scoped_local_commit_without_push
+protocol: controller-reliability-v4-fixed-evaluation-100
+config: experiments/orchestration/averitec-controller-reliability-2026/config.yaml
+selection: experiments/orchestration/averitec-controller-reliability-2026/manifests/selection.json
+selection_canonical_sha256: 59f32eb8c5d694f096d9e99af2cd1cbc4ac47c6a8f996a967667344fb298c27c
+qualification_cases:
+  - averitec-dev-0023
+  - averitec-dev-0035
+  - averitec-dev-0381
+  - averitec-dev-0172
+evaluation_cases: all_100_evaluation_role_entries_in_canonical_selection_order
+qualification_trials: 300
+evaluation_trials: 1500
+maximum_measured_decisions: {qualification: 3600, evaluation: 18000}
+warmup_calls: {qualification: 5, evaluation: 5}
+maximum_allocated_gpu_seconds: 43200
+api_phase_wall_seconds_per_controller: 14400
+phases:
+  - qualification_freeze
+  - five_qualification_runs
+  - portable_qualification_evidence_gate
+  - evaluation_freeze
+  - five_evaluation_runs
+  - completeness_audit_and_descriptive_report
+conditions:
+  jev: {prompt_variant: v2, generation_profile: baseline}
+  qwen: {prompt_variant: v2, generation_profile: baseline}
+  gemini: {prompt_variant: v2, generation_profile: gemini_native}
+  lfm: {prompt_variant: v3, generation_profile: lfm_native}
+  lfm26: {prompt_variant: v3, generation_profile: lfm26_native}
+images:
+  shared_qwen_and_lfm12:
+    file: controller-replay-vllm-0.17.0.sif
+    sha256: 88e35b0554e3d1da16dfe8b9944e866adde00566935b69b366acf83d32678c08
+  lfm26:
+    file: controller-lfm26-vllm-0.28.0.sif
+    sha256: 85e679babc88d8408b14588840e3876e5d21c0b24f818dd9f400c23b57d9849f
+constraints:
+  adaptive_tuning: false
+  accuracy_gate: false
+  main_study_holdout_access: false
+  gold_access: false
+  outcome_retries: false
+  drop_failed_preparations: false
+  copy_api_credentials_to_vega: false
+  overwrite_historical_evidence: false
+  push_commits: false
+operational_receipt: separate_private_launch_manifest_records_actual_commit_paths_commands_jobs_and_accounting

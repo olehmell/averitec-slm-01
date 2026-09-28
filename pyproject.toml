@@ -1,0 +1,9 @@
+[project]
+name = "averitec-slm-01"
+version = "0.1.0"
+description = "Controller, evidence selection, and HerO verdict experiments for the seven-arm AVeriTeC study"
+requires-python = ">=3.12"
+dependencies = ["PyYAML>=6.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]

@@ -1,0 +1,192 @@
+id: averitec-controller-reliability-2026
+status: running
+protocol_version: controller-reliability-v4-fixed-evaluation-100
+hypothesis: >-
+  Controller deployments differ in first-attempt compliance with explicit workflow
+  rules and in completion reliability under identical tool observations.
+seed: 20260918
+model_assets_manifest: experiments/orchestration/averitec-controller-reliability-2026/manifests/model-assets-expansion-20260919.json
+model_assets_manifest_sha256: 3c274dddc0fef83998b391de58b2dd02261b6968a2ce4f688f805fe15c9e66ab
+dataset_refs:
+  - datasets/prepared_averitec/study-80-20-20260917/fit-runtime.jsonl
+source_split_manifest: experiments/orchestration/averitec-controller-reliability-2026/support/manifests/study-split-80-20-20260917.json
+selection:
+  source_split: dev
+  development_cases: 20
+  evaluation_cases: 100
+  one_case_per_group: true
+  main_study_holdout: excluded
+  gold_access: prohibited
+models:
+  jev:
+    model: jev-1.13.0
+    transport: typesafe_choice
+  lfm:
+    model: LiquidAI/LFM2.5-1.2B-Instruct
+    revision: 0f604ada3f766f9f257460c4c9f0b5d6f69d431b
+    transport: openai_chat
+  qwen:
+    model: Qwen/Qwen3.5-4B
+    revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
+    transport: openai_chat
+  lfm26:
+    model: LiquidAI/LFM2.5-2.6B
+    revision: 654f9463ce32b05d0429d76fe1f580b27d4c1ac0
+    transport: openai_chat
+    reasoning: always_on
+    vllm_version: 0.28.0
+    transformers_minimum: 5.5.3
+    image_base_digest: sha256:61fc8a896b0a4fbbbdc063bc4b0dbc25ce98e02b5050c24aeb7830ac02039b14
+  gemini:
+    model: gemini-3.1-flash-lite
+    expected_version: gemini-3.1-flash-lite
+    metadata_version: 3.1-flash-lite-05-2026
+    metadata_version_role: availability_metadata_not_generation_deployment_pin
+    transport: gemini_generate_content
+    api_version: v1beta
+shared_worker: qwen
+retrieval: cpu_bm25_filtered_frozen_per_claim_corpus
+source_corpora: experiments/orchestration/averitec-controller-reliability-2026/support/manifests/source-corpora-averitec-train-dev-20260917.json
+exclusions: experiments/orchestration/averitec-controller-reliability-2026/support/manifests/leakage-exclusions.json
+workflow:
+  stages: [decompose, queries, retrieve, qa, coverage, select, verdict]
+  terminal_actions: [finish, abort]
+  max_controller_calls: 12
+  max_tool_retries_per_stage: 1
+  decision_timeout_seconds: 30
+  tool_timeout_seconds: 90
+evaluation:
+  primary_mode: checkpoints
+  secondary_mode: trajectory
+  repetitions: 3
+  option_orders: [canonical, reversed, seeded]
+  scenarios: [nominal, retrieval_timeout_once, retrieval_timeout_persistent]
+  output_constraint: global_enum
+  prompt_repair: false
+  automatic_transport_retries: 0
+  quality_metrics: []
+development_tuning:
+  approved_date: 2026-09-19
+  purpose: common_protocol_ablation_and_model_native_capability_screening
+  screening_case_limit: 2
+  prompt_variants: [v1, v2, v3]
+  native_profiles:
+    jev: [jev_native]
+    lfm: [lfm_native]
+    qwen: [qwen_native, qwen_thinking]
+  native_prompt_variants: [v2, v3]
+  screening_repetitions: 1
+  screening_orders: [canonical]
+  screening_scenarios: [nominal, retrieval_timeout_once, retrieval_timeout_persistent]
+  warmup: one_synthetic_request_per_condition_outside_measurements
+  warmup_timeout_seconds: 120
+  reasoning_output_token_limit: 2048
+  evaluation_settings_frozen: true
+  automatic_tuning_or_repair: false
+  model_replacement_or_training: false
+  settings_sources:
+    - https://huggingface.co/Qwen/Qwen3.5-4B
+    - https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct
+    - https://docs.typesafe.ai/api
+    - https://docs.vllm.ai/en/v0.17.0/features/structured_outputs/
+expansion_screening:
+  approved_date: 2026-09-19
+  purpose: five_controller_native_deployments_and_compact_lfm_protocol
+  screening_case_limit: 2
+  screening_repetitions: 1
+  screening_orders: [canonical]
+  screening_scenarios: [nominal, retrieval_timeout_once, retrieval_timeout_persistent]
+  max_conditions: 12
+  max_measured_decision_calls: 864
+  max_warmup_calls: 12
+  fresh_shared_tool_freeze_required: true
+  conditions:
+    jev: [[v2, baseline], [v3, baseline]]
+    qwen: [[v2, baseline], [v3, baseline]]
+    lfm: [[v2, lfm_native], [v3, lfm_native], [v4, lfm_native]]
+    lfm26: [[v2, lfm26_native], [v3, lfm26_native], [v4, lfm26_native]]
+    gemini: [[v2, gemini_native], [v3, gemini_native]]
+  gemini_pricing_reference:
+    currency: USD
+    input_per_million_tokens: 0.25
+    output_including_thinking_per_million_tokens: 1.50
+    pricing_date: 2026-09-19
+    source: https://ai.google.dev/gemini-api/docs/pricing
+    grounding_enabled: false
+  settings_sources:
+    - https://huggingface.co/LiquidAI/LFM2.5-2.6B/tree/654f9463ce32b05d0429d76fe1f580b27d4c1ac0
+    - https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite
+    - https://ai.google.dev/gemini-api/docs/structured-output
+    - https://ai.google.dev/gemini-api/docs/thinking
+evaluation_run:
+  approved_date: 2026-09-19
+  purpose: fixed_five_controller_checkpoint_evaluation_without_adaptive_tuning
+  qualification_case_offset: 2
+  qualification_case_limit: 4
+  qualification_repetitions: 3
+  qualification_orders: [canonical, reversed, seeded]
+  evaluation_case_limit: 100
+  evaluation_repetitions: 1
+  evaluation_orders: [canonical]
+  scenarios: [nominal, retrieval_timeout_once, retrieval_timeout_persistent]
+  conditions:
+    jev: {prompt_variant: v2, generation_profile: baseline}
+    qwen: {prompt_variant: v2, generation_profile: baseline}
+    lfm: {prompt_variant: v3, generation_profile: lfm_native}
+    lfm26: {prompt_variant: v3, generation_profile: lfm26_native}
+    gemini: {prompt_variant: v2, generation_profile: gemini_native}
+  max_qualification_decisions: 3600
+  max_evaluation_decisions: 18000
+  qualification_gate: complete_matched_runs_valid_warmups_no_interruption_or_transport_identity_failures
+  accuracy_threshold: null
+  semantic_failure_retries: 0
+  qualification_warmup_calls: 5
+  evaluation_warmup_calls: 5
+  limits:
+    qualification_freeze_wall_seconds: 3600
+    qualification_lfm_wall_seconds: 900
+    qualification_qwen_wall_seconds: 900
+    qualification_lfm26_wall_seconds: 1800
+    evaluation_freeze_wall_seconds: 21600
+    evaluation_lfm_wall_seconds: 1800
+    evaluation_qwen_wall_seconds: 1800
+    evaluation_lfm26_wall_seconds: 10800
+    maximum_allocated_gpu_seconds: 43200
+    api_phase_wall_seconds: 14400
+  previous_screening_cases_excluded_from_qualification: true
+  main_study_holdout_access: prohibited
+  adaptive_tuning: false
+metrics:
+  - first_attempt_rule_compliance
+  - autonomous_full_pipeline_completion
+  - protocol_correct_termination
+  - schema_failure_rate
+  - infrastructure_failure_rate
+  - retry_rule_violation_rate
+  - early_finish_rate
+  - decision_repeatability
+  - option_order_sensitivity
+  - controller_latency_ms
+  - measured_tokens
+tracing:
+  local_capture: mandatory_append_only
+  remote_backend: langfuse
+  export: explicit_after_run
+  protocol: otlp_http_json
+  capture: [controller_requests, controller_responses, tool_states, worker_generations, usage, failures]
+  credentials: environment_or_root_dotenv
+  gold_access: prohibited
+  remote_export_in_measured_path: false
+outputs:
+  - manifests/selection.json
+  - .private-artifacts/averitec-controller-reliability-2026/
+  - results/
+command: uv run --no-sync python experiments/orchestration/averitec-controller-reliability-2026/run.py --check
+dissertation_links:
+  - dissertation/chapters/03_methodology.typ
+  - dissertation/chapters/04_experiments.typ
+publication:
+  target: short empirical methods article; venue selected after pilot
+  contribution: >-
+    Reproducible separation of typed-output guarantees, workflow-rule compliance,
+    and autonomous completion for five controller deployments on AVeriTeC tasks.

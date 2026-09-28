@@ -1,0 +1,205 @@
+{
+  "schema": "averitec-model-assets/v1",
+  "generated_date": "2026-09-19",
+  "source": "https://huggingface.co/api/models/{repository}/revision/{revision}?blobs=true",
+  "models": [
+    {
+      "repository": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "blob": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+          "size": 1570
+        },
+        {
+          "path": "LICENSE",
+          "blob": "f938136e3adacfd92be087f6e113b5d6d97f678f",
+          "size": 11544
+        },
+        {
+          "path": "README.md",
+          "blob": "7950a3aadf378cd13758097bc52f0ed849a59007",
+          "size": 77661
+        },
+        {
+          "path": "chat_template.jinja",
+          "blob": "a585dec894e63da457d9440ec6aa7caa16d20860",
+          "size": 7756
+        },
+        {
+          "path": "config.json",
+          "blob": "557d961b205319c6a7da5f757f565b69b3967b7d",
+          "size": 3161
+        },
+        {
+          "path": "merges.txt",
+          "blob": "a494e019ca1502219fd0128658b979e5f05ae8e8",
+          "size": 3353259
+        },
+        {
+          "path": "model.safetensors-00001-of-00002.safetensors",
+          "blob": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+          "size": 5329398688
+        },
+        {
+          "path": "model.safetensors-00002-of-00002.safetensors",
+          "blob": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+          "size": 3990429408
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "blob": "fddda6039f7c1d17260c9e923b8a72fd025d9a86",
+          "size": 76196
+        },
+        {
+          "path": "preprocessor_config.json",
+          "blob": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64",
+          "size": 390
+        },
+        {
+          "path": "tokenizer.json",
+          "blob": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+          "size": 12807982
+        },
+        {
+          "path": "tokenizer_config.json",
+          "blob": "eda48d3e75a8e59a8479ee4ec8b37f76e711d9c1",
+          "size": 16710
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "blob": "3ba673a5ad7d4d13f54155ecd38b2a94a6dac8fe",
+          "size": 385
+        },
+        {
+          "path": "vocab.json",
+          "blob": "0aa0ce0658d60ac4a5d609f4eadb0e8e43514176",
+          "size": 6722759
+        }
+      ]
+    },
+    {
+      "repository": "LiquidAI/LFM2.5-1.2B-Instruct",
+      "revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+      "files": [
+        {
+          "path": ".eval_results/gpqa.yaml",
+          "blob": "16d6be533aab86b4afe115c2686ae96cccd05dc2",
+          "size": 206
+        },
+        {
+          "path": ".gitattributes",
+          "blob": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+          "size": 1519
+        },
+        {
+          "path": "LICENSE",
+          "blob": "7fb1127cc01c34199fa391322ea59a1d5c8c692e",
+          "size": 10644
+        },
+        {
+          "path": "README.md",
+          "blob": "e1f74e1217b613432b8b741a96bda46b2f44cd99",
+          "size": 16291
+        },
+        {
+          "path": "chat_template.jinja",
+          "blob": "4bba41b1eea86b9f3725ca30a89bb4656e17e25a",
+          "size": 5487
+        },
+        {
+          "path": "config.json",
+          "blob": "42d7131e339aa00fecec1da8541151f9d0962835",
+          "size": 1224
+        },
+        {
+          "path": "generation_config.json",
+          "blob": "0ec736a123e9569cb6aef0c86f7ee22523b2640f",
+          "size": 132
+        },
+        {
+          "path": "model.safetensors",
+          "blob": "1ba63d9adb03ae43581db0e136e4416febe0441aff7296397bd455fb6017f73a",
+          "size": 2340697936
+        },
+        {
+          "path": "special_tokens_map.json",
+          "blob": "b28c8a1e9ecfa97dfc04bf0a5951183155ccc6d7",
+          "size": 434
+        },
+        {
+          "path": "tokenizer.json",
+          "blob": "2e27bba0b0505b2b2124fa9225c9b5dda7531474",
+          "size": 4733389
+        },
+        {
+          "path": "tokenizer_config.json",
+          "blob": "5b071cd2a330a6e5b33ba575fd1e2f6f57f09927",
+          "size": 92225
+        }
+      ]
+    },
+    {
+      "repository": "LiquidAI/LFM2.5-2.6B",
+      "revision": "654f9463ce32b05d0429d76fe1f580b27d4c1ac0",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "blob": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+          "size": 1570
+        },
+        {
+          "path": "LICENSE",
+          "blob": "25e731c697c4fe4c52ee654cedf7106a827748d2",
+          "size": 10574
+        },
+        {
+          "path": "README.md",
+          "blob": "7423d1953b058ba00773bcf939840f584ce8c0f0",
+          "size": 18337
+        },
+        {
+          "path": "chat_template.jinja",
+          "blob": "d63583bce992413df713a04cc14b6a3bfe31617a",
+          "size": 5443
+        },
+        {
+          "path": "config.json",
+          "blob": "71bdf63d60a624e2e0b3c966a8cd08da75df0ac0",
+          "size": 1467
+        },
+        {
+          "path": "generation_config.json",
+          "blob": "f7fa1ba9c1615d195965fc239520f209fc4b6617",
+          "size": 327
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "blob": "05be188e6570a7642b4690545ab22ebf4d0a6068775dd776a452eebf738854cc",
+          "size": 5329406264
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "blob": "532f803a9e6f127adc124d977503b438d8cc9c18f96e0862bf6835e38867bca8",
+          "size": 65021192
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "blob": "3d927a617f885785479c530a003346d76e5fd5a9",
+          "size": 21425
+        },
+        {
+          "path": "tokenizer.json",
+          "blob": "695be7802a0e4b8a81048f0ff5ebb7fc811a0ba5a6be63dbb24deb5a81096f41",
+          "size": 17905598
+        },
+        {
+          "path": "tokenizer_config.json",
+          "blob": "e3eefcd570bd438293cf1e1819c016077d5aa842",
+          "size": 363
+        }
+      ]
+    }
+  ]
+}

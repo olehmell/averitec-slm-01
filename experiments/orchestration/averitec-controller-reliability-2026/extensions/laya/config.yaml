@@ -1,0 +1,23 @@
+id: averitec-controller-laya-extension-v1
+base_commit: 8761ac5cb6c24af6eaea2ab3dd1f38d896d9cb12
+hypothesis: Native nine-way choice can provide reliable control without text generation.
+input_profile: unchanged gold-free development and evaluation freezes from the five-controller study
+seed: 20260918
+models: [base, typed]
+development_case_ids: [averitec-dev-0023, averitec-dev-0035, averitec-dev-0381, averitec-dev-0172]
+selection_sha256: 59f32eb8c5d694f096d9e99af2cd1cbc4ac47c6a8f996a967667344fb298c27c
+phases:
+  screen: {cases: 4, orders: [canonical], canonical_repetitions: 1, gpu_wall_seconds: 858}
+  qualification: {cases: 4, orders: [canonical, reversed, seeded], canonical_repetitions: 3, gpu_wall_seconds: 900}
+  evaluation: {cases: 100, orders: [canonical], canonical_repetitions: 1, gpu_wall_seconds: 1800}
+scenarios: [nominal, retrieval_timeout_once, retrieval_timeout_persistent]
+selection_rule: complete operational screens only; highest decision compliance; then lowest median native inference latency; then lexicographic checkpoint name
+metrics: [decision_compliance, valid_action_rate, median_native_inference_latency_ms, per_action_probabilities]
+no_context_truncation: true
+no_outcome_retries: true
+gpu_budget_seconds: 3600
+prior_gpu_seconds: 42
+recovery: user approved one resubmission after job 45417136 failed before warmup or inference; preserve all prior artifacts
+outputs: isolated phase directories with plans, intents, traces, rows, and hash-bound receipts
+thesis_links: [agent orchestration reliability]
+publication_target: exploratory sixth-controller extension, reported separately from original five-controller preregistration

@@ -1,0 +1,28 @@
+id: averitec-controller-jeff-workflow-extension-v1
+base_commit: d6dba7c374020c118fc6d15701bb1cf2a49ac892
+hypothesis: A native nine-way GLiFormer choice can follow the frozen workflow rules.
+input_profile: unchanged gold-free development and evaluation freezes from the five-controller study
+seed: 20260918
+model: knowledgator/gliformer-large-v1
+model_revision: d0a4e53d09cebe6bc963dd9be319d4279084bb2d
+returned_model: gliformer-large-v1
+checkpoint_sha256: 64bc03d73b133461134468ad22b5ff2315579419d534018561742624a1a262df
+asset_manifest_sha256: 4fafa412268c169f1cfb8c56bb29bea774fa95947d60e0aa6cd36678740af9e3
+development_case_ids: [averitec-dev-0023, averitec-dev-0035, averitec-dev-0381, averitec-dev-0172]
+selection_sha256: 59f32eb8c5d694f096d9e99af2cd1cbc4ac47c6a8f996a967667344fb298c27c
+phases:
+  qualification: {cases: 4, orders: [canonical, reversed, seeded], canonical_repetitions: 3, gpu_wall_seconds: 900}
+  evaluation: {cases: 100, orders: [canonical], canonical_repetitions: 1, gpu_wall_seconds: 1800}
+scenarios: [nominal, retrieval_timeout_once, retrieval_timeout_persistent]
+instruction_profile: zero-shot v2 workflow instructions and information-equivalent v2 state presentation used in the original study
+metrics: [decision_compliance, valid_action_rate, median_native_inference_latency_ms, per_action_probabilities]
+probability_sum_tolerance: 0.0005
+no_context_truncation: true
+no_outcome_retries: true
+gpu_budget_seconds: 2700
+prior_gpu_seconds: 148
+qualification_execution_commit: 907bb23c604b82c33c5350581f00c8932b2ab416
+recovery: jobs 45542464 and 45542576 failed before output creation or model loading; job 45542622 verified CUDA, model loading, and preflight but failed before warmup; job 45542750 completed all 60 qualification trials and 450 raw native responses, then exposed that four-decimal nine-way probabilities require a 0.0005 sum tolerance; preserve the original journals and recover qualification deterministically from raw traces without another model call
+outputs: isolated phase directories with plans, intents, traces, rows, and hash-bound receipts
+thesis_links: [agent orchestration reliability]
+publication_target: post-protocol exploratory workflow-control extension, reported separately from the original five-controller matrix

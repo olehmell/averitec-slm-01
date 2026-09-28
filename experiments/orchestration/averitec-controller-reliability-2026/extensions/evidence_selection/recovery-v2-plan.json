@@ -1,0 +1,32 @@
+{
+  "protocol": "averitec-selector-launch/v2",
+  "approval_local_date": "2026-09-20",
+  "purpose": "Full independent replacement arms for Gemini, Qwen and LFM2.6; do not merge old partial predictions",
+  "same_candidates_sha256": "219c745aac6f50501a55c4f2511d383505317fd75338b0efaed25f44bbe23b98",
+  "same_reference_sha256": "1d4422de9dc1975683648a1b389d2bebf323a86f70d5e01fde9c4cccf9657604",
+  "same_instructions_sha256": "c3b7b9ffc68694f7b3df5d1a1a9124ea7ace3323e28936e865cc8ac3934b49ef",
+  "baseline_run": "evidence-selection-a91cd76",
+  "reuse_completed_arms": ["jev", "lfm", "laya_typed"],
+  "rerun_whole_arms": ["gemini", "qwen", "lfm26"],
+  "measured_calls_per_rerun_arm": 1000,
+  "synthetic_warmups_per_rerun_arm": 1,
+  "maximum_gemini_calls": 1001,
+  "gpu_allocation_caps_seconds": {"qwen": 1800, "lfm26": 9000},
+  "maximum_gpu_seconds": 10800,
+  "changed_request_policies": {
+    "gemini": {"request_timeout_seconds": 120, "generation_parameters": "unchanged"},
+    "qwen": {"warmup_timeout_seconds": 180, "measured_timeout_seconds": 30, "generation_parameters": "unchanged"},
+    "lfm26": {"max_output_tokens": 4096, "request_timeout_seconds": 60, "other_generation_parameters": "unchanged"}
+  },
+  "failure_policy": {
+    "warmup_failure": "stop_arm",
+    "measured_transport_failure": "record_unknown_outcome_then_next_distinct_item",
+    "measured_invalid_output": "record_failure_then_next_distinct_item",
+    "explicit_model_mismatch": "stop_arm",
+    "unexpected_exception": "stop_arm",
+    "per_item_retries": 0,
+    "select_best_of_old_and_new": false
+  },
+  "comparison": "Model-native deployments on identical saved inputs and AI reference, not equal-compute model comparison",
+  "limitations": ["Post-failure operational adaptation, exploratory not confirmatory", "AI reference is not human gold", "Unknown labels excluded with explicit coverage", "No headline F1 if any known-label result invalid or missing", "Retain all historical failures", "No new retrieval and no base Laya"]
+}

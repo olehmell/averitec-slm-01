@@ -1,0 +1,77 @@
+id: averitec-evidence-selection-supplement-20260919
+status: planned
+protocol_version: frozen-passages-pointwise-v1
+approved_design_date: 2026-09-19
+hypothesis: >-
+  Six fixed model deployments differ in selecting directly useful evidence
+  passages from an identical previously frozen candidate pool.
+scope: exploratory_supplement_not_original_checkpoint_endpoint
+seed: 20260919
+inputs:
+  candidates: .private-artifacts/averitec-controller-reliability-2026/evidence-selection-ai-20260919/candidates.json
+  source_freeze_sha256: f1604b70494b6fb8a4595676f713fd2d5c2c112623a0ace03dafd98062346f1c
+  source_traces_sha256: d69086be92790bf3872f573a457faf3a48316772bcabcd81e2e7c3c3d92fef4a
+  cases: 100
+  passages_per_case: 10
+  reuse_retrieval: true
+  main_study_holdout_access: prohibited
+annotation:
+  reference_type: ai_annotated_not_human_gold
+  reviewer_a: {model: gpt-5.6-sol, effort: medium, order: ascending_batches}
+  reviewer_b: {model: gpt-6-astra, effort: high, order: descending_batches}
+  blinding: independent_sessions_no_peer_ratings_no_controller_predictions
+  shared_provider_bias: acknowledged
+  inference_gold_access: prohibited
+  annotation_gold_access: false
+  browse_or_external_knowledge: prohibited
+  grades:
+    0: unrelated_to_material_claim_parts
+    1: topical_context_without_direct_claim_testing_information
+    2: directly_tests_supports_or_refutes_a_material_claim_part
+    U: snippet_ambiguity_cannot_be_resolved
+  relevance_is_not_source_truth_or_factual_verdict: true
+  primary_positive_grade: 2
+  sensitivity_positive_grades: [1, 2]
+  adjudicate: all_grade_disagreements_and_any_U
+  unresolved: retain_U_report_coverage_exclude_from_labeled_metrics
+  freeze_before_selector_inference: true
+selection:
+  unit: claim_candidate_pair
+  output: single_binary_choice_include_or_exclude
+  options: [include, exclude]
+  listwise_ranking_or_diversity_claims: prohibited
+  full_claim_and_visible_passage: true
+  no_context_truncation: true
+  repetitions: 1
+  scenarios: [nominal]
+  measured_decisions_per_model: 1000
+  maximum_measured_decisions: 6000
+  automatic_retries: 0
+  model_outcome_retries: 0
+  unknown_outcome: preserve_and_stop_no_automatic_reissue
+models:
+  jev: {model: jev-1.13.0, profile: baseline}
+  qwen: {model: Qwen/Qwen3.5-4B, profile: baseline}
+  lfm: {model: LiquidAI/LFM2.5-1.2B-Instruct, profile: lfm_native}
+  lfm26: {model: LiquidAI/LFM2.5-2.6B, profile: lfm26_native}
+  gemini: {model: gemini-3.1-flash-lite, profile: gemini_native}
+  laya_typed: {model: convaiinnovations/laya-typed-decisions, profile: native_binary_choice}
+base_laya_allowed: false
+metrics:
+  primary: micro_precision_recall_f1_on_grade_2
+  secondary: [case_macro_f1_on_positive_cases, no_positive_case_empty_selection_accuracy, schema_failures, missing_outcomes, latency, token_usage]
+  sensitivity: repeat_labeled_metrics_with_grades_1_and_2_positive
+  uncertainty: paired_bootstrap_by_case_not_candidate
+  annotator_agreement: [exact_grade_agreement, binary_selection_agreement, unknown_count]
+  failures: report_separately_and_as_conservative_errors_not_successful_exclusions
+launch_gate:
+  requires_separate_launch_authorization: true
+  requirements: [complete_verified_reference, offline_tests, lossless_context_preflight, committed_config_and_code, scoped_resource_budget]
+  resource_budget: must_be_bound_in_separate_launch_manifest
+outputs:
+  - .private-artifacts/averitec-controller-reliability-2026/evidence-selection-ai-20260919/
+dissertation_links:
+  - dissertation/chapters/04_experiments.typ
+publication:
+  target: supplemental exploratory evidence-selection analysis
+  contribution: distinguish_numeric_workflow_compliance_from_semantic_passage_selection

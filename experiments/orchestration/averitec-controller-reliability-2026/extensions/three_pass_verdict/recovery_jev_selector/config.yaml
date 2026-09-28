@@ -1,0 +1,55 @@
+id: averitec-jev-selector-recovery-20260923-1
+status: planned
+protocol: README.md
+hypothesis: >-
+  On the same frozen candidate pool, a fresh separately named Jev selector
+  cohort with bounded explicit HTTP 529 waits can finish 1000 measured choices.
+inputs:
+  candidate_sha256: 219c745aac6f50501a55c4f2511d383505317fd75338b0efaed25f44bbe23b98
+  original_preflight: jev-pass-3 exact request hashes
+  original_failure: pass 3 stopped at HTTP 529 after 96 successful measured responses
+  cases: 100
+  candidates_per_case: 10
+model:
+  id: jev-1.13.0
+  profile: baseline
+  prompt: frozen selector instructions
+  output_options: [include, exclude]
+  timeout_seconds: 30
+  seed: none_provider_does_not_accept_seed
+retry:
+  only_explicit_http_status: 529
+  maximum_retries_per_logical_request: 3
+  maximum_extra_http_attempts: 100
+  delays_seconds: [5, 10, 20]
+  deterministic_jitter_seconds: sha256_0_to_1
+  retry_after: honor_if_longer
+  minimum_request_spacing_seconds: 1
+  unknown_transport: stop_without_reissue
+resource_caps:
+  original_hosted_maximum_requests: 9910
+  original_hosted_maximum_input_tokens: 9000000
+  original_hosted_maximum_output_tokens: 1000000
+  selector_logical_calls: 1001
+  selector_maximum_http_attempts: 1101
+  selector_maximum_wall_seconds: 14400
+  input_reserve_per_attempt: serialized_request_bytes_plus_1024
+  output_reserve_per_attempt: 1024
+  cumulative_budget_audit: required_before_each_phase
+metrics:
+  primary: binary_macro_f1_grade_2_vs_0_1_over_1000_planned_candidates
+  secondary:
+    - first_attempt_no_retry_successes_over_1000
+    - after_retry_successes_over_1000
+    - first_attempt_http_529_failures
+    - extra_http_attempts
+    - per_attempt_charged_tokens
+outputs:
+  - immutable_smoke_and_pass_manifests
+  - per_attempt_http_ledger
+  - separate_exploratory_recovery_receipts
+  - result_only_choices_jsonl
+publication_target: Ukrainian CSIT article after validated evaluation
+thesis_links:
+  - dissertation/chapters/03_methodology.typ
+  - dissertation/chapters/04_experiments.typ

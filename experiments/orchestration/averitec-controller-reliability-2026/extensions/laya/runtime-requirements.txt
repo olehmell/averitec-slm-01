@@ -1,0 +1,9 @@
+# Dependency lower bounds are copied verbatim from laya 0.3.3's PyPI metadata.
+# gpu/prepare_assets.sh checks these in the immutable image before installing
+# only the hash-pinned wheel into a new target directory with --no-deps.
+laya @ https://files.pythonhosted.org/packages/d4/56/677fbefdbe5a9f4fbed51feb8bb598c99003a0e6e0dcd59f54596d680676/laya-0.3.3-py3-none-any.whl#sha256=0f0fed09d04e0b9e05a54643e77c6bebb9e881bf3c8e0a5c536b58c71d6659fb
+torch>=2.0.0
+transformers>=4.45.0
+safetensors>=0.4.0
+huggingface_hub>=0.20.0
+numpy>=1.20.0

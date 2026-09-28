@@ -1,0 +1,2701 @@
+evidence_set,comparison_pass,raw_pass,case_id,gold_label,predicted_label,valid,correct
+gemini,1,1,case_001,Supported,Supported,1,1
+gemini,1,1,case_002,Supported,Not Enough Evidence,1,0
+gemini,1,1,case_003,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_004,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,1,1,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+gemini,1,1,case_006,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,1,1,case_008,Not Enough Evidence,Supported,1,0
+gemini,1,1,case_009,Refuted,Refuted,1,1
+gemini,1,1,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+gemini,1,1,case_011,Supported,Supported,1,1
+gemini,1,1,case_012,Refuted,Supported,1,0
+gemini,1,1,case_013,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_014,Refuted,Refuted,1,1
+gemini,1,1,case_015,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_016,Refuted,Refuted,1,1
+gemini,1,1,case_017,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_018,Supported,Not Enough Evidence,1,0
+gemini,1,1,case_019,Refuted,Conflicting Evidence/Cherrypicking,1,0
+gemini,1,1,case_020,Supported,Refuted,1,0
+gemini,1,1,case_021,Refuted,Refuted,1,1
+gemini,1,1,case_022,Refuted,Refuted,1,1
+gemini,1,1,case_023,Refuted,Refuted,1,1
+gemini,1,1,case_024,Refuted,Refuted,1,1
+gemini,1,1,case_025,Supported,Supported,1,1
+gemini,1,1,case_026,Refuted,Refuted,1,1
+gemini,1,1,case_027,Refuted,Refuted,1,1
+gemini,1,1,case_028,Supported,Supported,1,1
+gemini,1,1,case_029,Refuted,Refuted,1,1
+gemini,1,1,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+gemini,1,1,case_031,Supported,Supported,1,1
+gemini,1,1,case_032,Refuted,Supported,1,0
+gemini,1,1,case_033,Supported,Supported,1,1
+gemini,1,1,case_034,Supported,Supported,1,1
+gemini,1,1,case_035,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_036,Refuted,Supported,1,0
+gemini,1,1,case_037,Supported,Supported,1,1
+gemini,1,1,case_038,Not Enough Evidence,Refuted,1,0
+gemini,1,1,case_039,Refuted,Refuted,1,1
+gemini,1,1,case_040,Not Enough Evidence,Supported,1,0
+gemini,1,1,case_041,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_042,Refuted,Refuted,1,1
+gemini,1,1,case_043,Refuted,Refuted,1,1
+gemini,1,1,case_044,Refuted,Refuted,1,1
+gemini,1,1,case_045,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_046,Refuted,Refuted,1,1
+gemini,1,1,case_047,Refuted,Refuted,1,1
+gemini,1,1,case_048,Supported,Supported,1,1
+gemini,1,1,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,1,1,case_050,Refuted,Refuted,1,1
+gemini,1,1,case_051,Refuted,Refuted,1,1
+gemini,1,1,case_052,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_053,Refuted,Refuted,1,1
+gemini,1,1,case_054,Refuted,Supported,1,0
+gemini,1,1,case_055,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_056,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_057,Supported,Supported,1,1
+gemini,1,1,case_058,Refuted,Refuted,1,1
+gemini,1,1,case_059,Refuted,Refuted,1,1
+gemini,1,1,case_060,Supported,Supported,1,1
+gemini,1,1,case_061,Refuted,Refuted,1,1
+gemini,1,1,case_062,Refuted,Supported,1,0
+gemini,1,1,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,1,1,case_064,Supported,Refuted,1,0
+gemini,1,1,case_065,Refuted,Supported,1,0
+gemini,1,1,case_066,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_067,Refuted,Refuted,1,1
+gemini,1,1,case_068,Refuted,Refuted,1,1
+gemini,1,1,case_069,Supported,Supported,1,1
+gemini,1,1,case_070,Not Enough Evidence,Supported,1,0
+gemini,1,1,case_071,Refuted,Refuted,1,1
+gemini,1,1,case_072,Supported,Supported,1,1
+gemini,1,1,case_073,Refuted,Conflicting Evidence/Cherrypicking,1,0
+gemini,1,1,case_074,Supported,Not Enough Evidence,1,0
+gemini,1,1,case_075,Refuted,Refuted,1,1
+gemini,1,1,case_076,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_077,Supported,Supported,1,1
+gemini,1,1,case_078,Refuted,Refuted,1,1
+gemini,1,1,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+gemini,1,1,case_080,Refuted,Refuted,1,1
+gemini,1,1,case_081,Supported,Supported,1,1
+gemini,1,1,case_082,Refuted,Refuted,1,1
+gemini,1,1,case_083,Refuted,Refuted,1,1
+gemini,1,1,case_084,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+gemini,1,1,case_086,Refuted,Supported,1,0
+gemini,1,1,case_087,Refuted,Supported,1,0
+gemini,1,1,case_088,Supported,Not Enough Evidence,1,0
+gemini,1,1,case_089,Supported,Supported,1,1
+gemini,1,1,case_090,Refuted,Refuted,1,1
+gemini,1,1,case_091,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_092,Refuted,Refuted,1,1
+gemini,1,1,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+gemini,1,1,case_094,Refuted,Refuted,1,1
+gemini,1,1,case_095,Refuted,Not Enough Evidence,1,0
+gemini,1,1,case_096,Supported,Supported,1,1
+gemini,1,1,case_097,Refuted,Supported,1,0
+gemini,1,1,case_098,Refuted,Supported,1,0
+gemini,1,1,case_099,Supported,Supported,1,1
+gemini,1,1,case_100,Refuted,Refuted,1,1
+gemini,2,2,case_001,Supported,Supported,1,1
+gemini,2,2,case_002,Supported,Not Enough Evidence,1,0
+gemini,2,2,case_003,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_004,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,2,2,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+gemini,2,2,case_006,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,2,2,case_008,Not Enough Evidence,Supported,1,0
+gemini,2,2,case_009,Refuted,Refuted,1,1
+gemini,2,2,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+gemini,2,2,case_011,Supported,Supported,1,1
+gemini,2,2,case_012,Refuted,Supported,1,0
+gemini,2,2,case_013,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_014,Refuted,Refuted,1,1
+gemini,2,2,case_015,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_016,Refuted,Refuted,1,1
+gemini,2,2,case_017,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_018,Supported,Not Enough Evidence,1,0
+gemini,2,2,case_019,Refuted,Conflicting Evidence/Cherrypicking,1,0
+gemini,2,2,case_020,Supported,Refuted,1,0
+gemini,2,2,case_021,Refuted,Refuted,1,1
+gemini,2,2,case_022,Refuted,Refuted,1,1
+gemini,2,2,case_023,Refuted,Refuted,1,1
+gemini,2,2,case_024,Refuted,Refuted,1,1
+gemini,2,2,case_025,Supported,Supported,1,1
+gemini,2,2,case_026,Refuted,Refuted,1,1
+gemini,2,2,case_027,Refuted,Supported,1,0
+gemini,2,2,case_028,Supported,Supported,1,1
+gemini,2,2,case_029,Refuted,Refuted,1,1
+gemini,2,2,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+gemini,2,2,case_031,Supported,Supported,1,1
+gemini,2,2,case_032,Refuted,Supported,1,0
+gemini,2,2,case_033,Supported,Supported,1,1
+gemini,2,2,case_034,Supported,Supported,1,1
+gemini,2,2,case_035,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_036,Refuted,Supported,1,0
+gemini,2,2,case_037,Supported,Refuted,1,0
+gemini,2,2,case_038,Not Enough Evidence,Refuted,1,0
+gemini,2,2,case_039,Refuted,Refuted,1,1
+gemini,2,2,case_040,Not Enough Evidence,Supported,1,0
+gemini,2,2,case_041,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_042,Refuted,Refuted,1,1
+gemini,2,2,case_043,Refuted,Refuted,1,1
+gemini,2,2,case_044,Refuted,Refuted,1,1
+gemini,2,2,case_045,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_046,Refuted,Refuted,1,1
+gemini,2,2,case_047,Refuted,Refuted,1,1
+gemini,2,2,case_048,Supported,Supported,1,1
+gemini,2,2,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,2,2,case_050,Refuted,Refuted,1,1
+gemini,2,2,case_051,Refuted,Refuted,1,1
+gemini,2,2,case_052,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_053,Refuted,Refuted,1,1
+gemini,2,2,case_054,Refuted,Supported,1,0
+gemini,2,2,case_055,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_056,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_057,Supported,Supported,1,1
+gemini,2,2,case_058,Refuted,Refuted,1,1
+gemini,2,2,case_059,Refuted,Refuted,1,1
+gemini,2,2,case_060,Supported,Supported,1,1
+gemini,2,2,case_061,Refuted,Refuted,1,1
+gemini,2,2,case_062,Refuted,Supported,1,0
+gemini,2,2,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,2,2,case_064,Supported,Refuted,1,0
+gemini,2,2,case_065,Refuted,Supported,1,0
+gemini,2,2,case_066,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_067,Refuted,Refuted,1,1
+gemini,2,2,case_068,Refuted,Refuted,1,1
+gemini,2,2,case_069,Supported,Supported,1,1
+gemini,2,2,case_070,Not Enough Evidence,Supported,1,0
+gemini,2,2,case_071,Refuted,Refuted,1,1
+gemini,2,2,case_072,Supported,Supported,1,1
+gemini,2,2,case_073,Refuted,Conflicting Evidence/Cherrypicking,1,0
+gemini,2,2,case_074,Supported,Not Enough Evidence,1,0
+gemini,2,2,case_075,Refuted,Refuted,1,1
+gemini,2,2,case_076,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_077,Supported,Supported,1,1
+gemini,2,2,case_078,Refuted,Refuted,1,1
+gemini,2,2,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+gemini,2,2,case_080,Refuted,Refuted,1,1
+gemini,2,2,case_081,Supported,Supported,1,1
+gemini,2,2,case_082,Refuted,Refuted,1,1
+gemini,2,2,case_083,Refuted,Refuted,1,1
+gemini,2,2,case_084,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+gemini,2,2,case_086,Refuted,Supported,1,0
+gemini,2,2,case_087,Refuted,Supported,1,0
+gemini,2,2,case_088,Supported,Not Enough Evidence,1,0
+gemini,2,2,case_089,Supported,Supported,1,1
+gemini,2,2,case_090,Refuted,Refuted,1,1
+gemini,2,2,case_091,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_092,Refuted,Refuted,1,1
+gemini,2,2,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+gemini,2,2,case_094,Refuted,Refuted,1,1
+gemini,2,2,case_095,Refuted,Not Enough Evidence,1,0
+gemini,2,2,case_096,Supported,Supported,1,1
+gemini,2,2,case_097,Refuted,Supported,1,0
+gemini,2,2,case_098,Refuted,Supported,1,0
+gemini,2,2,case_099,Supported,Supported,1,1
+gemini,2,2,case_100,Refuted,Refuted,1,1
+gemini,3,3,case_001,Supported,Supported,1,1
+gemini,3,3,case_002,Supported,Not Enough Evidence,1,0
+gemini,3,3,case_003,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_004,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,3,3,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+gemini,3,3,case_006,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,3,3,case_008,Not Enough Evidence,Supported,1,0
+gemini,3,3,case_009,Refuted,Refuted,1,1
+gemini,3,3,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+gemini,3,3,case_011,Supported,Supported,1,1
+gemini,3,3,case_012,Refuted,Supported,1,0
+gemini,3,3,case_013,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_014,Refuted,Refuted,1,1
+gemini,3,3,case_015,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_016,Refuted,Refuted,1,1
+gemini,3,3,case_017,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_018,Supported,Not Enough Evidence,1,0
+gemini,3,3,case_019,Refuted,Conflicting Evidence/Cherrypicking,1,0
+gemini,3,3,case_020,Supported,Refuted,1,0
+gemini,3,3,case_021,Refuted,Refuted,1,1
+gemini,3,3,case_022,Refuted,Refuted,1,1
+gemini,3,3,case_023,Refuted,Refuted,1,1
+gemini,3,3,case_024,Refuted,Refuted,1,1
+gemini,3,3,case_025,Supported,Supported,1,1
+gemini,3,3,case_026,Refuted,Refuted,1,1
+gemini,3,3,case_027,Refuted,Supported,1,0
+gemini,3,3,case_028,Supported,Supported,1,1
+gemini,3,3,case_029,Refuted,Refuted,1,1
+gemini,3,3,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+gemini,3,3,case_031,Supported,Supported,1,1
+gemini,3,3,case_032,Refuted,Supported,1,0
+gemini,3,3,case_033,Supported,Supported,1,1
+gemini,3,3,case_034,Supported,Supported,1,1
+gemini,3,3,case_035,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_036,Refuted,Supported,1,0
+gemini,3,3,case_037,Supported,Refuted,1,0
+gemini,3,3,case_038,Not Enough Evidence,Refuted,1,0
+gemini,3,3,case_039,Refuted,Refuted,1,1
+gemini,3,3,case_040,Not Enough Evidence,Supported,1,0
+gemini,3,3,case_041,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_042,Refuted,Refuted,1,1
+gemini,3,3,case_043,Refuted,Refuted,1,1
+gemini,3,3,case_044,Refuted,Refuted,1,1
+gemini,3,3,case_045,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_046,Refuted,Refuted,1,1
+gemini,3,3,case_047,Refuted,Refuted,1,1
+gemini,3,3,case_048,Supported,Supported,1,1
+gemini,3,3,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,3,3,case_050,Refuted,Refuted,1,1
+gemini,3,3,case_051,Refuted,Refuted,1,1
+gemini,3,3,case_052,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_053,Refuted,Refuted,1,1
+gemini,3,3,case_054,Refuted,Supported,1,0
+gemini,3,3,case_055,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_056,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_057,Supported,Supported,1,1
+gemini,3,3,case_058,Refuted,Refuted,1,1
+gemini,3,3,case_059,Refuted,Refuted,1,1
+gemini,3,3,case_060,Supported,Supported,1,1
+gemini,3,3,case_061,Refuted,Refuted,1,1
+gemini,3,3,case_062,Refuted,Supported,1,0
+gemini,3,3,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+gemini,3,3,case_064,Supported,Refuted,1,0
+gemini,3,3,case_065,Refuted,Supported,1,0
+gemini,3,3,case_066,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_067,Refuted,Refuted,1,1
+gemini,3,3,case_068,Refuted,Refuted,1,1
+gemini,3,3,case_069,Supported,Supported,1,1
+gemini,3,3,case_070,Not Enough Evidence,Supported,1,0
+gemini,3,3,case_071,Refuted,Refuted,1,1
+gemini,3,3,case_072,Supported,Supported,1,1
+gemini,3,3,case_073,Refuted,Conflicting Evidence/Cherrypicking,1,0
+gemini,3,3,case_074,Supported,Not Enough Evidence,1,0
+gemini,3,3,case_075,Refuted,Refuted,1,1
+gemini,3,3,case_076,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_077,Supported,Supported,1,1
+gemini,3,3,case_078,Refuted,Refuted,1,1
+gemini,3,3,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+gemini,3,3,case_080,Refuted,Refuted,1,1
+gemini,3,3,case_081,Supported,Supported,1,1
+gemini,3,3,case_082,Refuted,Refuted,1,1
+gemini,3,3,case_083,Refuted,Refuted,1,1
+gemini,3,3,case_084,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+gemini,3,3,case_086,Refuted,Supported,1,0
+gemini,3,3,case_087,Refuted,Supported,1,0
+gemini,3,3,case_088,Supported,Not Enough Evidence,1,0
+gemini,3,3,case_089,Supported,Supported,1,1
+gemini,3,3,case_090,Refuted,Refuted,1,1
+gemini,3,3,case_091,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_092,Refuted,Refuted,1,1
+gemini,3,3,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+gemini,3,3,case_094,Refuted,Refuted,1,1
+gemini,3,3,case_095,Refuted,Not Enough Evidence,1,0
+gemini,3,3,case_096,Supported,Supported,1,1
+gemini,3,3,case_097,Refuted,Supported,1,0
+gemini,3,3,case_098,Refuted,Supported,1,0
+gemini,3,3,case_099,Supported,Supported,1,1
+gemini,3,3,case_100,Refuted,Refuted,1,1
+include_all,1,1,case_001,Supported,Supported,1,1
+include_all,1,1,case_002,Supported,Refuted,1,0
+include_all,1,1,case_003,Refuted,Refuted,1,1
+include_all,1,1,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,1,1,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,1,1,case_006,Refuted,Refuted,1,1
+include_all,1,1,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,1,1,case_008,Not Enough Evidence,Supported,1,0
+include_all,1,1,case_009,Refuted,Supported,1,0
+include_all,1,1,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,1,1,case_011,Supported,Supported,1,1
+include_all,1,1,case_012,Refuted,Supported,1,0
+include_all,1,1,case_013,Refuted,Refuted,1,1
+include_all,1,1,case_014,Refuted,Refuted,1,1
+include_all,1,1,case_015,Refuted,Supported,1,0
+include_all,1,1,case_016,Refuted,Refuted,1,1
+include_all,1,1,case_017,Refuted,Supported,1,0
+include_all,1,1,case_018,Supported,Refuted,1,0
+include_all,1,1,case_019,Refuted,Supported,1,0
+include_all,1,1,case_020,Supported,Supported,1,1
+include_all,1,1,case_021,Refuted,Refuted,1,1
+include_all,1,1,case_022,Refuted,Conflicting Evidence/Cherrypicking,1,0
+include_all,1,1,case_023,Refuted,Refuted,1,1
+include_all,1,1,case_024,Refuted,Refuted,1,1
+include_all,1,1,case_025,Supported,Supported,1,1
+include_all,1,1,case_026,Refuted,Refuted,1,1
+include_all,1,1,case_027,Refuted,Supported,1,0
+include_all,1,1,case_028,Supported,Supported,1,1
+include_all,1,1,case_029,Refuted,Not Enough Evidence,1,0
+include_all,1,1,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,1,1,case_031,Supported,Supported,1,1
+include_all,1,1,case_032,Refuted,Supported,1,0
+include_all,1,1,case_033,Supported,Supported,1,1
+include_all,1,1,case_034,Supported,Supported,1,1
+include_all,1,1,case_035,Refuted,,0,0
+include_all,1,1,case_036,Refuted,Refuted,1,1
+include_all,1,1,case_037,Supported,Refuted,1,0
+include_all,1,1,case_038,Not Enough Evidence,Refuted,1,0
+include_all,1,1,case_039,Refuted,Refuted,1,1
+include_all,1,1,case_040,Not Enough Evidence,Supported,1,0
+include_all,1,1,case_041,Refuted,Refuted,1,1
+include_all,1,1,case_042,Refuted,Refuted,1,1
+include_all,1,1,case_043,Refuted,Supported,1,0
+include_all,1,1,case_044,Refuted,Refuted,1,1
+include_all,1,1,case_045,Refuted,Supported,1,0
+include_all,1,1,case_046,Refuted,Refuted,1,1
+include_all,1,1,case_047,Refuted,Refuted,1,1
+include_all,1,1,case_048,Supported,Supported,1,1
+include_all,1,1,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,1,1,case_050,Refuted,Refuted,1,1
+include_all,1,1,case_051,Refuted,Refuted,1,1
+include_all,1,1,case_052,Refuted,Refuted,1,1
+include_all,1,1,case_053,Refuted,Refuted,1,1
+include_all,1,1,case_054,Refuted,Supported,1,0
+include_all,1,1,case_055,Refuted,Refuted,1,1
+include_all,1,1,case_056,Refuted,Refuted,1,1
+include_all,1,1,case_057,Supported,Supported,1,1
+include_all,1,1,case_058,Refuted,Refuted,1,1
+include_all,1,1,case_059,Refuted,Refuted,1,1
+include_all,1,1,case_060,Supported,Supported,1,1
+include_all,1,1,case_061,Refuted,Refuted,1,1
+include_all,1,1,case_062,Refuted,Supported,1,0
+include_all,1,1,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,1,1,case_064,Supported,Refuted,1,0
+include_all,1,1,case_065,Refuted,Supported,1,0
+include_all,1,1,case_066,Refuted,Supported,1,0
+include_all,1,1,case_067,Refuted,Supported,1,0
+include_all,1,1,case_068,Refuted,Refuted,1,1
+include_all,1,1,case_069,Supported,Supported,1,1
+include_all,1,1,case_070,Not Enough Evidence,Supported,1,0
+include_all,1,1,case_071,Refuted,Supported,1,0
+include_all,1,1,case_072,Supported,Supported,1,1
+include_all,1,1,case_073,Refuted,Supported,1,0
+include_all,1,1,case_074,Supported,Supported,1,1
+include_all,1,1,case_075,Refuted,Refuted,1,1
+include_all,1,1,case_076,Refuted,Refuted,1,1
+include_all,1,1,case_077,Supported,Supported,1,1
+include_all,1,1,case_078,Refuted,Refuted,1,1
+include_all,1,1,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,1,1,case_080,Refuted,Refuted,1,1
+include_all,1,1,case_081,Supported,Supported,1,1
+include_all,1,1,case_082,Refuted,Refuted,1,1
+include_all,1,1,case_083,Refuted,Refuted,1,1
+include_all,1,1,case_084,Refuted,Refuted,1,1
+include_all,1,1,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,1,1,case_086,Refuted,Supported,1,0
+include_all,1,1,case_087,Refuted,Supported,1,0
+include_all,1,1,case_088,Supported,Refuted,1,0
+include_all,1,1,case_089,Supported,Supported,1,1
+include_all,1,1,case_090,Refuted,Refuted,1,1
+include_all,1,1,case_091,Refuted,Supported,1,0
+include_all,1,1,case_092,Refuted,Refuted,1,1
+include_all,1,1,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,1,1,case_094,Refuted,Supported,1,0
+include_all,1,1,case_095,Refuted,Refuted,1,1
+include_all,1,1,case_096,Supported,Supported,1,1
+include_all,1,1,case_097,Refuted,Supported,1,0
+include_all,1,1,case_098,Refuted,Supported,1,0
+include_all,1,1,case_099,Supported,Supported,1,1
+include_all,1,1,case_100,Refuted,Refuted,1,1
+include_all,2,2,case_001,Supported,Supported,1,1
+include_all,2,2,case_002,Supported,Refuted,1,0
+include_all,2,2,case_003,Refuted,Refuted,1,1
+include_all,2,2,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,2,2,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,2,2,case_006,Refuted,Refuted,1,1
+include_all,2,2,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,2,2,case_008,Not Enough Evidence,Supported,1,0
+include_all,2,2,case_009,Refuted,Supported,1,0
+include_all,2,2,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,2,2,case_011,Supported,Supported,1,1
+include_all,2,2,case_012,Refuted,Supported,1,0
+include_all,2,2,case_013,Refuted,Refuted,1,1
+include_all,2,2,case_014,Refuted,Refuted,1,1
+include_all,2,2,case_015,Refuted,Supported,1,0
+include_all,2,2,case_016,Refuted,Refuted,1,1
+include_all,2,2,case_017,Refuted,Supported,1,0
+include_all,2,2,case_018,Supported,Refuted,1,0
+include_all,2,2,case_019,Refuted,Supported,1,0
+include_all,2,2,case_020,Supported,Supported,1,1
+include_all,2,2,case_021,Refuted,Refuted,1,1
+include_all,2,2,case_022,Refuted,Conflicting Evidence/Cherrypicking,1,0
+include_all,2,2,case_023,Refuted,Refuted,1,1
+include_all,2,2,case_024,Refuted,Refuted,1,1
+include_all,2,2,case_025,Supported,Supported,1,1
+include_all,2,2,case_026,Refuted,Refuted,1,1
+include_all,2,2,case_027,Refuted,Supported,1,0
+include_all,2,2,case_028,Supported,Supported,1,1
+include_all,2,2,case_029,Refuted,Not Enough Evidence,1,0
+include_all,2,2,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,2,2,case_031,Supported,Supported,1,1
+include_all,2,2,case_032,Refuted,Supported,1,0
+include_all,2,2,case_033,Supported,Supported,1,1
+include_all,2,2,case_034,Supported,Supported,1,1
+include_all,2,2,case_035,Refuted,,0,0
+include_all,2,2,case_036,Refuted,Refuted,1,1
+include_all,2,2,case_037,Supported,Refuted,1,0
+include_all,2,2,case_038,Not Enough Evidence,Refuted,1,0
+include_all,2,2,case_039,Refuted,Refuted,1,1
+include_all,2,2,case_040,Not Enough Evidence,Supported,1,0
+include_all,2,2,case_041,Refuted,Refuted,1,1
+include_all,2,2,case_042,Refuted,Refuted,1,1
+include_all,2,2,case_043,Refuted,Supported,1,0
+include_all,2,2,case_044,Refuted,Refuted,1,1
+include_all,2,2,case_045,Refuted,Supported,1,0
+include_all,2,2,case_046,Refuted,Refuted,1,1
+include_all,2,2,case_047,Refuted,Refuted,1,1
+include_all,2,2,case_048,Supported,Supported,1,1
+include_all,2,2,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,2,2,case_050,Refuted,Refuted,1,1
+include_all,2,2,case_051,Refuted,Refuted,1,1
+include_all,2,2,case_052,Refuted,Refuted,1,1
+include_all,2,2,case_053,Refuted,Refuted,1,1
+include_all,2,2,case_054,Refuted,Supported,1,0
+include_all,2,2,case_055,Refuted,Refuted,1,1
+include_all,2,2,case_056,Refuted,Refuted,1,1
+include_all,2,2,case_057,Supported,Supported,1,1
+include_all,2,2,case_058,Refuted,Refuted,1,1
+include_all,2,2,case_059,Refuted,Refuted,1,1
+include_all,2,2,case_060,Supported,Supported,1,1
+include_all,2,2,case_061,Refuted,Refuted,1,1
+include_all,2,2,case_062,Refuted,Supported,1,0
+include_all,2,2,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,2,2,case_064,Supported,Refuted,1,0
+include_all,2,2,case_065,Refuted,Supported,1,0
+include_all,2,2,case_066,Refuted,Supported,1,0
+include_all,2,2,case_067,Refuted,Supported,1,0
+include_all,2,2,case_068,Refuted,Refuted,1,1
+include_all,2,2,case_069,Supported,Supported,1,1
+include_all,2,2,case_070,Not Enough Evidence,Supported,1,0
+include_all,2,2,case_071,Refuted,Supported,1,0
+include_all,2,2,case_072,Supported,Supported,1,1
+include_all,2,2,case_073,Refuted,Supported,1,0
+include_all,2,2,case_074,Supported,Supported,1,1
+include_all,2,2,case_075,Refuted,Refuted,1,1
+include_all,2,2,case_076,Refuted,Refuted,1,1
+include_all,2,2,case_077,Supported,Supported,1,1
+include_all,2,2,case_078,Refuted,Refuted,1,1
+include_all,2,2,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,2,2,case_080,Refuted,Refuted,1,1
+include_all,2,2,case_081,Supported,Supported,1,1
+include_all,2,2,case_082,Refuted,Refuted,1,1
+include_all,2,2,case_083,Refuted,Refuted,1,1
+include_all,2,2,case_084,Refuted,Refuted,1,1
+include_all,2,2,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,2,2,case_086,Refuted,Supported,1,0
+include_all,2,2,case_087,Refuted,Supported,1,0
+include_all,2,2,case_088,Supported,Refuted,1,0
+include_all,2,2,case_089,Supported,Supported,1,1
+include_all,2,2,case_090,Refuted,Refuted,1,1
+include_all,2,2,case_091,Refuted,Supported,1,0
+include_all,2,2,case_092,Refuted,Refuted,1,1
+include_all,2,2,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,2,2,case_094,Refuted,Supported,1,0
+include_all,2,2,case_095,Refuted,Refuted,1,1
+include_all,2,2,case_096,Supported,Supported,1,1
+include_all,2,2,case_097,Refuted,Supported,1,0
+include_all,2,2,case_098,Refuted,Supported,1,0
+include_all,2,2,case_099,Supported,Supported,1,1
+include_all,2,2,case_100,Refuted,Refuted,1,1
+include_all,3,3,case_001,Supported,Supported,1,1
+include_all,3,3,case_002,Supported,Refuted,1,0
+include_all,3,3,case_003,Refuted,Refuted,1,1
+include_all,3,3,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,3,3,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,3,3,case_006,Refuted,Refuted,1,1
+include_all,3,3,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,3,3,case_008,Not Enough Evidence,Supported,1,0
+include_all,3,3,case_009,Refuted,Supported,1,0
+include_all,3,3,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,3,3,case_011,Supported,Supported,1,1
+include_all,3,3,case_012,Refuted,Supported,1,0
+include_all,3,3,case_013,Refuted,Refuted,1,1
+include_all,3,3,case_014,Refuted,Refuted,1,1
+include_all,3,3,case_015,Refuted,Supported,1,0
+include_all,3,3,case_016,Refuted,Refuted,1,1
+include_all,3,3,case_017,Refuted,Supported,1,0
+include_all,3,3,case_018,Supported,Refuted,1,0
+include_all,3,3,case_019,Refuted,Supported,1,0
+include_all,3,3,case_020,Supported,Supported,1,1
+include_all,3,3,case_021,Refuted,Refuted,1,1
+include_all,3,3,case_022,Refuted,Conflicting Evidence/Cherrypicking,1,0
+include_all,3,3,case_023,Refuted,Refuted,1,1
+include_all,3,3,case_024,Refuted,Refuted,1,1
+include_all,3,3,case_025,Supported,Supported,1,1
+include_all,3,3,case_026,Refuted,Refuted,1,1
+include_all,3,3,case_027,Refuted,Supported,1,0
+include_all,3,3,case_028,Supported,Supported,1,1
+include_all,3,3,case_029,Refuted,Not Enough Evidence,1,0
+include_all,3,3,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,3,3,case_031,Supported,Supported,1,1
+include_all,3,3,case_032,Refuted,Supported,1,0
+include_all,3,3,case_033,Supported,Supported,1,1
+include_all,3,3,case_034,Supported,Supported,1,1
+include_all,3,3,case_035,Refuted,,0,0
+include_all,3,3,case_036,Refuted,Refuted,1,1
+include_all,3,3,case_037,Supported,Refuted,1,0
+include_all,3,3,case_038,Not Enough Evidence,Refuted,1,0
+include_all,3,3,case_039,Refuted,Refuted,1,1
+include_all,3,3,case_040,Not Enough Evidence,Supported,1,0
+include_all,3,3,case_041,Refuted,Refuted,1,1
+include_all,3,3,case_042,Refuted,Refuted,1,1
+include_all,3,3,case_043,Refuted,Supported,1,0
+include_all,3,3,case_044,Refuted,Refuted,1,1
+include_all,3,3,case_045,Refuted,Supported,1,0
+include_all,3,3,case_046,Refuted,Refuted,1,1
+include_all,3,3,case_047,Refuted,Refuted,1,1
+include_all,3,3,case_048,Supported,Supported,1,1
+include_all,3,3,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,3,3,case_050,Refuted,Refuted,1,1
+include_all,3,3,case_051,Refuted,Refuted,1,1
+include_all,3,3,case_052,Refuted,Refuted,1,1
+include_all,3,3,case_053,Refuted,Refuted,1,1
+include_all,3,3,case_054,Refuted,Supported,1,0
+include_all,3,3,case_055,Refuted,Refuted,1,1
+include_all,3,3,case_056,Refuted,Refuted,1,1
+include_all,3,3,case_057,Supported,Supported,1,1
+include_all,3,3,case_058,Refuted,Refuted,1,1
+include_all,3,3,case_059,Refuted,Refuted,1,1
+include_all,3,3,case_060,Supported,Supported,1,1
+include_all,3,3,case_061,Refuted,Refuted,1,1
+include_all,3,3,case_062,Refuted,Supported,1,0
+include_all,3,3,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,3,3,case_064,Supported,Refuted,1,0
+include_all,3,3,case_065,Refuted,Supported,1,0
+include_all,3,3,case_066,Refuted,Supported,1,0
+include_all,3,3,case_067,Refuted,Supported,1,0
+include_all,3,3,case_068,Refuted,Refuted,1,1
+include_all,3,3,case_069,Supported,Supported,1,1
+include_all,3,3,case_070,Not Enough Evidence,Supported,1,0
+include_all,3,3,case_071,Refuted,Supported,1,0
+include_all,3,3,case_072,Supported,Supported,1,1
+include_all,3,3,case_073,Refuted,Supported,1,0
+include_all,3,3,case_074,Supported,Supported,1,1
+include_all,3,3,case_075,Refuted,Refuted,1,1
+include_all,3,3,case_076,Refuted,Refuted,1,1
+include_all,3,3,case_077,Supported,Supported,1,1
+include_all,3,3,case_078,Refuted,Refuted,1,1
+include_all,3,3,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,3,3,case_080,Refuted,Refuted,1,1
+include_all,3,3,case_081,Supported,Supported,1,1
+include_all,3,3,case_082,Refuted,Refuted,1,1
+include_all,3,3,case_083,Refuted,Refuted,1,1
+include_all,3,3,case_084,Refuted,Refuted,1,1
+include_all,3,3,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+include_all,3,3,case_086,Refuted,Supported,1,0
+include_all,3,3,case_087,Refuted,Supported,1,0
+include_all,3,3,case_088,Supported,Refuted,1,0
+include_all,3,3,case_089,Supported,Supported,1,1
+include_all,3,3,case_090,Refuted,Refuted,1,1
+include_all,3,3,case_091,Refuted,Supported,1,0
+include_all,3,3,case_092,Refuted,Refuted,1,1
+include_all,3,3,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_all,3,3,case_094,Refuted,Supported,1,0
+include_all,3,3,case_095,Refuted,Refuted,1,1
+include_all,3,3,case_096,Supported,Supported,1,1
+include_all,3,3,case_097,Refuted,Supported,1,0
+include_all,3,3,case_098,Refuted,Supported,1,0
+include_all,3,3,case_099,Supported,Supported,1,1
+include_all,3,3,case_100,Refuted,Refuted,1,1
+include_none,1,1,case_001,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_002,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_003,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_004,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,1,1,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,1,1,case_006,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_007,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_none,1,1,case_008,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,1,1,case_009,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_010,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,1,1,case_011,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_012,Refuted,Refuted,1,1
+include_none,1,1,case_013,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_014,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_015,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_016,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_017,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_018,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_019,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_020,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_021,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_022,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_023,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_024,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_025,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_026,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_027,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_028,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_029,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,1,1,case_031,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_032,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_033,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_034,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_035,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_036,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_037,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_038,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,1,1,case_039,Refuted,Refuted,1,1
+include_none,1,1,case_040,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,1,1,case_041,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_042,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_043,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_044,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_045,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_046,Refuted,Refuted,1,1
+include_none,1,1,case_047,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_048,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_049,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,1,1,case_050,Refuted,Refuted,1,1
+include_none,1,1,case_051,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_052,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_053,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_054,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_055,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_056,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_057,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_058,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_059,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_060,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_061,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_062,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_063,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,1,1,case_064,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_065,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_066,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_067,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_068,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_069,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_070,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,1,1,case_071,Refuted,Refuted,1,1
+include_none,1,1,case_072,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_073,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_074,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_075,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_076,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_077,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_078,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_079,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,1,1,case_080,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_081,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_082,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_083,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_084,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,1,1,case_086,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_087,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_088,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_089,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_090,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_091,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_092,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_093,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,1,1,case_094,Refuted,Refuted,1,1
+include_none,1,1,case_095,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_096,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_097,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_098,Refuted,Not Enough Evidence,1,0
+include_none,1,1,case_099,Supported,Not Enough Evidence,1,0
+include_none,1,1,case_100,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_001,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_002,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_003,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_004,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,2,2,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,2,2,case_006,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_007,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_none,2,2,case_008,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,2,2,case_009,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_010,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,2,2,case_011,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_012,Refuted,Refuted,1,1
+include_none,2,2,case_013,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_014,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_015,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_016,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_017,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_018,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_019,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_020,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_021,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_022,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_023,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_024,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_025,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_026,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_027,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_028,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_029,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,2,2,case_031,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_032,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_033,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_034,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_035,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_036,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_037,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_038,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,2,2,case_039,Refuted,Refuted,1,1
+include_none,2,2,case_040,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,2,2,case_041,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_042,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_043,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_044,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_045,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_046,Refuted,Refuted,1,1
+include_none,2,2,case_047,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_048,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_049,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,2,2,case_050,Refuted,Refuted,1,1
+include_none,2,2,case_051,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_052,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_053,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_054,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_055,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_056,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_057,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_058,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_059,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_060,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_061,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_062,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_063,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,2,2,case_064,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_065,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_066,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_067,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_068,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_069,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_070,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,2,2,case_071,Refuted,Refuted,1,1
+include_none,2,2,case_072,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_073,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_074,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_075,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_076,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_077,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_078,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_079,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,2,2,case_080,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_081,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_082,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_083,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_084,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,2,2,case_086,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_087,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_088,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_089,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_090,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_091,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_092,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_093,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,2,2,case_094,Refuted,Refuted,1,1
+include_none,2,2,case_095,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_096,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_097,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_098,Refuted,Not Enough Evidence,1,0
+include_none,2,2,case_099,Supported,Not Enough Evidence,1,0
+include_none,2,2,case_100,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_001,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_002,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_003,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_004,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,3,3,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,3,3,case_006,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_007,Conflicting Evidence/Cherrypicking,Refuted,1,0
+include_none,3,3,case_008,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,3,3,case_009,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_010,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,3,3,case_011,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_012,Refuted,Refuted,1,1
+include_none,3,3,case_013,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_014,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_015,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_016,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_017,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_018,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_019,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_020,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_021,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_022,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_023,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_024,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_025,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_026,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_027,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_028,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_029,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,3,3,case_031,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_032,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_033,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_034,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_035,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_036,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_037,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_038,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,3,3,case_039,Refuted,Refuted,1,1
+include_none,3,3,case_040,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,3,3,case_041,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_042,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_043,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_044,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_045,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_046,Refuted,Refuted,1,1
+include_none,3,3,case_047,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_048,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_049,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,3,3,case_050,Refuted,Refuted,1,1
+include_none,3,3,case_051,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_052,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_053,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_054,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_055,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_056,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_057,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_058,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_059,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_060,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_061,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_062,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_063,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,3,3,case_064,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_065,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_066,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_067,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_068,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_069,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_070,Not Enough Evidence,Not Enough Evidence,1,1
+include_none,3,3,case_071,Refuted,Refuted,1,1
+include_none,3,3,case_072,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_073,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_074,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_075,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_076,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_077,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_078,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_079,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,3,3,case_080,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_081,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_082,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_083,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_084,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,3,3,case_086,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_087,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_088,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_089,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_090,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_091,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_092,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_093,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+include_none,3,3,case_094,Refuted,Refuted,1,1
+include_none,3,3,case_095,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_096,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_097,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_098,Refuted,Not Enough Evidence,1,0
+include_none,3,3,case_099,Supported,Not Enough Evidence,1,0
+include_none,3,3,case_100,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_001,Supported,Supported,1,1
+jeff,1,1,case_002,Supported,Refuted,1,0
+jeff,1,1,case_003,Refuted,Refuted,1,1
+jeff,1,1,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,1,1,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,1,1,case_006,Refuted,Refuted,1,1
+jeff,1,1,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,1,1,case_008,Not Enough Evidence,Supported,1,0
+jeff,1,1,case_009,Refuted,Refuted,1,1
+jeff,1,1,case_010,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,1,1,case_011,Supported,Supported,1,1
+jeff,1,1,case_012,Refuted,Supported,1,0
+jeff,1,1,case_013,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_014,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_015,Refuted,Supported,1,0
+jeff,1,1,case_016,Refuted,Supported,1,0
+jeff,1,1,case_017,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_018,Supported,Not Enough Evidence,1,0
+jeff,1,1,case_019,Refuted,Supported,1,0
+jeff,1,1,case_020,Supported,Supported,1,1
+jeff,1,1,case_021,Refuted,Refuted,1,1
+jeff,1,1,case_022,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_023,Refuted,Refuted,1,1
+jeff,1,1,case_024,Refuted,Refuted,1,1
+jeff,1,1,case_025,Supported,Supported,1,1
+jeff,1,1,case_026,Refuted,Refuted,1,1
+jeff,1,1,case_027,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_028,Supported,Supported,1,1
+jeff,1,1,case_029,Refuted,Refuted,1,1
+jeff,1,1,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,1,1,case_031,Supported,Supported,1,1
+jeff,1,1,case_032,Refuted,Supported,1,0
+jeff,1,1,case_033,Supported,Supported,1,1
+jeff,1,1,case_034,Supported,Supported,1,1
+jeff,1,1,case_035,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_036,Refuted,Supported,1,0
+jeff,1,1,case_037,Supported,Refuted,1,0
+jeff,1,1,case_038,Not Enough Evidence,Not Enough Evidence,1,1
+jeff,1,1,case_039,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_040,Not Enough Evidence,Supported,1,0
+jeff,1,1,case_041,Refuted,Supported,1,0
+jeff,1,1,case_042,Refuted,Refuted,1,1
+jeff,1,1,case_043,Refuted,Refuted,1,1
+jeff,1,1,case_044,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_045,Refuted,Refuted,1,1
+jeff,1,1,case_046,Refuted,Supported,1,0
+jeff,1,1,case_047,Refuted,Refuted,1,1
+jeff,1,1,case_048,Supported,Not Enough Evidence,1,0
+jeff,1,1,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,1,1,case_050,Refuted,Refuted,1,1
+jeff,1,1,case_051,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_052,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_053,Refuted,Refuted,1,1
+jeff,1,1,case_054,Refuted,Supported,1,0
+jeff,1,1,case_055,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_056,Refuted,Refuted,1,1
+jeff,1,1,case_057,Supported,Supported,1,1
+jeff,1,1,case_058,Refuted,Supported,1,0
+jeff,1,1,case_059,Refuted,Refuted,1,1
+jeff,1,1,case_060,Supported,Not Enough Evidence,1,0
+jeff,1,1,case_061,Refuted,Refuted,1,1
+jeff,1,1,case_062,Refuted,Supported,1,0
+jeff,1,1,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,1,1,case_064,Supported,Refuted,1,0
+jeff,1,1,case_065,Refuted,Supported,1,0
+jeff,1,1,case_066,Refuted,Refuted,1,1
+jeff,1,1,case_067,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_068,Refuted,Supported,1,0
+jeff,1,1,case_069,Supported,Supported,1,1
+jeff,1,1,case_070,Not Enough Evidence,Supported,1,0
+jeff,1,1,case_071,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_072,Supported,Supported,1,1
+jeff,1,1,case_073,Refuted,Supported,1,0
+jeff,1,1,case_074,Supported,Refuted,1,0
+jeff,1,1,case_075,Refuted,Refuted,1,1
+jeff,1,1,case_076,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_077,Supported,Supported,1,1
+jeff,1,1,case_078,Refuted,Refuted,1,1
+jeff,1,1,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,1,1,case_080,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_081,Supported,Supported,1,1
+jeff,1,1,case_082,Refuted,Refuted,1,1
+jeff,1,1,case_083,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_084,Refuted,Refuted,1,1
+jeff,1,1,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+jeff,1,1,case_086,Refuted,Supported,1,0
+jeff,1,1,case_087,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_088,Supported,Refuted,1,0
+jeff,1,1,case_089,Supported,Supported,1,1
+jeff,1,1,case_090,Refuted,Refuted,1,1
+jeff,1,1,case_091,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_092,Refuted,Not Enough Evidence,1,0
+jeff,1,1,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,1,1,case_094,Refuted,Supported,1,0
+jeff,1,1,case_095,Refuted,Refuted,1,1
+jeff,1,1,case_096,Supported,Supported,1,1
+jeff,1,1,case_097,Refuted,Refuted,1,1
+jeff,1,1,case_098,Refuted,Supported,1,0
+jeff,1,1,case_099,Supported,Supported,1,1
+jeff,1,1,case_100,Refuted,Refuted,1,1
+jeff,2,2,case_001,Supported,Supported,1,1
+jeff,2,2,case_002,Supported,Refuted,1,0
+jeff,2,2,case_003,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,2,2,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,2,2,case_006,Refuted,Refuted,1,1
+jeff,2,2,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,2,2,case_008,Not Enough Evidence,Supported,1,0
+jeff,2,2,case_009,Refuted,Refuted,1,1
+jeff,2,2,case_010,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,2,2,case_011,Supported,Supported,1,1
+jeff,2,2,case_012,Refuted,Supported,1,0
+jeff,2,2,case_013,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_014,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_015,Refuted,Supported,1,0
+jeff,2,2,case_016,Refuted,Supported,1,0
+jeff,2,2,case_017,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_018,Supported,Not Enough Evidence,1,0
+jeff,2,2,case_019,Refuted,Supported,1,0
+jeff,2,2,case_020,Supported,Supported,1,1
+jeff,2,2,case_021,Refuted,Refuted,1,1
+jeff,2,2,case_022,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_023,Refuted,Refuted,1,1
+jeff,2,2,case_024,Refuted,Refuted,1,1
+jeff,2,2,case_025,Supported,Supported,1,1
+jeff,2,2,case_026,Refuted,Refuted,1,1
+jeff,2,2,case_027,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_028,Supported,Supported,1,1
+jeff,2,2,case_029,Refuted,Refuted,1,1
+jeff,2,2,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,2,2,case_031,Supported,Supported,1,1
+jeff,2,2,case_032,Refuted,Supported,1,0
+jeff,2,2,case_033,Supported,Supported,1,1
+jeff,2,2,case_034,Supported,Supported,1,1
+jeff,2,2,case_035,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_036,Refuted,Supported,1,0
+jeff,2,2,case_037,Supported,Refuted,1,0
+jeff,2,2,case_038,Not Enough Evidence,Not Enough Evidence,1,1
+jeff,2,2,case_039,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_040,Not Enough Evidence,Supported,1,0
+jeff,2,2,case_041,Refuted,Supported,1,0
+jeff,2,2,case_042,Refuted,Refuted,1,1
+jeff,2,2,case_043,Refuted,Refuted,1,1
+jeff,2,2,case_044,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_045,Refuted,Refuted,1,1
+jeff,2,2,case_046,Refuted,Supported,1,0
+jeff,2,2,case_047,Refuted,Refuted,1,1
+jeff,2,2,case_048,Supported,Not Enough Evidence,1,0
+jeff,2,2,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,2,2,case_050,Refuted,Refuted,1,1
+jeff,2,2,case_051,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_052,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_053,Refuted,Refuted,1,1
+jeff,2,2,case_054,Refuted,Supported,1,0
+jeff,2,2,case_055,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_056,Refuted,Refuted,1,1
+jeff,2,2,case_057,Supported,Supported,1,1
+jeff,2,2,case_058,Refuted,Supported,1,0
+jeff,2,2,case_059,Refuted,Refuted,1,1
+jeff,2,2,case_060,Supported,Not Enough Evidence,1,0
+jeff,2,2,case_061,Refuted,Refuted,1,1
+jeff,2,2,case_062,Refuted,Supported,1,0
+jeff,2,2,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,2,2,case_064,Supported,Refuted,1,0
+jeff,2,2,case_065,Refuted,Supported,1,0
+jeff,2,2,case_066,Refuted,Refuted,1,1
+jeff,2,2,case_067,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_068,Refuted,Supported,1,0
+jeff,2,2,case_069,Supported,Supported,1,1
+jeff,2,2,case_070,Not Enough Evidence,Supported,1,0
+jeff,2,2,case_071,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_072,Supported,Supported,1,1
+jeff,2,2,case_073,Refuted,Supported,1,0
+jeff,2,2,case_074,Supported,Refuted,1,0
+jeff,2,2,case_075,Refuted,Refuted,1,1
+jeff,2,2,case_076,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_077,Supported,Supported,1,1
+jeff,2,2,case_078,Refuted,Refuted,1,1
+jeff,2,2,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,2,2,case_080,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_081,Supported,Supported,1,1
+jeff,2,2,case_082,Refuted,Refuted,1,1
+jeff,2,2,case_083,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_084,Refuted,Refuted,1,1
+jeff,2,2,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+jeff,2,2,case_086,Refuted,Supported,1,0
+jeff,2,2,case_087,Refuted,Refuted,1,1
+jeff,2,2,case_088,Supported,Refuted,1,0
+jeff,2,2,case_089,Supported,Supported,1,1
+jeff,2,2,case_090,Refuted,Refuted,1,1
+jeff,2,2,case_091,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_092,Refuted,Not Enough Evidence,1,0
+jeff,2,2,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,2,2,case_094,Refuted,Supported,1,0
+jeff,2,2,case_095,Refuted,Refuted,1,1
+jeff,2,2,case_096,Supported,Supported,1,1
+jeff,2,2,case_097,Refuted,Refuted,1,1
+jeff,2,2,case_098,Refuted,Supported,1,0
+jeff,2,2,case_099,Supported,Supported,1,1
+jeff,2,2,case_100,Refuted,Refuted,1,1
+jeff,3,3,case_001,Supported,Supported,1,1
+jeff,3,3,case_002,Supported,Refuted,1,0
+jeff,3,3,case_003,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,3,3,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,3,3,case_006,Refuted,Refuted,1,1
+jeff,3,3,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,3,3,case_008,Not Enough Evidence,Supported,1,0
+jeff,3,3,case_009,Refuted,Refuted,1,1
+jeff,3,3,case_010,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,3,3,case_011,Supported,Supported,1,1
+jeff,3,3,case_012,Refuted,Supported,1,0
+jeff,3,3,case_013,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_014,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_015,Refuted,Supported,1,0
+jeff,3,3,case_016,Refuted,Supported,1,0
+jeff,3,3,case_017,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_018,Supported,Not Enough Evidence,1,0
+jeff,3,3,case_019,Refuted,Supported,1,0
+jeff,3,3,case_020,Supported,Supported,1,1
+jeff,3,3,case_021,Refuted,Refuted,1,1
+jeff,3,3,case_022,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_023,Refuted,Refuted,1,1
+jeff,3,3,case_024,Refuted,Refuted,1,1
+jeff,3,3,case_025,Supported,Supported,1,1
+jeff,3,3,case_026,Refuted,Refuted,1,1
+jeff,3,3,case_027,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_028,Supported,Supported,1,1
+jeff,3,3,case_029,Refuted,Refuted,1,1
+jeff,3,3,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,3,3,case_031,Supported,Supported,1,1
+jeff,3,3,case_032,Refuted,Supported,1,0
+jeff,3,3,case_033,Supported,Supported,1,1
+jeff,3,3,case_034,Supported,Supported,1,1
+jeff,3,3,case_035,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_036,Refuted,Supported,1,0
+jeff,3,3,case_037,Supported,Refuted,1,0
+jeff,3,3,case_038,Not Enough Evidence,Not Enough Evidence,1,1
+jeff,3,3,case_039,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_040,Not Enough Evidence,Supported,1,0
+jeff,3,3,case_041,Refuted,Supported,1,0
+jeff,3,3,case_042,Refuted,Refuted,1,1
+jeff,3,3,case_043,Refuted,Refuted,1,1
+jeff,3,3,case_044,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_045,Refuted,Refuted,1,1
+jeff,3,3,case_046,Refuted,Supported,1,0
+jeff,3,3,case_047,Refuted,Refuted,1,1
+jeff,3,3,case_048,Supported,Not Enough Evidence,1,0
+jeff,3,3,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,3,3,case_050,Refuted,Refuted,1,1
+jeff,3,3,case_051,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_052,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_053,Refuted,Refuted,1,1
+jeff,3,3,case_054,Refuted,Supported,1,0
+jeff,3,3,case_055,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_056,Refuted,Refuted,1,1
+jeff,3,3,case_057,Supported,Supported,1,1
+jeff,3,3,case_058,Refuted,Supported,1,0
+jeff,3,3,case_059,Refuted,Refuted,1,1
+jeff,3,3,case_060,Supported,Not Enough Evidence,1,0
+jeff,3,3,case_061,Refuted,Refuted,1,1
+jeff,3,3,case_062,Refuted,Supported,1,0
+jeff,3,3,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+jeff,3,3,case_064,Supported,Refuted,1,0
+jeff,3,3,case_065,Refuted,Supported,1,0
+jeff,3,3,case_066,Refuted,Refuted,1,1
+jeff,3,3,case_067,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_068,Refuted,Supported,1,0
+jeff,3,3,case_069,Supported,Supported,1,1
+jeff,3,3,case_070,Not Enough Evidence,Supported,1,0
+jeff,3,3,case_071,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_072,Supported,Supported,1,1
+jeff,3,3,case_073,Refuted,Supported,1,0
+jeff,3,3,case_074,Supported,Refuted,1,0
+jeff,3,3,case_075,Refuted,Refuted,1,1
+jeff,3,3,case_076,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_077,Supported,Supported,1,1
+jeff,3,3,case_078,Refuted,Refuted,1,1
+jeff,3,3,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,3,3,case_080,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_081,Supported,Supported,1,1
+jeff,3,3,case_082,Refuted,Refuted,1,1
+jeff,3,3,case_083,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_084,Refuted,Refuted,1,1
+jeff,3,3,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+jeff,3,3,case_086,Refuted,Supported,1,0
+jeff,3,3,case_087,Refuted,Refuted,1,1
+jeff,3,3,case_088,Supported,Refuted,1,0
+jeff,3,3,case_089,Supported,Supported,1,1
+jeff,3,3,case_090,Refuted,Refuted,1,1
+jeff,3,3,case_091,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_092,Refuted,Not Enough Evidence,1,0
+jeff,3,3,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jeff,3,3,case_094,Refuted,Supported,1,0
+jeff,3,3,case_095,Refuted,Refuted,1,1
+jeff,3,3,case_096,Supported,Supported,1,1
+jeff,3,3,case_097,Refuted,Refuted,1,1
+jeff,3,3,case_098,Refuted,Supported,1,0
+jeff,3,3,case_099,Supported,Supported,1,1
+jeff,3,3,case_100,Refuted,Refuted,1,1
+jev,1,1,case_001,Supported,Supported,1,1
+jev,1,1,case_002,Supported,Not Enough Evidence,1,0
+jev,1,1,case_003,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_004,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,1,1,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,1,1,case_006,Refuted,Refuted,1,1
+jev,1,1,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,1,1,case_008,Not Enough Evidence,Not Enough Evidence,1,1
+jev,1,1,case_009,Refuted,Refuted,1,1
+jev,1,1,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,1,1,case_011,Supported,Supported,1,1
+jev,1,1,case_012,Refuted,Supported,1,0
+jev,1,1,case_013,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_014,Refuted,Refuted,1,1
+jev,1,1,case_015,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_016,Refuted,Refuted,1,1
+jev,1,1,case_017,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_018,Supported,Not Enough Evidence,1,0
+jev,1,1,case_019,Refuted,Supported,1,0
+jev,1,1,case_020,Supported,Refuted,1,0
+jev,1,1,case_021,Refuted,Refuted,1,1
+jev,1,1,case_022,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_023,Refuted,Refuted,1,1
+jev,1,1,case_024,Refuted,Refuted,1,1
+jev,1,1,case_025,Supported,Supported,1,1
+jev,1,1,case_026,Refuted,Refuted,1,1
+jev,1,1,case_027,Refuted,,0,0
+jev,1,1,case_028,Supported,Supported,1,1
+jev,1,1,case_029,Refuted,Refuted,1,1
+jev,1,1,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+jev,1,1,case_031,Supported,Supported,1,1
+jev,1,1,case_032,Refuted,Supported,1,0
+jev,1,1,case_033,Supported,Supported,1,1
+jev,1,1,case_034,Supported,Supported,1,1
+jev,1,1,case_035,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_036,Refuted,Supported,1,0
+jev,1,1,case_037,Supported,Refuted,1,0
+jev,1,1,case_038,Not Enough Evidence,Refuted,1,0
+jev,1,1,case_039,Refuted,Refuted,1,1
+jev,1,1,case_040,Not Enough Evidence,Supported,1,0
+jev,1,1,case_041,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_042,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_043,Refuted,Refuted,1,1
+jev,1,1,case_044,Refuted,Refuted,1,1
+jev,1,1,case_045,Refuted,Supported,1,0
+jev,1,1,case_046,Refuted,Refuted,1,1
+jev,1,1,case_047,Refuted,Refuted,1,1
+jev,1,1,case_048,Supported,Refuted,1,0
+jev,1,1,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,1,1,case_050,Refuted,Refuted,1,1
+jev,1,1,case_051,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_052,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_053,Refuted,Refuted,1,1
+jev,1,1,case_054,Refuted,Supported,1,0
+jev,1,1,case_055,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_056,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_057,Supported,Supported,1,1
+jev,1,1,case_058,Refuted,Refuted,1,1
+jev,1,1,case_059,Refuted,Refuted,1,1
+jev,1,1,case_060,Supported,Supported,1,1
+jev,1,1,case_061,Refuted,Refuted,1,1
+jev,1,1,case_062,Refuted,Supported,1,0
+jev,1,1,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,1,1,case_064,Supported,Refuted,1,0
+jev,1,1,case_065,Refuted,Supported,1,0
+jev,1,1,case_066,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_067,Refuted,Supported,1,0
+jev,1,1,case_068,Refuted,Refuted,1,1
+jev,1,1,case_069,Supported,Supported,1,1
+jev,1,1,case_070,Not Enough Evidence,Supported,1,0
+jev,1,1,case_071,Refuted,Refuted,1,1
+jev,1,1,case_072,Supported,Supported,1,1
+jev,1,1,case_073,Refuted,Conflicting Evidence/Cherrypicking,1,0
+jev,1,1,case_074,Supported,Not Enough Evidence,1,0
+jev,1,1,case_075,Refuted,Refuted,1,1
+jev,1,1,case_076,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_077,Supported,Supported,1,1
+jev,1,1,case_078,Refuted,Refuted,1,1
+jev,1,1,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,1,1,case_080,Refuted,Refuted,1,1
+jev,1,1,case_081,Supported,Supported,1,1
+jev,1,1,case_082,Refuted,Conflicting Evidence/Cherrypicking,1,0
+jev,1,1,case_083,Refuted,Refuted,1,1
+jev,1,1,case_084,Refuted,Refuted,1,1
+jev,1,1,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+jev,1,1,case_086,Refuted,Supported,1,0
+jev,1,1,case_087,Refuted,Supported,1,0
+jev,1,1,case_088,Supported,Not Enough Evidence,1,0
+jev,1,1,case_089,Supported,Supported,1,1
+jev,1,1,case_090,Refuted,Refuted,1,1
+jev,1,1,case_091,Refuted,Not Enough Evidence,1,0
+jev,1,1,case_092,Refuted,Refuted,1,1
+jev,1,1,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,1,1,case_094,Refuted,Supported,1,0
+jev,1,1,case_095,Refuted,Refuted,1,1
+jev,1,1,case_096,Supported,Supported,1,1
+jev,1,1,case_097,Refuted,Supported,1,0
+jev,1,1,case_098,Refuted,Supported,1,0
+jev,1,1,case_099,Supported,Supported,1,1
+jev,1,1,case_100,Refuted,Refuted,1,1
+jev,2,2,case_001,Supported,Supported,1,1
+jev,2,2,case_002,Supported,Not Enough Evidence,1,0
+jev,2,2,case_003,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_004,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,2,2,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,2,2,case_006,Refuted,Refuted,1,1
+jev,2,2,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,2,2,case_008,Not Enough Evidence,Not Enough Evidence,1,1
+jev,2,2,case_009,Refuted,Refuted,1,1
+jev,2,2,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,2,2,case_011,Supported,Supported,1,1
+jev,2,2,case_012,Refuted,Supported,1,0
+jev,2,2,case_013,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_014,Refuted,Refuted,1,1
+jev,2,2,case_015,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_016,Refuted,Refuted,1,1
+jev,2,2,case_017,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_018,Supported,Not Enough Evidence,1,0
+jev,2,2,case_019,Refuted,Supported,1,0
+jev,2,2,case_020,Supported,Refuted,1,0
+jev,2,2,case_021,Refuted,Refuted,1,1
+jev,2,2,case_022,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_023,Refuted,Refuted,1,1
+jev,2,2,case_024,Refuted,Refuted,1,1
+jev,2,2,case_025,Supported,Supported,1,1
+jev,2,2,case_026,Refuted,Refuted,1,1
+jev,2,2,case_027,Refuted,,0,0
+jev,2,2,case_028,Supported,Supported,1,1
+jev,2,2,case_029,Refuted,Refuted,1,1
+jev,2,2,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+jev,2,2,case_031,Supported,Supported,1,1
+jev,2,2,case_032,Refuted,Supported,1,0
+jev,2,2,case_033,Supported,Supported,1,1
+jev,2,2,case_034,Supported,Supported,1,1
+jev,2,2,case_035,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_036,Refuted,Supported,1,0
+jev,2,2,case_037,Supported,Refuted,1,0
+jev,2,2,case_038,Not Enough Evidence,Refuted,1,0
+jev,2,2,case_039,Refuted,Refuted,1,1
+jev,2,2,case_040,Not Enough Evidence,Supported,1,0
+jev,2,2,case_041,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_042,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_043,Refuted,Refuted,1,1
+jev,2,2,case_044,Refuted,Refuted,1,1
+jev,2,2,case_045,Refuted,Supported,1,0
+jev,2,2,case_046,Refuted,Refuted,1,1
+jev,2,2,case_047,Refuted,Refuted,1,1
+jev,2,2,case_048,Supported,Refuted,1,0
+jev,2,2,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,2,2,case_050,Refuted,Refuted,1,1
+jev,2,2,case_051,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_052,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_053,Refuted,Refuted,1,1
+jev,2,2,case_054,Refuted,Supported,1,0
+jev,2,2,case_055,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_056,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_057,Supported,Supported,1,1
+jev,2,2,case_058,Refuted,Refuted,1,1
+jev,2,2,case_059,Refuted,Refuted,1,1
+jev,2,2,case_060,Supported,Supported,1,1
+jev,2,2,case_061,Refuted,Refuted,1,1
+jev,2,2,case_062,Refuted,Supported,1,0
+jev,2,2,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,2,2,case_064,Supported,Refuted,1,0
+jev,2,2,case_065,Refuted,Supported,1,0
+jev,2,2,case_066,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_067,Refuted,Supported,1,0
+jev,2,2,case_068,Refuted,Refuted,1,1
+jev,2,2,case_069,Supported,Supported,1,1
+jev,2,2,case_070,Not Enough Evidence,Supported,1,0
+jev,2,2,case_071,Refuted,Refuted,1,1
+jev,2,2,case_072,Supported,Supported,1,1
+jev,2,2,case_073,Refuted,Conflicting Evidence/Cherrypicking,1,0
+jev,2,2,case_074,Supported,Not Enough Evidence,1,0
+jev,2,2,case_075,Refuted,Refuted,1,1
+jev,2,2,case_076,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_077,Supported,Supported,1,1
+jev,2,2,case_078,Refuted,Refuted,1,1
+jev,2,2,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,2,2,case_080,Refuted,Refuted,1,1
+jev,2,2,case_081,Supported,Supported,1,1
+jev,2,2,case_082,Refuted,Conflicting Evidence/Cherrypicking,1,0
+jev,2,2,case_083,Refuted,Refuted,1,1
+jev,2,2,case_084,Refuted,Refuted,1,1
+jev,2,2,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+jev,2,2,case_086,Refuted,Supported,1,0
+jev,2,2,case_087,Refuted,Supported,1,0
+jev,2,2,case_088,Supported,Not Enough Evidence,1,0
+jev,2,2,case_089,Supported,Supported,1,1
+jev,2,2,case_090,Refuted,Refuted,1,1
+jev,2,2,case_091,Refuted,Not Enough Evidence,1,0
+jev,2,2,case_092,Refuted,Refuted,1,1
+jev,2,2,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,2,2,case_094,Refuted,Supported,1,0
+jev,2,2,case_095,Refuted,Refuted,1,1
+jev,2,2,case_096,Supported,Supported,1,1
+jev,2,2,case_097,Refuted,Supported,1,0
+jev,2,2,case_098,Refuted,Supported,1,0
+jev,2,2,case_099,Supported,Supported,1,1
+jev,2,2,case_100,Refuted,Refuted,1,1
+jev,3,4,case_001,Supported,Supported,1,1
+jev,3,4,case_002,Supported,Not Enough Evidence,1,0
+jev,3,4,case_003,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_004,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,3,4,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,3,4,case_006,Refuted,Refuted,1,1
+jev,3,4,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,3,4,case_008,Not Enough Evidence,Not Enough Evidence,1,1
+jev,3,4,case_009,Refuted,Refuted,1,1
+jev,3,4,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,3,4,case_011,Supported,Supported,1,1
+jev,3,4,case_012,Refuted,Supported,1,0
+jev,3,4,case_013,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_014,Refuted,Refuted,1,1
+jev,3,4,case_015,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_016,Refuted,Refuted,1,1
+jev,3,4,case_017,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_018,Supported,Not Enough Evidence,1,0
+jev,3,4,case_019,Refuted,Supported,1,0
+jev,3,4,case_020,Supported,Refuted,1,0
+jev,3,4,case_021,Refuted,Refuted,1,1
+jev,3,4,case_022,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_023,Refuted,Refuted,1,1
+jev,3,4,case_024,Refuted,Refuted,1,1
+jev,3,4,case_025,Supported,Supported,1,1
+jev,3,4,case_026,Refuted,Refuted,1,1
+jev,3,4,case_027,Refuted,,0,0
+jev,3,4,case_028,Supported,Supported,1,1
+jev,3,4,case_029,Refuted,Refuted,1,1
+jev,3,4,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+jev,3,4,case_031,Supported,Supported,1,1
+jev,3,4,case_032,Refuted,Supported,1,0
+jev,3,4,case_033,Supported,Supported,1,1
+jev,3,4,case_034,Supported,Supported,1,1
+jev,3,4,case_035,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_036,Refuted,Supported,1,0
+jev,3,4,case_037,Supported,Refuted,1,0
+jev,3,4,case_038,Not Enough Evidence,Refuted,1,0
+jev,3,4,case_039,Refuted,Refuted,1,1
+jev,3,4,case_040,Not Enough Evidence,Supported,1,0
+jev,3,4,case_041,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_042,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_043,Refuted,Supported,1,0
+jev,3,4,case_044,Refuted,Refuted,1,1
+jev,3,4,case_045,Refuted,Refuted,1,1
+jev,3,4,case_046,Refuted,Refuted,1,1
+jev,3,4,case_047,Refuted,Refuted,1,1
+jev,3,4,case_048,Supported,Refuted,1,0
+jev,3,4,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,3,4,case_050,Refuted,Refuted,1,1
+jev,3,4,case_051,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_052,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_053,Refuted,Refuted,1,1
+jev,3,4,case_054,Refuted,Supported,1,0
+jev,3,4,case_055,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_056,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_057,Supported,Supported,1,1
+jev,3,4,case_058,Refuted,Refuted,1,1
+jev,3,4,case_059,Refuted,Refuted,1,1
+jev,3,4,case_060,Supported,Supported,1,1
+jev,3,4,case_061,Refuted,Refuted,1,1
+jev,3,4,case_062,Refuted,Supported,1,0
+jev,3,4,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+jev,3,4,case_064,Supported,Refuted,1,0
+jev,3,4,case_065,Refuted,Supported,1,0
+jev,3,4,case_066,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_067,Refuted,Supported,1,0
+jev,3,4,case_068,Refuted,Refuted,1,1
+jev,3,4,case_069,Supported,Supported,1,1
+jev,3,4,case_070,Not Enough Evidence,Supported,1,0
+jev,3,4,case_071,Refuted,Refuted,1,1
+jev,3,4,case_072,Supported,Supported,1,1
+jev,3,4,case_073,Refuted,Conflicting Evidence/Cherrypicking,1,0
+jev,3,4,case_074,Supported,Not Enough Evidence,1,0
+jev,3,4,case_075,Refuted,Refuted,1,1
+jev,3,4,case_076,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_077,Supported,Supported,1,1
+jev,3,4,case_078,Refuted,Refuted,1,1
+jev,3,4,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,3,4,case_080,Refuted,Refuted,1,1
+jev,3,4,case_081,Supported,Supported,1,1
+jev,3,4,case_082,Refuted,Conflicting Evidence/Cherrypicking,1,0
+jev,3,4,case_083,Refuted,Refuted,1,1
+jev,3,4,case_084,Refuted,Refuted,1,1
+jev,3,4,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+jev,3,4,case_086,Refuted,Supported,1,0
+jev,3,4,case_087,Refuted,Supported,1,0
+jev,3,4,case_088,Supported,Not Enough Evidence,1,0
+jev,3,4,case_089,Supported,Supported,1,1
+jev,3,4,case_090,Refuted,Refuted,1,1
+jev,3,4,case_091,Refuted,Not Enough Evidence,1,0
+jev,3,4,case_092,Refuted,Refuted,1,1
+jev,3,4,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+jev,3,4,case_094,Refuted,Supported,1,0
+jev,3,4,case_095,Refuted,Refuted,1,1
+jev,3,4,case_096,Supported,Supported,1,1
+jev,3,4,case_097,Refuted,Supported,1,0
+jev,3,4,case_098,Refuted,Supported,1,0
+jev,3,4,case_099,Supported,Supported,1,1
+jev,3,4,case_100,Refuted,Refuted,1,1
+laya_typed,1,1,case_001,Supported,Supported,1,1
+laya_typed,1,1,case_002,Supported,Refuted,1,0
+laya_typed,1,1,case_003,Refuted,Refuted,1,1
+laya_typed,1,1,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,1,1,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,1,1,case_006,Refuted,Refuted,1,1
+laya_typed,1,1,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,1,1,case_008,Not Enough Evidence,Supported,1,0
+laya_typed,1,1,case_009,Refuted,Supported,1,0
+laya_typed,1,1,case_010,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,1,1,case_011,Supported,Supported,1,1
+laya_typed,1,1,case_012,Refuted,Supported,1,0
+laya_typed,1,1,case_013,Refuted,Not Enough Evidence,1,0
+laya_typed,1,1,case_014,Refuted,Refuted,1,1
+laya_typed,1,1,case_015,Refuted,Supported,1,0
+laya_typed,1,1,case_016,Refuted,Refuted,1,1
+laya_typed,1,1,case_017,Refuted,Supported,1,0
+laya_typed,1,1,case_018,Supported,Not Enough Evidence,1,0
+laya_typed,1,1,case_019,Refuted,Supported,1,0
+laya_typed,1,1,case_020,Supported,Supported,1,1
+laya_typed,1,1,case_021,Refuted,Refuted,1,1
+laya_typed,1,1,case_022,Refuted,Not Enough Evidence,1,0
+laya_typed,1,1,case_023,Refuted,Refuted,1,1
+laya_typed,1,1,case_024,Refuted,Refuted,1,1
+laya_typed,1,1,case_025,Supported,Supported,1,1
+laya_typed,1,1,case_026,Refuted,Refuted,1,1
+laya_typed,1,1,case_027,Refuted,Supported,1,0
+laya_typed,1,1,case_028,Supported,Supported,1,1
+laya_typed,1,1,case_029,Refuted,Not Enough Evidence,1,0
+laya_typed,1,1,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,1,1,case_031,Supported,Supported,1,1
+laya_typed,1,1,case_032,Refuted,Supported,1,0
+laya_typed,1,1,case_033,Supported,Supported,1,1
+laya_typed,1,1,case_034,Supported,Supported,1,1
+laya_typed,1,1,case_035,Refuted,,0,0
+laya_typed,1,1,case_036,Refuted,Supported,1,0
+laya_typed,1,1,case_037,Supported,Refuted,1,0
+laya_typed,1,1,case_038,Not Enough Evidence,Refuted,1,0
+laya_typed,1,1,case_039,Refuted,Supported,1,0
+laya_typed,1,1,case_040,Not Enough Evidence,Supported,1,0
+laya_typed,1,1,case_041,Refuted,Refuted,1,1
+laya_typed,1,1,case_042,Refuted,Refuted,1,1
+laya_typed,1,1,case_043,Refuted,Supported,1,0
+laya_typed,1,1,case_044,Refuted,Refuted,1,1
+laya_typed,1,1,case_045,Refuted,Refuted,1,1
+laya_typed,1,1,case_046,Refuted,Refuted,1,1
+laya_typed,1,1,case_047,Refuted,Supported,1,0
+laya_typed,1,1,case_048,Supported,Refuted,1,0
+laya_typed,1,1,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,1,1,case_050,Refuted,,0,0
+laya_typed,1,1,case_051,Refuted,Not Enough Evidence,1,0
+laya_typed,1,1,case_052,Refuted,Refuted,1,1
+laya_typed,1,1,case_053,Refuted,Refuted,1,1
+laya_typed,1,1,case_054,Refuted,Supported,1,0
+laya_typed,1,1,case_055,Refuted,Refuted,1,1
+laya_typed,1,1,case_056,Refuted,Refuted,1,1
+laya_typed,1,1,case_057,Supported,Supported,1,1
+laya_typed,1,1,case_058,Refuted,Refuted,1,1
+laya_typed,1,1,case_059,Refuted,Supported,1,0
+laya_typed,1,1,case_060,Supported,Supported,1,1
+laya_typed,1,1,case_061,Refuted,Refuted,1,1
+laya_typed,1,1,case_062,Refuted,Supported,1,0
+laya_typed,1,1,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,1,1,case_064,Supported,Refuted,1,0
+laya_typed,1,1,case_065,Refuted,Supported,1,0
+laya_typed,1,1,case_066,Refuted,Refuted,1,1
+laya_typed,1,1,case_067,Refuted,Supported,1,0
+laya_typed,1,1,case_068,Refuted,Refuted,1,1
+laya_typed,1,1,case_069,Supported,Supported,1,1
+laya_typed,1,1,case_070,Not Enough Evidence,Supported,1,0
+laya_typed,1,1,case_071,Refuted,Supported,1,0
+laya_typed,1,1,case_072,Supported,Supported,1,1
+laya_typed,1,1,case_073,Refuted,Supported,1,0
+laya_typed,1,1,case_074,Supported,Supported,1,1
+laya_typed,1,1,case_075,Refuted,Refuted,1,1
+laya_typed,1,1,case_076,Refuted,Refuted,1,1
+laya_typed,1,1,case_077,Supported,Supported,1,1
+laya_typed,1,1,case_078,Refuted,Refuted,1,1
+laya_typed,1,1,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,1,1,case_080,Refuted,Refuted,1,1
+laya_typed,1,1,case_081,Supported,Supported,1,1
+laya_typed,1,1,case_082,Refuted,Refuted,1,1
+laya_typed,1,1,case_083,Refuted,Refuted,1,1
+laya_typed,1,1,case_084,Refuted,Refuted,1,1
+laya_typed,1,1,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,1,1,case_086,Refuted,Supported,1,0
+laya_typed,1,1,case_087,Refuted,Supported,1,0
+laya_typed,1,1,case_088,Supported,Refuted,1,0
+laya_typed,1,1,case_089,Supported,Refuted,1,0
+laya_typed,1,1,case_090,Refuted,Supported,1,0
+laya_typed,1,1,case_091,Refuted,Supported,1,0
+laya_typed,1,1,case_092,Refuted,Refuted,1,1
+laya_typed,1,1,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,1,1,case_094,Refuted,Supported,1,0
+laya_typed,1,1,case_095,Refuted,Refuted,1,1
+laya_typed,1,1,case_096,Supported,Supported,1,1
+laya_typed,1,1,case_097,Refuted,Supported,1,0
+laya_typed,1,1,case_098,Refuted,Supported,1,0
+laya_typed,1,1,case_099,Supported,Refuted,1,0
+laya_typed,1,1,case_100,Refuted,Refuted,1,1
+laya_typed,2,2,case_001,Supported,Supported,1,1
+laya_typed,2,2,case_002,Supported,Refuted,1,0
+laya_typed,2,2,case_003,Refuted,Refuted,1,1
+laya_typed,2,2,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,2,2,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,2,2,case_006,Refuted,Refuted,1,1
+laya_typed,2,2,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,2,2,case_008,Not Enough Evidence,Supported,1,0
+laya_typed,2,2,case_009,Refuted,Supported,1,0
+laya_typed,2,2,case_010,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,2,2,case_011,Supported,Supported,1,1
+laya_typed,2,2,case_012,Refuted,Supported,1,0
+laya_typed,2,2,case_013,Refuted,Not Enough Evidence,1,0
+laya_typed,2,2,case_014,Refuted,Refuted,1,1
+laya_typed,2,2,case_015,Refuted,Supported,1,0
+laya_typed,2,2,case_016,Refuted,Refuted,1,1
+laya_typed,2,2,case_017,Refuted,Supported,1,0
+laya_typed,2,2,case_018,Supported,Not Enough Evidence,1,0
+laya_typed,2,2,case_019,Refuted,Supported,1,0
+laya_typed,2,2,case_020,Supported,Supported,1,1
+laya_typed,2,2,case_021,Refuted,Refuted,1,1
+laya_typed,2,2,case_022,Refuted,Not Enough Evidence,1,0
+laya_typed,2,2,case_023,Refuted,Refuted,1,1
+laya_typed,2,2,case_024,Refuted,Refuted,1,1
+laya_typed,2,2,case_025,Supported,Supported,1,1
+laya_typed,2,2,case_026,Refuted,Refuted,1,1
+laya_typed,2,2,case_027,Refuted,Supported,1,0
+laya_typed,2,2,case_028,Supported,Supported,1,1
+laya_typed,2,2,case_029,Refuted,Not Enough Evidence,1,0
+laya_typed,2,2,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,2,2,case_031,Supported,Supported,1,1
+laya_typed,2,2,case_032,Refuted,Supported,1,0
+laya_typed,2,2,case_033,Supported,Supported,1,1
+laya_typed,2,2,case_034,Supported,Supported,1,1
+laya_typed,2,2,case_035,Refuted,Supported,1,0
+laya_typed,2,2,case_036,Refuted,Supported,1,0
+laya_typed,2,2,case_037,Supported,Refuted,1,0
+laya_typed,2,2,case_038,Not Enough Evidence,Refuted,1,0
+laya_typed,2,2,case_039,Refuted,Supported,1,0
+laya_typed,2,2,case_040,Not Enough Evidence,Supported,1,0
+laya_typed,2,2,case_041,Refuted,Refuted,1,1
+laya_typed,2,2,case_042,Refuted,Refuted,1,1
+laya_typed,2,2,case_043,Refuted,Supported,1,0
+laya_typed,2,2,case_044,Refuted,Refuted,1,1
+laya_typed,2,2,case_045,Refuted,Refuted,1,1
+laya_typed,2,2,case_046,Refuted,Refuted,1,1
+laya_typed,2,2,case_047,Refuted,Supported,1,0
+laya_typed,2,2,case_048,Supported,Refuted,1,0
+laya_typed,2,2,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,2,2,case_050,Refuted,,0,0
+laya_typed,2,2,case_051,Refuted,Not Enough Evidence,1,0
+laya_typed,2,2,case_052,Refuted,Refuted,1,1
+laya_typed,2,2,case_053,Refuted,Refuted,1,1
+laya_typed,2,2,case_054,Refuted,Supported,1,0
+laya_typed,2,2,case_055,Refuted,Refuted,1,1
+laya_typed,2,2,case_056,Refuted,Refuted,1,1
+laya_typed,2,2,case_057,Supported,Supported,1,1
+laya_typed,2,2,case_058,Refuted,Refuted,1,1
+laya_typed,2,2,case_059,Refuted,Supported,1,0
+laya_typed,2,2,case_060,Supported,Supported,1,1
+laya_typed,2,2,case_061,Refuted,Refuted,1,1
+laya_typed,2,2,case_062,Refuted,Supported,1,0
+laya_typed,2,2,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,2,2,case_064,Supported,Refuted,1,0
+laya_typed,2,2,case_065,Refuted,Supported,1,0
+laya_typed,2,2,case_066,Refuted,Refuted,1,1
+laya_typed,2,2,case_067,Refuted,Supported,1,0
+laya_typed,2,2,case_068,Refuted,Refuted,1,1
+laya_typed,2,2,case_069,Supported,Supported,1,1
+laya_typed,2,2,case_070,Not Enough Evidence,Supported,1,0
+laya_typed,2,2,case_071,Refuted,Supported,1,0
+laya_typed,2,2,case_072,Supported,Supported,1,1
+laya_typed,2,2,case_073,Refuted,Supported,1,0
+laya_typed,2,2,case_074,Supported,Supported,1,1
+laya_typed,2,2,case_075,Refuted,Refuted,1,1
+laya_typed,2,2,case_076,Refuted,Refuted,1,1
+laya_typed,2,2,case_077,Supported,Supported,1,1
+laya_typed,2,2,case_078,Refuted,Refuted,1,1
+laya_typed,2,2,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,2,2,case_080,Refuted,Refuted,1,1
+laya_typed,2,2,case_081,Supported,Supported,1,1
+laya_typed,2,2,case_082,Refuted,Refuted,1,1
+laya_typed,2,2,case_083,Refuted,Refuted,1,1
+laya_typed,2,2,case_084,Refuted,Refuted,1,1
+laya_typed,2,2,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,2,2,case_086,Refuted,Supported,1,0
+laya_typed,2,2,case_087,Refuted,Supported,1,0
+laya_typed,2,2,case_088,Supported,Refuted,1,0
+laya_typed,2,2,case_089,Supported,Supported,1,1
+laya_typed,2,2,case_090,Refuted,Supported,1,0
+laya_typed,2,2,case_091,Refuted,Supported,1,0
+laya_typed,2,2,case_092,Refuted,Refuted,1,1
+laya_typed,2,2,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,2,2,case_094,Refuted,Supported,1,0
+laya_typed,2,2,case_095,Refuted,Refuted,1,1
+laya_typed,2,2,case_096,Supported,Supported,1,1
+laya_typed,2,2,case_097,Refuted,Supported,1,0
+laya_typed,2,2,case_098,Refuted,Supported,1,0
+laya_typed,2,2,case_099,Supported,Refuted,1,0
+laya_typed,2,2,case_100,Refuted,Refuted,1,1
+laya_typed,3,3,case_001,Supported,Supported,1,1
+laya_typed,3,3,case_002,Supported,Refuted,1,0
+laya_typed,3,3,case_003,Refuted,Refuted,1,1
+laya_typed,3,3,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,3,3,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,3,3,case_006,Refuted,Refuted,1,1
+laya_typed,3,3,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,3,3,case_008,Not Enough Evidence,Supported,1,0
+laya_typed,3,3,case_009,Refuted,Supported,1,0
+laya_typed,3,3,case_010,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,3,3,case_011,Supported,Supported,1,1
+laya_typed,3,3,case_012,Refuted,Supported,1,0
+laya_typed,3,3,case_013,Refuted,Not Enough Evidence,1,0
+laya_typed,3,3,case_014,Refuted,Refuted,1,1
+laya_typed,3,3,case_015,Refuted,Supported,1,0
+laya_typed,3,3,case_016,Refuted,Refuted,1,1
+laya_typed,3,3,case_017,Refuted,Supported,1,0
+laya_typed,3,3,case_018,Supported,Not Enough Evidence,1,0
+laya_typed,3,3,case_019,Refuted,Supported,1,0
+laya_typed,3,3,case_020,Supported,Supported,1,1
+laya_typed,3,3,case_021,Refuted,Refuted,1,1
+laya_typed,3,3,case_022,Refuted,Not Enough Evidence,1,0
+laya_typed,3,3,case_023,Refuted,Refuted,1,1
+laya_typed,3,3,case_024,Refuted,Refuted,1,1
+laya_typed,3,3,case_025,Supported,Supported,1,1
+laya_typed,3,3,case_026,Refuted,Refuted,1,1
+laya_typed,3,3,case_027,Refuted,Supported,1,0
+laya_typed,3,3,case_028,Supported,Supported,1,1
+laya_typed,3,3,case_029,Refuted,Not Enough Evidence,1,0
+laya_typed,3,3,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,3,3,case_031,Supported,Supported,1,1
+laya_typed,3,3,case_032,Refuted,Supported,1,0
+laya_typed,3,3,case_033,Supported,Supported,1,1
+laya_typed,3,3,case_034,Supported,Supported,1,1
+laya_typed,3,3,case_035,Refuted,Supported,1,0
+laya_typed,3,3,case_036,Refuted,Supported,1,0
+laya_typed,3,3,case_037,Supported,Refuted,1,0
+laya_typed,3,3,case_038,Not Enough Evidence,Refuted,1,0
+laya_typed,3,3,case_039,Refuted,Supported,1,0
+laya_typed,3,3,case_040,Not Enough Evidence,Supported,1,0
+laya_typed,3,3,case_041,Refuted,Refuted,1,1
+laya_typed,3,3,case_042,Refuted,Refuted,1,1
+laya_typed,3,3,case_043,Refuted,Supported,1,0
+laya_typed,3,3,case_044,Refuted,Refuted,1,1
+laya_typed,3,3,case_045,Refuted,Refuted,1,1
+laya_typed,3,3,case_046,Refuted,Refuted,1,1
+laya_typed,3,3,case_047,Refuted,Supported,1,0
+laya_typed,3,3,case_048,Supported,Refuted,1,0
+laya_typed,3,3,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,3,3,case_050,Refuted,,0,0
+laya_typed,3,3,case_051,Refuted,Not Enough Evidence,1,0
+laya_typed,3,3,case_052,Refuted,Refuted,1,1
+laya_typed,3,3,case_053,Refuted,Refuted,1,1
+laya_typed,3,3,case_054,Refuted,Supported,1,0
+laya_typed,3,3,case_055,Refuted,Refuted,1,1
+laya_typed,3,3,case_056,Refuted,Refuted,1,1
+laya_typed,3,3,case_057,Supported,Supported,1,1
+laya_typed,3,3,case_058,Refuted,Refuted,1,1
+laya_typed,3,3,case_059,Refuted,Supported,1,0
+laya_typed,3,3,case_060,Supported,Supported,1,1
+laya_typed,3,3,case_061,Refuted,Refuted,1,1
+laya_typed,3,3,case_062,Refuted,Supported,1,0
+laya_typed,3,3,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,3,3,case_064,Supported,Refuted,1,0
+laya_typed,3,3,case_065,Refuted,Supported,1,0
+laya_typed,3,3,case_066,Refuted,Refuted,1,1
+laya_typed,3,3,case_067,Refuted,Supported,1,0
+laya_typed,3,3,case_068,Refuted,Refuted,1,1
+laya_typed,3,3,case_069,Supported,Supported,1,1
+laya_typed,3,3,case_070,Not Enough Evidence,Supported,1,0
+laya_typed,3,3,case_071,Refuted,Supported,1,0
+laya_typed,3,3,case_072,Supported,Supported,1,1
+laya_typed,3,3,case_073,Refuted,Supported,1,0
+laya_typed,3,3,case_074,Supported,Supported,1,1
+laya_typed,3,3,case_075,Refuted,Refuted,1,1
+laya_typed,3,3,case_076,Refuted,Refuted,1,1
+laya_typed,3,3,case_077,Supported,Supported,1,1
+laya_typed,3,3,case_078,Refuted,Refuted,1,1
+laya_typed,3,3,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,3,3,case_080,Refuted,Refuted,1,1
+laya_typed,3,3,case_081,Supported,Supported,1,1
+laya_typed,3,3,case_082,Refuted,Refuted,1,1
+laya_typed,3,3,case_083,Refuted,Refuted,1,1
+laya_typed,3,3,case_084,Refuted,Refuted,1,1
+laya_typed,3,3,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+laya_typed,3,3,case_086,Refuted,Supported,1,0
+laya_typed,3,3,case_087,Refuted,Supported,1,0
+laya_typed,3,3,case_088,Supported,Refuted,1,0
+laya_typed,3,3,case_089,Supported,Supported,1,1
+laya_typed,3,3,case_090,Refuted,Supported,1,0
+laya_typed,3,3,case_091,Refuted,Supported,1,0
+laya_typed,3,3,case_092,Refuted,Refuted,1,1
+laya_typed,3,3,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+laya_typed,3,3,case_094,Refuted,Supported,1,0
+laya_typed,3,3,case_095,Refuted,Refuted,1,1
+laya_typed,3,3,case_096,Supported,Supported,1,1
+laya_typed,3,3,case_097,Refuted,Supported,1,0
+laya_typed,3,3,case_098,Refuted,Supported,1,0
+laya_typed,3,3,case_099,Supported,Refuted,1,0
+laya_typed,3,3,case_100,Refuted,Refuted,1,1
+lfm,1,1,case_001,Supported,Supported,1,1
+lfm,1,1,case_002,Supported,Refuted,1,0
+lfm,1,1,case_003,Refuted,Refuted,1,1
+lfm,1,1,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,1,1,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,1,1,case_006,Refuted,Refuted,1,1
+lfm,1,1,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,1,1,case_008,Not Enough Evidence,Supported,1,0
+lfm,1,1,case_009,Refuted,Supported,1,0
+lfm,1,1,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,1,1,case_011,Supported,Supported,1,1
+lfm,1,1,case_012,Refuted,Supported,1,0
+lfm,1,1,case_013,Refuted,Refuted,1,1
+lfm,1,1,case_014,Refuted,Refuted,1,1
+lfm,1,1,case_015,Refuted,Supported,1,0
+lfm,1,1,case_016,Refuted,Refuted,1,1
+lfm,1,1,case_017,Refuted,Supported,1,0
+lfm,1,1,case_018,Supported,Refuted,1,0
+lfm,1,1,case_019,Refuted,Supported,1,0
+lfm,1,1,case_020,Supported,Supported,1,1
+lfm,1,1,case_021,Refuted,Refuted,1,1
+lfm,1,1,case_022,Refuted,Conflicting Evidence/Cherrypicking,1,0
+lfm,1,1,case_023,Refuted,Refuted,1,1
+lfm,1,1,case_024,Refuted,Refuted,1,1
+lfm,1,1,case_025,Supported,Supported,1,1
+lfm,1,1,case_026,Refuted,Refuted,1,1
+lfm,1,1,case_027,Refuted,Supported,1,0
+lfm,1,1,case_028,Supported,Supported,1,1
+lfm,1,1,case_029,Refuted,Not Enough Evidence,1,0
+lfm,1,1,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,1,1,case_031,Supported,Supported,1,1
+lfm,1,1,case_032,Refuted,Supported,1,0
+lfm,1,1,case_033,Supported,Supported,1,1
+lfm,1,1,case_034,Supported,Supported,1,1
+lfm,1,1,case_035,Refuted,,0,0
+lfm,1,1,case_036,Refuted,Refuted,1,1
+lfm,1,1,case_037,Supported,Refuted,1,0
+lfm,1,1,case_038,Not Enough Evidence,Refuted,1,0
+lfm,1,1,case_039,Refuted,Refuted,1,1
+lfm,1,1,case_040,Not Enough Evidence,Supported,1,0
+lfm,1,1,case_041,Refuted,Refuted,1,1
+lfm,1,1,case_042,Refuted,Refuted,1,1
+lfm,1,1,case_043,Refuted,Supported,1,0
+lfm,1,1,case_044,Refuted,Refuted,1,1
+lfm,1,1,case_045,Refuted,Supported,1,0
+lfm,1,1,case_046,Refuted,Refuted,1,1
+lfm,1,1,case_047,Refuted,Refuted,1,1
+lfm,1,1,case_048,Supported,Supported,1,1
+lfm,1,1,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,1,1,case_050,Refuted,Refuted,1,1
+lfm,1,1,case_051,Refuted,Refuted,1,1
+lfm,1,1,case_052,Refuted,Refuted,1,1
+lfm,1,1,case_053,Refuted,Refuted,1,1
+lfm,1,1,case_054,Refuted,Supported,1,0
+lfm,1,1,case_055,Refuted,Refuted,1,1
+lfm,1,1,case_056,Refuted,Refuted,1,1
+lfm,1,1,case_057,Supported,Supported,1,1
+lfm,1,1,case_058,Refuted,Refuted,1,1
+lfm,1,1,case_059,Refuted,Refuted,1,1
+lfm,1,1,case_060,Supported,Supported,1,1
+lfm,1,1,case_061,Refuted,Refuted,1,1
+lfm,1,1,case_062,Refuted,Supported,1,0
+lfm,1,1,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,1,1,case_064,Supported,Refuted,1,0
+lfm,1,1,case_065,Refuted,Supported,1,0
+lfm,1,1,case_066,Refuted,Supported,1,0
+lfm,1,1,case_067,Refuted,Supported,1,0
+lfm,1,1,case_068,Refuted,Refuted,1,1
+lfm,1,1,case_069,Supported,Supported,1,1
+lfm,1,1,case_070,Not Enough Evidence,Supported,1,0
+lfm,1,1,case_071,Refuted,Supported,1,0
+lfm,1,1,case_072,Supported,Supported,1,1
+lfm,1,1,case_073,Refuted,Supported,1,0
+lfm,1,1,case_074,Supported,Supported,1,1
+lfm,1,1,case_075,Refuted,Refuted,1,1
+lfm,1,1,case_076,Refuted,Refuted,1,1
+lfm,1,1,case_077,Supported,Supported,1,1
+lfm,1,1,case_078,Refuted,Refuted,1,1
+lfm,1,1,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,1,1,case_080,Refuted,Refuted,1,1
+lfm,1,1,case_081,Supported,Supported,1,1
+lfm,1,1,case_082,Refuted,Refuted,1,1
+lfm,1,1,case_083,Refuted,Refuted,1,1
+lfm,1,1,case_084,Refuted,Refuted,1,1
+lfm,1,1,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,1,1,case_086,Refuted,Supported,1,0
+lfm,1,1,case_087,Refuted,Supported,1,0
+lfm,1,1,case_088,Supported,Refuted,1,0
+lfm,1,1,case_089,Supported,Supported,1,1
+lfm,1,1,case_090,Refuted,Refuted,1,1
+lfm,1,1,case_091,Refuted,Supported,1,0
+lfm,1,1,case_092,Refuted,Refuted,1,1
+lfm,1,1,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,1,1,case_094,Refuted,Supported,1,0
+lfm,1,1,case_095,Refuted,Refuted,1,1
+lfm,1,1,case_096,Supported,Supported,1,1
+lfm,1,1,case_097,Refuted,Supported,1,0
+lfm,1,1,case_098,Refuted,Supported,1,0
+lfm,1,1,case_099,Supported,Supported,1,1
+lfm,1,1,case_100,Refuted,Refuted,1,1
+lfm,2,2,case_001,Supported,Supported,1,1
+lfm,2,2,case_002,Supported,Refuted,1,0
+lfm,2,2,case_003,Refuted,Refuted,1,1
+lfm,2,2,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,2,2,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,2,2,case_006,Refuted,Refuted,1,1
+lfm,2,2,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,2,2,case_008,Not Enough Evidence,Supported,1,0
+lfm,2,2,case_009,Refuted,Supported,1,0
+lfm,2,2,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,2,2,case_011,Supported,Supported,1,1
+lfm,2,2,case_012,Refuted,Supported,1,0
+lfm,2,2,case_013,Refuted,Refuted,1,1
+lfm,2,2,case_014,Refuted,Refuted,1,1
+lfm,2,2,case_015,Refuted,Supported,1,0
+lfm,2,2,case_016,Refuted,Refuted,1,1
+lfm,2,2,case_017,Refuted,Supported,1,0
+lfm,2,2,case_018,Supported,Refuted,1,0
+lfm,2,2,case_019,Refuted,Supported,1,0
+lfm,2,2,case_020,Supported,Supported,1,1
+lfm,2,2,case_021,Refuted,Refuted,1,1
+lfm,2,2,case_022,Refuted,Conflicting Evidence/Cherrypicking,1,0
+lfm,2,2,case_023,Refuted,Refuted,1,1
+lfm,2,2,case_024,Refuted,Refuted,1,1
+lfm,2,2,case_025,Supported,Supported,1,1
+lfm,2,2,case_026,Refuted,Refuted,1,1
+lfm,2,2,case_027,Refuted,Supported,1,0
+lfm,2,2,case_028,Supported,Supported,1,1
+lfm,2,2,case_029,Refuted,Not Enough Evidence,1,0
+lfm,2,2,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,2,2,case_031,Supported,Supported,1,1
+lfm,2,2,case_032,Refuted,Supported,1,0
+lfm,2,2,case_033,Supported,Supported,1,1
+lfm,2,2,case_034,Supported,Supported,1,1
+lfm,2,2,case_035,Refuted,,0,0
+lfm,2,2,case_036,Refuted,Refuted,1,1
+lfm,2,2,case_037,Supported,Refuted,1,0
+lfm,2,2,case_038,Not Enough Evidence,Refuted,1,0
+lfm,2,2,case_039,Refuted,Refuted,1,1
+lfm,2,2,case_040,Not Enough Evidence,Supported,1,0
+lfm,2,2,case_041,Refuted,Refuted,1,1
+lfm,2,2,case_042,Refuted,Refuted,1,1
+lfm,2,2,case_043,Refuted,Supported,1,0
+lfm,2,2,case_044,Refuted,Refuted,1,1
+lfm,2,2,case_045,Refuted,Supported,1,0
+lfm,2,2,case_046,Refuted,Refuted,1,1
+lfm,2,2,case_047,Refuted,Refuted,1,1
+lfm,2,2,case_048,Supported,Supported,1,1
+lfm,2,2,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,2,2,case_050,Refuted,Refuted,1,1
+lfm,2,2,case_051,Refuted,Refuted,1,1
+lfm,2,2,case_052,Refuted,Refuted,1,1
+lfm,2,2,case_053,Refuted,Refuted,1,1
+lfm,2,2,case_054,Refuted,Supported,1,0
+lfm,2,2,case_055,Refuted,Refuted,1,1
+lfm,2,2,case_056,Refuted,Refuted,1,1
+lfm,2,2,case_057,Supported,Supported,1,1
+lfm,2,2,case_058,Refuted,Refuted,1,1
+lfm,2,2,case_059,Refuted,Refuted,1,1
+lfm,2,2,case_060,Supported,Supported,1,1
+lfm,2,2,case_061,Refuted,Refuted,1,1
+lfm,2,2,case_062,Refuted,Supported,1,0
+lfm,2,2,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,2,2,case_064,Supported,Refuted,1,0
+lfm,2,2,case_065,Refuted,Supported,1,0
+lfm,2,2,case_066,Refuted,Supported,1,0
+lfm,2,2,case_067,Refuted,Supported,1,0
+lfm,2,2,case_068,Refuted,Refuted,1,1
+lfm,2,2,case_069,Supported,Supported,1,1
+lfm,2,2,case_070,Not Enough Evidence,Supported,1,0
+lfm,2,2,case_071,Refuted,Supported,1,0
+lfm,2,2,case_072,Supported,Supported,1,1
+lfm,2,2,case_073,Refuted,Supported,1,0
+lfm,2,2,case_074,Supported,Supported,1,1
+lfm,2,2,case_075,Refuted,Refuted,1,1
+lfm,2,2,case_076,Refuted,Refuted,1,1
+lfm,2,2,case_077,Supported,Supported,1,1
+lfm,2,2,case_078,Refuted,Refuted,1,1
+lfm,2,2,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,2,2,case_080,Refuted,Refuted,1,1
+lfm,2,2,case_081,Supported,Supported,1,1
+lfm,2,2,case_082,Refuted,Refuted,1,1
+lfm,2,2,case_083,Refuted,Refuted,1,1
+lfm,2,2,case_084,Refuted,Refuted,1,1
+lfm,2,2,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,2,2,case_086,Refuted,Supported,1,0
+lfm,2,2,case_087,Refuted,Supported,1,0
+lfm,2,2,case_088,Supported,Refuted,1,0
+lfm,2,2,case_089,Supported,Supported,1,1
+lfm,2,2,case_090,Refuted,Refuted,1,1
+lfm,2,2,case_091,Refuted,Supported,1,0
+lfm,2,2,case_092,Refuted,Refuted,1,1
+lfm,2,2,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,2,2,case_094,Refuted,Supported,1,0
+lfm,2,2,case_095,Refuted,Refuted,1,1
+lfm,2,2,case_096,Supported,Supported,1,1
+lfm,2,2,case_097,Refuted,Supported,1,0
+lfm,2,2,case_098,Refuted,Supported,1,0
+lfm,2,2,case_099,Supported,Supported,1,1
+lfm,2,2,case_100,Refuted,Refuted,1,1
+lfm,3,3,case_001,Supported,Supported,1,1
+lfm,3,3,case_002,Supported,Refuted,1,0
+lfm,3,3,case_003,Refuted,Refuted,1,1
+lfm,3,3,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,3,3,case_005,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,3,3,case_006,Refuted,Refuted,1,1
+lfm,3,3,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,3,3,case_008,Not Enough Evidence,Supported,1,0
+lfm,3,3,case_009,Refuted,Supported,1,0
+lfm,3,3,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,3,3,case_011,Supported,Supported,1,1
+lfm,3,3,case_012,Refuted,Supported,1,0
+lfm,3,3,case_013,Refuted,Refuted,1,1
+lfm,3,3,case_014,Refuted,Refuted,1,1
+lfm,3,3,case_015,Refuted,Supported,1,0
+lfm,3,3,case_016,Refuted,Refuted,1,1
+lfm,3,3,case_017,Refuted,Supported,1,0
+lfm,3,3,case_018,Supported,Refuted,1,0
+lfm,3,3,case_019,Refuted,Supported,1,0
+lfm,3,3,case_020,Supported,Supported,1,1
+lfm,3,3,case_021,Refuted,Refuted,1,1
+lfm,3,3,case_022,Refuted,Conflicting Evidence/Cherrypicking,1,0
+lfm,3,3,case_023,Refuted,Refuted,1,1
+lfm,3,3,case_024,Refuted,Refuted,1,1
+lfm,3,3,case_025,Supported,Supported,1,1
+lfm,3,3,case_026,Refuted,Refuted,1,1
+lfm,3,3,case_027,Refuted,Supported,1,0
+lfm,3,3,case_028,Supported,Supported,1,1
+lfm,3,3,case_029,Refuted,Not Enough Evidence,1,0
+lfm,3,3,case_030,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,3,3,case_031,Supported,Supported,1,1
+lfm,3,3,case_032,Refuted,Supported,1,0
+lfm,3,3,case_033,Supported,Supported,1,1
+lfm,3,3,case_034,Supported,Supported,1,1
+lfm,3,3,case_035,Refuted,,0,0
+lfm,3,3,case_036,Refuted,Refuted,1,1
+lfm,3,3,case_037,Supported,Refuted,1,0
+lfm,3,3,case_038,Not Enough Evidence,Refuted,1,0
+lfm,3,3,case_039,Refuted,Refuted,1,1
+lfm,3,3,case_040,Not Enough Evidence,Supported,1,0
+lfm,3,3,case_041,Refuted,Refuted,1,1
+lfm,3,3,case_042,Refuted,Refuted,1,1
+lfm,3,3,case_043,Refuted,Supported,1,0
+lfm,3,3,case_044,Refuted,Refuted,1,1
+lfm,3,3,case_045,Refuted,Supported,1,0
+lfm,3,3,case_046,Refuted,Refuted,1,1
+lfm,3,3,case_047,Refuted,Refuted,1,1
+lfm,3,3,case_048,Supported,Supported,1,1
+lfm,3,3,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,3,3,case_050,Refuted,Refuted,1,1
+lfm,3,3,case_051,Refuted,Refuted,1,1
+lfm,3,3,case_052,Refuted,Refuted,1,1
+lfm,3,3,case_053,Refuted,Refuted,1,1
+lfm,3,3,case_054,Refuted,Supported,1,0
+lfm,3,3,case_055,Refuted,Refuted,1,1
+lfm,3,3,case_056,Refuted,Refuted,1,1
+lfm,3,3,case_057,Supported,Supported,1,1
+lfm,3,3,case_058,Refuted,Refuted,1,1
+lfm,3,3,case_059,Refuted,Refuted,1,1
+lfm,3,3,case_060,Supported,Supported,1,1
+lfm,3,3,case_061,Refuted,Refuted,1,1
+lfm,3,3,case_062,Refuted,Supported,1,0
+lfm,3,3,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,3,3,case_064,Supported,Refuted,1,0
+lfm,3,3,case_065,Refuted,Supported,1,0
+lfm,3,3,case_066,Refuted,Supported,1,0
+lfm,3,3,case_067,Refuted,Supported,1,0
+lfm,3,3,case_068,Refuted,Refuted,1,1
+lfm,3,3,case_069,Supported,Supported,1,1
+lfm,3,3,case_070,Not Enough Evidence,Supported,1,0
+lfm,3,3,case_071,Refuted,Supported,1,0
+lfm,3,3,case_072,Supported,Supported,1,1
+lfm,3,3,case_073,Refuted,Supported,1,0
+lfm,3,3,case_074,Supported,Supported,1,1
+lfm,3,3,case_075,Refuted,Refuted,1,1
+lfm,3,3,case_076,Refuted,Refuted,1,1
+lfm,3,3,case_077,Supported,Supported,1,1
+lfm,3,3,case_078,Refuted,Refuted,1,1
+lfm,3,3,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,3,3,case_080,Refuted,Refuted,1,1
+lfm,3,3,case_081,Supported,Supported,1,1
+lfm,3,3,case_082,Refuted,Refuted,1,1
+lfm,3,3,case_083,Refuted,Refuted,1,1
+lfm,3,3,case_084,Refuted,Refuted,1,1
+lfm,3,3,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm,3,3,case_086,Refuted,Supported,1,0
+lfm,3,3,case_087,Refuted,Supported,1,0
+lfm,3,3,case_088,Supported,Refuted,1,0
+lfm,3,3,case_089,Supported,Supported,1,1
+lfm,3,3,case_090,Refuted,Refuted,1,1
+lfm,3,3,case_091,Refuted,Supported,1,0
+lfm,3,3,case_092,Refuted,Refuted,1,1
+lfm,3,3,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm,3,3,case_094,Refuted,Supported,1,0
+lfm,3,3,case_095,Refuted,Refuted,1,1
+lfm,3,3,case_096,Supported,Supported,1,1
+lfm,3,3,case_097,Refuted,Supported,1,0
+lfm,3,3,case_098,Refuted,Supported,1,0
+lfm,3,3,case_099,Supported,Supported,1,1
+lfm,3,3,case_100,Refuted,Refuted,1,1
+lfm26,1,1,case_001,Supported,Supported,1,1
+lfm26,1,1,case_002,Supported,Not Enough Evidence,1,0
+lfm26,1,1,case_003,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_004,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,1,1,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+lfm26,1,1,case_006,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,1,1,case_008,Not Enough Evidence,Supported,1,0
+lfm26,1,1,case_009,Refuted,Refuted,1,1
+lfm26,1,1,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm26,1,1,case_011,Supported,Supported,1,1
+lfm26,1,1,case_012,Refuted,Supported,1,0
+lfm26,1,1,case_013,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_014,Refuted,Refuted,1,1
+lfm26,1,1,case_015,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_016,Refuted,Refuted,1,1
+lfm26,1,1,case_017,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_018,Supported,Not Enough Evidence,1,0
+lfm26,1,1,case_019,Refuted,Supported,1,0
+lfm26,1,1,case_020,Supported,Refuted,1,0
+lfm26,1,1,case_021,Refuted,Refuted,1,1
+lfm26,1,1,case_022,Refuted,Conflicting Evidence/Cherrypicking,1,0
+lfm26,1,1,case_023,Refuted,Refuted,1,1
+lfm26,1,1,case_024,Refuted,Refuted,1,1
+lfm26,1,1,case_025,Supported,Supported,1,1
+lfm26,1,1,case_026,Refuted,Refuted,1,1
+lfm26,1,1,case_027,Refuted,Supported,1,0
+lfm26,1,1,case_028,Supported,Supported,1,1
+lfm26,1,1,case_029,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+lfm26,1,1,case_031,Supported,Supported,1,1
+lfm26,1,1,case_032,Refuted,Supported,1,0
+lfm26,1,1,case_033,Supported,Supported,1,1
+lfm26,1,1,case_034,Supported,Supported,1,1
+lfm26,1,1,case_035,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_036,Refuted,Supported,1,0
+lfm26,1,1,case_037,Supported,Refuted,1,0
+lfm26,1,1,case_038,Not Enough Evidence,Refuted,1,0
+lfm26,1,1,case_039,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_040,Not Enough Evidence,Supported,1,0
+lfm26,1,1,case_041,Refuted,Supported,1,0
+lfm26,1,1,case_042,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_043,Refuted,Supported,1,0
+lfm26,1,1,case_044,Refuted,Refuted,1,1
+lfm26,1,1,case_045,Refuted,Supported,1,0
+lfm26,1,1,case_046,Refuted,Refuted,1,1
+lfm26,1,1,case_047,Refuted,Refuted,1,1
+lfm26,1,1,case_048,Supported,Refuted,1,0
+lfm26,1,1,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,1,1,case_050,Refuted,Refuted,1,1
+lfm26,1,1,case_051,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_052,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_053,Refuted,Refuted,1,1
+lfm26,1,1,case_054,Refuted,Supported,1,0
+lfm26,1,1,case_055,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_056,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_057,Supported,Supported,1,1
+lfm26,1,1,case_058,Refuted,Refuted,1,1
+lfm26,1,1,case_059,Refuted,Refuted,1,1
+lfm26,1,1,case_060,Supported,Supported,1,1
+lfm26,1,1,case_061,Refuted,Refuted,1,1
+lfm26,1,1,case_062,Refuted,Supported,1,0
+lfm26,1,1,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,1,1,case_064,Supported,Refuted,1,0
+lfm26,1,1,case_065,Refuted,Supported,1,0
+lfm26,1,1,case_066,Refuted,Refuted,1,1
+lfm26,1,1,case_067,Refuted,Supported,1,0
+lfm26,1,1,case_068,Refuted,Refuted,1,1
+lfm26,1,1,case_069,Supported,Supported,1,1
+lfm26,1,1,case_070,Not Enough Evidence,Supported,1,0
+lfm26,1,1,case_071,Refuted,Refuted,1,1
+lfm26,1,1,case_072,Supported,Supported,1,1
+lfm26,1,1,case_073,Refuted,Conflicting Evidence/Cherrypicking,1,0
+lfm26,1,1,case_074,Supported,Supported,1,1
+lfm26,1,1,case_075,Refuted,Refuted,1,1
+lfm26,1,1,case_076,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_077,Supported,Supported,1,1
+lfm26,1,1,case_078,Refuted,Refuted,1,1
+lfm26,1,1,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm26,1,1,case_080,Refuted,Refuted,1,1
+lfm26,1,1,case_081,Supported,Supported,1,1
+lfm26,1,1,case_082,Refuted,Refuted,1,1
+lfm26,1,1,case_083,Refuted,Refuted,1,1
+lfm26,1,1,case_084,Refuted,Refuted,1,1
+lfm26,1,1,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,1,1,case_086,Refuted,Supported,1,0
+lfm26,1,1,case_087,Refuted,Supported,1,0
+lfm26,1,1,case_088,Supported,Not Enough Evidence,1,0
+lfm26,1,1,case_089,Supported,Supported,1,1
+lfm26,1,1,case_090,Refuted,Refuted,1,1
+lfm26,1,1,case_091,Refuted,Not Enough Evidence,1,0
+lfm26,1,1,case_092,Refuted,Refuted,1,1
+lfm26,1,1,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm26,1,1,case_094,Refuted,Supported,1,0
+lfm26,1,1,case_095,Refuted,Refuted,1,1
+lfm26,1,1,case_096,Supported,Supported,1,1
+lfm26,1,1,case_097,Refuted,Supported,1,0
+lfm26,1,1,case_098,Refuted,Supported,1,0
+lfm26,1,1,case_099,Supported,Supported,1,1
+lfm26,1,1,case_100,Refuted,Refuted,1,1
+lfm26,2,2,case_001,Supported,Supported,1,1
+lfm26,2,2,case_002,Supported,Not Enough Evidence,1,0
+lfm26,2,2,case_003,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_004,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,2,2,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+lfm26,2,2,case_006,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,2,2,case_008,Not Enough Evidence,Supported,1,0
+lfm26,2,2,case_009,Refuted,Refuted,1,1
+lfm26,2,2,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm26,2,2,case_011,Supported,Supported,1,1
+lfm26,2,2,case_012,Refuted,Supported,1,0
+lfm26,2,2,case_013,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_014,Refuted,Refuted,1,1
+lfm26,2,2,case_015,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_016,Refuted,Refuted,1,1
+lfm26,2,2,case_017,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_018,Supported,Not Enough Evidence,1,0
+lfm26,2,2,case_019,Refuted,Supported,1,0
+lfm26,2,2,case_020,Supported,Refuted,1,0
+lfm26,2,2,case_021,Refuted,Refuted,1,1
+lfm26,2,2,case_022,Refuted,Conflicting Evidence/Cherrypicking,1,0
+lfm26,2,2,case_023,Refuted,Refuted,1,1
+lfm26,2,2,case_024,Refuted,Refuted,1,1
+lfm26,2,2,case_025,Supported,Supported,1,1
+lfm26,2,2,case_026,Refuted,Refuted,1,1
+lfm26,2,2,case_027,Refuted,Supported,1,0
+lfm26,2,2,case_028,Supported,Supported,1,1
+lfm26,2,2,case_029,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+lfm26,2,2,case_031,Supported,Supported,1,1
+lfm26,2,2,case_032,Refuted,Supported,1,0
+lfm26,2,2,case_033,Supported,Supported,1,1
+lfm26,2,2,case_034,Supported,Supported,1,1
+lfm26,2,2,case_035,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_036,Refuted,Supported,1,0
+lfm26,2,2,case_037,Supported,Refuted,1,0
+lfm26,2,2,case_038,Not Enough Evidence,Refuted,1,0
+lfm26,2,2,case_039,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_040,Not Enough Evidence,Supported,1,0
+lfm26,2,2,case_041,Refuted,Supported,1,0
+lfm26,2,2,case_042,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_043,Refuted,Supported,1,0
+lfm26,2,2,case_044,Refuted,Refuted,1,1
+lfm26,2,2,case_045,Refuted,Refuted,1,1
+lfm26,2,2,case_046,Refuted,Refuted,1,1
+lfm26,2,2,case_047,Refuted,Refuted,1,1
+lfm26,2,2,case_048,Supported,Refuted,1,0
+lfm26,2,2,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,2,2,case_050,Refuted,Refuted,1,1
+lfm26,2,2,case_051,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_052,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_053,Refuted,Refuted,1,1
+lfm26,2,2,case_054,Refuted,Supported,1,0
+lfm26,2,2,case_055,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_056,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_057,Supported,Supported,1,1
+lfm26,2,2,case_058,Refuted,Refuted,1,1
+lfm26,2,2,case_059,Refuted,Refuted,1,1
+lfm26,2,2,case_060,Supported,Supported,1,1
+lfm26,2,2,case_061,Refuted,Refuted,1,1
+lfm26,2,2,case_062,Refuted,Supported,1,0
+lfm26,2,2,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,2,2,case_064,Supported,Refuted,1,0
+lfm26,2,2,case_065,Refuted,Supported,1,0
+lfm26,2,2,case_066,Refuted,Refuted,1,1
+lfm26,2,2,case_067,Refuted,Supported,1,0
+lfm26,2,2,case_068,Refuted,Refuted,1,1
+lfm26,2,2,case_069,Supported,Supported,1,1
+lfm26,2,2,case_070,Not Enough Evidence,Supported,1,0
+lfm26,2,2,case_071,Refuted,Refuted,1,1
+lfm26,2,2,case_072,Supported,Supported,1,1
+lfm26,2,2,case_073,Refuted,Conflicting Evidence/Cherrypicking,1,0
+lfm26,2,2,case_074,Supported,Supported,1,1
+lfm26,2,2,case_075,Refuted,Refuted,1,1
+lfm26,2,2,case_076,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_077,Supported,Supported,1,1
+lfm26,2,2,case_078,Refuted,Refuted,1,1
+lfm26,2,2,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm26,2,2,case_080,Refuted,Refuted,1,1
+lfm26,2,2,case_081,Supported,Supported,1,1
+lfm26,2,2,case_082,Refuted,Refuted,1,1
+lfm26,2,2,case_083,Refuted,Refuted,1,1
+lfm26,2,2,case_084,Refuted,Refuted,1,1
+lfm26,2,2,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,2,2,case_086,Refuted,Supported,1,0
+lfm26,2,2,case_087,Refuted,Supported,1,0
+lfm26,2,2,case_088,Supported,Not Enough Evidence,1,0
+lfm26,2,2,case_089,Supported,Supported,1,1
+lfm26,2,2,case_090,Refuted,Refuted,1,1
+lfm26,2,2,case_091,Refuted,Not Enough Evidence,1,0
+lfm26,2,2,case_092,Refuted,Refuted,1,1
+lfm26,2,2,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm26,2,2,case_094,Refuted,Supported,1,0
+lfm26,2,2,case_095,Refuted,Refuted,1,1
+lfm26,2,2,case_096,Supported,Supported,1,1
+lfm26,2,2,case_097,Refuted,Supported,1,0
+lfm26,2,2,case_098,Refuted,Supported,1,0
+lfm26,2,2,case_099,Supported,Supported,1,1
+lfm26,2,2,case_100,Refuted,Refuted,1,1
+lfm26,3,3,case_001,Supported,Supported,1,1
+lfm26,3,3,case_002,Supported,Not Enough Evidence,1,0
+lfm26,3,3,case_003,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_004,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,3,3,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+lfm26,3,3,case_006,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,3,3,case_008,Not Enough Evidence,Supported,1,0
+lfm26,3,3,case_009,Refuted,Refuted,1,1
+lfm26,3,3,case_010,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm26,3,3,case_011,Supported,Supported,1,1
+lfm26,3,3,case_012,Refuted,Supported,1,0
+lfm26,3,3,case_013,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_014,Refuted,Refuted,1,1
+lfm26,3,3,case_015,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_016,Refuted,Refuted,1,1
+lfm26,3,3,case_017,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_018,Supported,Not Enough Evidence,1,0
+lfm26,3,3,case_019,Refuted,Supported,1,0
+lfm26,3,3,case_020,Supported,Refuted,1,0
+lfm26,3,3,case_021,Refuted,Refuted,1,1
+lfm26,3,3,case_022,Refuted,Conflicting Evidence/Cherrypicking,1,0
+lfm26,3,3,case_023,Refuted,Refuted,1,1
+lfm26,3,3,case_024,Refuted,Refuted,1,1
+lfm26,3,3,case_025,Supported,Supported,1,1
+lfm26,3,3,case_026,Refuted,Refuted,1,1
+lfm26,3,3,case_027,Refuted,Supported,1,0
+lfm26,3,3,case_028,Supported,Supported,1,1
+lfm26,3,3,case_029,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+lfm26,3,3,case_031,Supported,Supported,1,1
+lfm26,3,3,case_032,Refuted,Supported,1,0
+lfm26,3,3,case_033,Supported,Supported,1,1
+lfm26,3,3,case_034,Supported,Supported,1,1
+lfm26,3,3,case_035,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_036,Refuted,Supported,1,0
+lfm26,3,3,case_037,Supported,Refuted,1,0
+lfm26,3,3,case_038,Not Enough Evidence,Refuted,1,0
+lfm26,3,3,case_039,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_040,Not Enough Evidence,Supported,1,0
+lfm26,3,3,case_041,Refuted,Supported,1,0
+lfm26,3,3,case_042,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_043,Refuted,Supported,1,0
+lfm26,3,3,case_044,Refuted,Refuted,1,1
+lfm26,3,3,case_045,Refuted,Refuted,1,1
+lfm26,3,3,case_046,Refuted,Refuted,1,1
+lfm26,3,3,case_047,Refuted,Refuted,1,1
+lfm26,3,3,case_048,Supported,Refuted,1,0
+lfm26,3,3,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,3,3,case_050,Refuted,Refuted,1,1
+lfm26,3,3,case_051,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_052,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_053,Refuted,Refuted,1,1
+lfm26,3,3,case_054,Refuted,Supported,1,0
+lfm26,3,3,case_055,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_056,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_057,Supported,Supported,1,1
+lfm26,3,3,case_058,Refuted,Refuted,1,1
+lfm26,3,3,case_059,Refuted,Refuted,1,1
+lfm26,3,3,case_060,Supported,Supported,1,1
+lfm26,3,3,case_061,Refuted,Refuted,1,1
+lfm26,3,3,case_062,Refuted,Supported,1,0
+lfm26,3,3,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,3,3,case_064,Supported,Refuted,1,0
+lfm26,3,3,case_065,Refuted,Supported,1,0
+lfm26,3,3,case_066,Refuted,Refuted,1,1
+lfm26,3,3,case_067,Refuted,Supported,1,0
+lfm26,3,3,case_068,Refuted,Refuted,1,1
+lfm26,3,3,case_069,Supported,Supported,1,1
+lfm26,3,3,case_070,Not Enough Evidence,Supported,1,0
+lfm26,3,3,case_071,Refuted,Refuted,1,1
+lfm26,3,3,case_072,Supported,Supported,1,1
+lfm26,3,3,case_073,Refuted,Conflicting Evidence/Cherrypicking,1,0
+lfm26,3,3,case_074,Supported,Supported,1,1
+lfm26,3,3,case_075,Refuted,Refuted,1,1
+lfm26,3,3,case_076,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_077,Supported,Supported,1,1
+lfm26,3,3,case_078,Refuted,Refuted,1,1
+lfm26,3,3,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm26,3,3,case_080,Refuted,Refuted,1,1
+lfm26,3,3,case_081,Supported,Supported,1,1
+lfm26,3,3,case_082,Refuted,Refuted,1,1
+lfm26,3,3,case_083,Refuted,Refuted,1,1
+lfm26,3,3,case_084,Refuted,Refuted,1,1
+lfm26,3,3,case_085,Conflicting Evidence/Cherrypicking,Supported,1,0
+lfm26,3,3,case_086,Refuted,Supported,1,0
+lfm26,3,3,case_087,Refuted,Supported,1,0
+lfm26,3,3,case_088,Supported,Not Enough Evidence,1,0
+lfm26,3,3,case_089,Supported,Supported,1,1
+lfm26,3,3,case_090,Refuted,Refuted,1,1
+lfm26,3,3,case_091,Refuted,Not Enough Evidence,1,0
+lfm26,3,3,case_092,Refuted,Refuted,1,1
+lfm26,3,3,case_093,Conflicting Evidence/Cherrypicking,Refuted,1,0
+lfm26,3,3,case_094,Refuted,Supported,1,0
+lfm26,3,3,case_095,Refuted,Refuted,1,1
+lfm26,3,3,case_096,Supported,Supported,1,1
+lfm26,3,3,case_097,Refuted,Supported,1,0
+lfm26,3,3,case_098,Refuted,Supported,1,0
+lfm26,3,3,case_099,Supported,Supported,1,1
+lfm26,3,3,case_100,Refuted,Refuted,1,1
+qwen,1,1,case_001,Supported,Supported,1,1
+qwen,1,1,case_002,Supported,Not Enough Evidence,1,0
+qwen,1,1,case_003,Refuted,Supported,1,0
+qwen,1,1,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+qwen,1,1,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+qwen,1,1,case_006,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,1,1,case_008,Not Enough Evidence,Supported,1,0
+qwen,1,1,case_009,Refuted,Refuted,1,1
+qwen,1,1,case_010,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,1,1,case_011,Supported,Supported,1,1
+qwen,1,1,case_012,Refuted,Supported,1,0
+qwen,1,1,case_013,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_014,Refuted,Refuted,1,1
+qwen,1,1,case_015,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_016,Refuted,Supported,1,0
+qwen,1,1,case_017,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_018,Supported,Not Enough Evidence,1,0
+qwen,1,1,case_019,Refuted,Supported,1,0
+qwen,1,1,case_020,Supported,Refuted,1,0
+qwen,1,1,case_021,Refuted,Refuted,1,1
+qwen,1,1,case_022,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_023,Refuted,Refuted,1,1
+qwen,1,1,case_024,Refuted,Refuted,1,1
+qwen,1,1,case_025,Supported,Supported,1,1
+qwen,1,1,case_026,Refuted,Refuted,1,1
+qwen,1,1,case_027,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_028,Supported,Supported,1,1
+qwen,1,1,case_029,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+qwen,1,1,case_031,Supported,Supported,1,1
+qwen,1,1,case_032,Refuted,Supported,1,0
+qwen,1,1,case_033,Supported,Supported,1,1
+qwen,1,1,case_034,Supported,Supported,1,1
+qwen,1,1,case_035,Refuted,Supported,1,0
+qwen,1,1,case_036,Refuted,Refuted,1,1
+qwen,1,1,case_037,Supported,Not Enough Evidence,1,0
+qwen,1,1,case_038,Not Enough Evidence,Refuted,1,0
+qwen,1,1,case_039,Refuted,Refuted,1,1
+qwen,1,1,case_040,Not Enough Evidence,Supported,1,0
+qwen,1,1,case_041,Refuted,Refuted,1,1
+qwen,1,1,case_042,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_043,Refuted,Supported,1,0
+qwen,1,1,case_044,Refuted,Refuted,1,1
+qwen,1,1,case_045,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_046,Refuted,Refuted,1,1
+qwen,1,1,case_047,Refuted,Refuted,1,1
+qwen,1,1,case_048,Supported,Supported,1,1
+qwen,1,1,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,1,1,case_050,Refuted,Refuted,1,1
+qwen,1,1,case_051,Refuted,Refuted,1,1
+qwen,1,1,case_052,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_053,Refuted,Conflicting Evidence/Cherrypicking,1,0
+qwen,1,1,case_054,Refuted,Supported,1,0
+qwen,1,1,case_055,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_056,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_057,Supported,Supported,1,1
+qwen,1,1,case_058,Refuted,Refuted,1,1
+qwen,1,1,case_059,Refuted,Refuted,1,1
+qwen,1,1,case_060,Supported,Supported,1,1
+qwen,1,1,case_061,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_062,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,1,1,case_064,Supported,Not Enough Evidence,1,0
+qwen,1,1,case_065,Refuted,Supported,1,0
+qwen,1,1,case_066,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_067,Refuted,Supported,1,0
+qwen,1,1,case_068,Refuted,Refuted,1,1
+qwen,1,1,case_069,Supported,Supported,1,1
+qwen,1,1,case_070,Not Enough Evidence,Supported,1,0
+qwen,1,1,case_071,Refuted,Refuted,1,1
+qwen,1,1,case_072,Supported,Supported,1,1
+qwen,1,1,case_073,Refuted,Supported,1,0
+qwen,1,1,case_074,Supported,Supported,1,1
+qwen,1,1,case_075,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_076,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_077,Supported,Supported,1,1
+qwen,1,1,case_078,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+qwen,1,1,case_080,Refuted,Refuted,1,1
+qwen,1,1,case_081,Supported,Supported,1,1
+qwen,1,1,case_082,Refuted,Refuted,1,1
+qwen,1,1,case_083,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_084,Refuted,Refuted,1,1
+qwen,1,1,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+qwen,1,1,case_086,Refuted,Supported,1,0
+qwen,1,1,case_087,Refuted,Supported,1,0
+qwen,1,1,case_088,Supported,Refuted,1,0
+qwen,1,1,case_089,Supported,Supported,1,1
+qwen,1,1,case_090,Refuted,Refuted,1,1
+qwen,1,1,case_091,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_092,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_093,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,1,1,case_094,Refuted,Supported,1,0
+qwen,1,1,case_095,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_096,Supported,Supported,1,1
+qwen,1,1,case_097,Refuted,Not Enough Evidence,1,0
+qwen,1,1,case_098,Refuted,Supported,1,0
+qwen,1,1,case_099,Supported,Refuted,1,0
+qwen,1,1,case_100,Refuted,Refuted,1,1
+qwen,2,2,case_001,Supported,Supported,1,1
+qwen,2,2,case_002,Supported,Not Enough Evidence,1,0
+qwen,2,2,case_003,Refuted,Supported,1,0
+qwen,2,2,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+qwen,2,2,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+qwen,2,2,case_006,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,2,2,case_008,Not Enough Evidence,Supported,1,0
+qwen,2,2,case_009,Refuted,Refuted,1,1
+qwen,2,2,case_010,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,2,2,case_011,Supported,Supported,1,1
+qwen,2,2,case_012,Refuted,Supported,1,0
+qwen,2,2,case_013,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_014,Refuted,Refuted,1,1
+qwen,2,2,case_015,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_016,Refuted,Supported,1,0
+qwen,2,2,case_017,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_018,Supported,Not Enough Evidence,1,0
+qwen,2,2,case_019,Refuted,Supported,1,0
+qwen,2,2,case_020,Supported,Refuted,1,0
+qwen,2,2,case_021,Refuted,Refuted,1,1
+qwen,2,2,case_022,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_023,Refuted,Refuted,1,1
+qwen,2,2,case_024,Refuted,Refuted,1,1
+qwen,2,2,case_025,Supported,Supported,1,1
+qwen,2,2,case_026,Refuted,Refuted,1,1
+qwen,2,2,case_027,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_028,Supported,Supported,1,1
+qwen,2,2,case_029,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+qwen,2,2,case_031,Supported,Supported,1,1
+qwen,2,2,case_032,Refuted,Supported,1,0
+qwen,2,2,case_033,Supported,Supported,1,1
+qwen,2,2,case_034,Supported,Supported,1,1
+qwen,2,2,case_035,Refuted,Supported,1,0
+qwen,2,2,case_036,Refuted,Refuted,1,1
+qwen,2,2,case_037,Supported,Not Enough Evidence,1,0
+qwen,2,2,case_038,Not Enough Evidence,Refuted,1,0
+qwen,2,2,case_039,Refuted,Refuted,1,1
+qwen,2,2,case_040,Not Enough Evidence,Supported,1,0
+qwen,2,2,case_041,Refuted,Refuted,1,1
+qwen,2,2,case_042,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_043,Refuted,Supported,1,0
+qwen,2,2,case_044,Refuted,Refuted,1,1
+qwen,2,2,case_045,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_046,Refuted,Refuted,1,1
+qwen,2,2,case_047,Refuted,Refuted,1,1
+qwen,2,2,case_048,Supported,Supported,1,1
+qwen,2,2,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,2,2,case_050,Refuted,Refuted,1,1
+qwen,2,2,case_051,Refuted,Refuted,1,1
+qwen,2,2,case_052,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_053,Refuted,Conflicting Evidence/Cherrypicking,1,0
+qwen,2,2,case_054,Refuted,Supported,1,0
+qwen,2,2,case_055,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_056,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_057,Supported,Supported,1,1
+qwen,2,2,case_058,Refuted,Refuted,1,1
+qwen,2,2,case_059,Refuted,Refuted,1,1
+qwen,2,2,case_060,Supported,Supported,1,1
+qwen,2,2,case_061,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_062,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,2,2,case_064,Supported,Not Enough Evidence,1,0
+qwen,2,2,case_065,Refuted,Supported,1,0
+qwen,2,2,case_066,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_067,Refuted,Supported,1,0
+qwen,2,2,case_068,Refuted,Refuted,1,1
+qwen,2,2,case_069,Supported,Supported,1,1
+qwen,2,2,case_070,Not Enough Evidence,Supported,1,0
+qwen,2,2,case_071,Refuted,Refuted,1,1
+qwen,2,2,case_072,Supported,Supported,1,1
+qwen,2,2,case_073,Refuted,Supported,1,0
+qwen,2,2,case_074,Supported,Supported,1,1
+qwen,2,2,case_075,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_076,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_077,Supported,Supported,1,1
+qwen,2,2,case_078,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+qwen,2,2,case_080,Refuted,Refuted,1,1
+qwen,2,2,case_081,Supported,Supported,1,1
+qwen,2,2,case_082,Refuted,Refuted,1,1
+qwen,2,2,case_083,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_084,Refuted,Refuted,1,1
+qwen,2,2,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+qwen,2,2,case_086,Refuted,Supported,1,0
+qwen,2,2,case_087,Refuted,Supported,1,0
+qwen,2,2,case_088,Supported,Refuted,1,0
+qwen,2,2,case_089,Supported,Supported,1,1
+qwen,2,2,case_090,Refuted,Refuted,1,1
+qwen,2,2,case_091,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_092,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_093,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,2,2,case_094,Refuted,Supported,1,0
+qwen,2,2,case_095,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_096,Supported,Supported,1,1
+qwen,2,2,case_097,Refuted,Not Enough Evidence,1,0
+qwen,2,2,case_098,Refuted,Supported,1,0
+qwen,2,2,case_099,Supported,Refuted,1,0
+qwen,2,2,case_100,Refuted,Refuted,1,1
+qwen,3,3,case_001,Supported,Supported,1,1
+qwen,3,3,case_002,Supported,Not Enough Evidence,1,0
+qwen,3,3,case_003,Refuted,Supported,1,0
+qwen,3,3,case_004,Conflicting Evidence/Cherrypicking,Refuted,1,0
+qwen,3,3,case_005,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+qwen,3,3,case_006,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_007,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,3,3,case_008,Not Enough Evidence,Supported,1,0
+qwen,3,3,case_009,Refuted,Refuted,1,1
+qwen,3,3,case_010,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,3,3,case_011,Supported,Supported,1,1
+qwen,3,3,case_012,Refuted,Supported,1,0
+qwen,3,3,case_013,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_014,Refuted,Refuted,1,1
+qwen,3,3,case_015,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_016,Refuted,Supported,1,0
+qwen,3,3,case_017,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_018,Supported,Not Enough Evidence,1,0
+qwen,3,3,case_019,Refuted,Supported,1,0
+qwen,3,3,case_020,Supported,Refuted,1,0
+qwen,3,3,case_021,Refuted,Refuted,1,1
+qwen,3,3,case_022,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_023,Refuted,Refuted,1,1
+qwen,3,3,case_024,Refuted,Refuted,1,1
+qwen,3,3,case_025,Supported,Supported,1,1
+qwen,3,3,case_026,Refuted,Refuted,1,1
+qwen,3,3,case_027,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_028,Supported,Supported,1,1
+qwen,3,3,case_029,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_030,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+qwen,3,3,case_031,Supported,Supported,1,1
+qwen,3,3,case_032,Refuted,Supported,1,0
+qwen,3,3,case_033,Supported,Supported,1,1
+qwen,3,3,case_034,Supported,Supported,1,1
+qwen,3,3,case_035,Refuted,Supported,1,0
+qwen,3,3,case_036,Refuted,Refuted,1,1
+qwen,3,3,case_037,Supported,Not Enough Evidence,1,0
+qwen,3,3,case_038,Not Enough Evidence,Refuted,1,0
+qwen,3,3,case_039,Refuted,Refuted,1,1
+qwen,3,3,case_040,Not Enough Evidence,Supported,1,0
+qwen,3,3,case_041,Refuted,Refuted,1,1
+qwen,3,3,case_042,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_043,Refuted,Supported,1,0
+qwen,3,3,case_044,Refuted,Refuted,1,1
+qwen,3,3,case_045,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_046,Refuted,Refuted,1,1
+qwen,3,3,case_047,Refuted,Refuted,1,1
+qwen,3,3,case_048,Supported,Supported,1,1
+qwen,3,3,case_049,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,3,3,case_050,Refuted,Refuted,1,1
+qwen,3,3,case_051,Refuted,Refuted,1,1
+qwen,3,3,case_052,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_053,Refuted,Conflicting Evidence/Cherrypicking,1,0
+qwen,3,3,case_054,Refuted,Supported,1,0
+qwen,3,3,case_055,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_056,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_057,Supported,Supported,1,1
+qwen,3,3,case_058,Refuted,Refuted,1,1
+qwen,3,3,case_059,Refuted,Refuted,1,1
+qwen,3,3,case_060,Supported,Supported,1,1
+qwen,3,3,case_061,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_062,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_063,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,3,3,case_064,Supported,Not Enough Evidence,1,0
+qwen,3,3,case_065,Refuted,Supported,1,0
+qwen,3,3,case_066,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_067,Refuted,Supported,1,0
+qwen,3,3,case_068,Refuted,Refuted,1,1
+qwen,3,3,case_069,Supported,Supported,1,1
+qwen,3,3,case_070,Not Enough Evidence,Supported,1,0
+qwen,3,3,case_071,Refuted,Refuted,1,1
+qwen,3,3,case_072,Supported,Supported,1,1
+qwen,3,3,case_073,Refuted,Supported,1,0
+qwen,3,3,case_074,Supported,Supported,1,1
+qwen,3,3,case_075,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_076,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_077,Supported,Supported,1,1
+qwen,3,3,case_078,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_079,Conflicting Evidence/Cherrypicking,Refuted,1,0
+qwen,3,3,case_080,Refuted,Refuted,1,1
+qwen,3,3,case_081,Supported,Supported,1,1
+qwen,3,3,case_082,Refuted,Refuted,1,1
+qwen,3,3,case_083,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_084,Refuted,Refuted,1,1
+qwen,3,3,case_085,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1,0
+qwen,3,3,case_086,Refuted,Supported,1,0
+qwen,3,3,case_087,Refuted,Supported,1,0
+qwen,3,3,case_088,Supported,Refuted,1,0
+qwen,3,3,case_089,Supported,Supported,1,1
+qwen,3,3,case_090,Refuted,Refuted,1,1
+qwen,3,3,case_091,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_092,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_093,Conflicting Evidence/Cherrypicking,Supported,1,0
+qwen,3,3,case_094,Refuted,Supported,1,0
+qwen,3,3,case_095,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_096,Supported,Supported,1,1
+qwen,3,3,case_097,Refuted,Not Enough Evidence,1,0
+qwen,3,3,case_098,Refuted,Supported,1,0
+qwen,3,3,case_099,Supported,Refuted,1,0
+qwen,3,3,case_100,Refuted,Refuted,1,1

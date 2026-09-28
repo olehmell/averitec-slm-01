@@ -1,0 +1,113 @@
+id: averitec-controller-three-pass-verdict-2026
+status: planned
+protocol_version: three-pass-verdict-v1
+hypothesis: >-
+  On one fixed 100-claim AVeriTeC-derived pool, seven controller deployments
+  differ in repeated workflow compliance, seven selectors differ in repeated
+  evidence admission, and their evidence sets can change the verdict produced
+  by one fixed downstream verifier.
+seed: 20260923
+inputs:
+  workflow_audit_path: .private-artifacts/averitec-controller-reliability-2026/evaluation100-8761ac5/evaluation/audit.json
+  workflow_audit_sha256: 11c546887989a005368339daee7eddc42b027c0efd7661357b8f97509d29148f
+  workflow_freeze_path: .private-artifacts/averitec-controller-reliability-2026/laya-1cf53ce/evidence/evaluation/freeze.json
+  workflow_freeze_file_sha256: f1604b70494b6fb8a4595676f713fd2d5c2c112623a0ace03dafd98062346f1c
+  workflow_preparation_traces_path: .private-artifacts/averitec-controller-reliability-2026/laya-1cf53ce/evidence/evaluation/evaluation100.json.preparation.traces.jsonl
+  workflow_preparation_traces_sha256: d69086be92790bf3872f573a457faf3a48316772bcabcd81e2e7c3c3d92fef4a
+  candidates_path: .private-artifacts/averitec-controller-reliability-2026/evidence-selection-ai-20260919/candidates.json
+  candidates_sha256: 219c745aac6f50501a55c4f2511d383505317fd75338b0efaed25f44bbe23b98
+  source_manifest_path: experiments/orchestration/averitec-controller-reliability-2026/support/manifests/source-corpora-averitec-train-dev-20260917.json
+  source_manifest_sha256: 1299b1c6394475bf1eb0489a437f42440ab394894f9d579cf19fcc9bbcc19f2b
+  dev_source_archive_sha256: 021e258cd6fb5fe6d627a4667d663e95c184c966939c15124df9206142fc2212
+  reference_evaluator_only_path: .private-artifacts/averitec-controller-reliability-2026/unknown-review-20260920/separated-human-reviewed/reference.json
+  reference_evaluator_only_sha256: 87c89f74e953aea44009354b8d215957638b1a3f9fa7d902932fc2bd544421fb
+  verdict_gold_evaluator_only_path: datasets/prepared_averitec/development-evaluator-gold.jsonl
+  verdict_gold_evaluator_only_sha256: e7724886f9a7885dfa6c38710aef644b79b928692a3b89238879d3095b2ea71b
+  cases: 100
+  passages_per_case: 10
+  study_role: study_fit_original_dev
+  prior_evaluation_exposure: true
+  inference_gold_access: prohibited
+  evaluator_gold_access: after_sealed_inference_only
+  main_study_holdout_access: prohibited
+workflow:
+  modes: [checkpoints]
+  scenarios: [nominal, retrieval_timeout_once, retrieval_timeout_persistent]
+  repetitions: 3
+  orders: [canonical]
+  arms: [jev, lfm, qwen, lfm26, gemini, jeff, laya_typed]
+  planned_trials_per_mode: 6300
+  expected_checkpoints_per_arm_pass: 2299
+  maximum_checkpoint_decisions: 48279
+selection:
+  repetitions: 3
+  arms: [jev, lfm, laya_typed, gemini, qwen, lfm26, jeff]
+  options: [include, exclude]
+  maximum_measured_decisions: 21000
+  reference_known: 991
+  reference_unknown: 9
+  incomplete_case_policy: downstream_failure_no_verifier_call
+  empty_complete_set_policy: send_to_verifier
+downstream:
+  evidence_input: numbered_frozen_source_snippets_in_candidate_order
+  verifier_model: humane-lab/Meta-Llama-3.1-8B-HerO
+  verifier_revision: 42a6f7120f44eae5ce3ffde72cf74a8ea6620e74
+  verdict_labels: [Supported, Refuted, Not Enough Evidence, Conflicting Evidence/Cherrypicking]
+  maximum_selector_verdict_calls: 2100
+  controls: [include_all, include_none]
+  maximum_control_verdict_calls: 600
+  automatic_model_retries: 0
+evaluation:
+  workflow_primary: first_attempt_rule_compliance
+  selection_primary: binary_macro_f1_grade_2_vs_0_1
+  downstream_primary: four_class_verdict_accuracy_over_all_planned_cases
+  official_averitec_at_0_25: unavailable_without_question_answer_predictions
+  uncertainty_unit: claim_source_group_with_repetitions_nested
+  failures: preserve_as_failures_in_planned_denominators
+  analysis_status: exploratory_prospective_extension_on_previously_exposed_cases
+models:
+  workflow_profiles: sealed_existing_deployment_bindings
+  selector_profiles: sealed_existing_deployment_bindings_including_v2_recovery_policies
+  returned_model_identity: strict_per_attempt_recording
+resources:
+  gpu_seconds_by_block:
+    workflow: {lfm: 2700, qwen: 6000, lfm26: 30000, laya_typed: 3120, jeff: 3120}
+    selection: {lfm: 2520, qwen: 3600, lfm26: 15120, laya_typed: 1500, jeff: 1500}
+    verifier_hero: 9000
+    smoke_and_infrastructure: 12960
+  maximum_gpu_seconds_total: 91140
+  maximum_gpu_jobs: 48
+  api_caps_per_hosted_arm:
+    jev:
+      maximum_generation_requests: 9910
+      maximum_input_tokens: 9000000
+      maximum_output_tokens: 1000000
+      maximum_wall_seconds: 43200
+      maximum_concurrent_requests: 1
+      selector_max_serialized_request_bytes: 2048
+      estimated_input_reserve: serialized_request_bytes_plus_1024
+      estimated_output_reserve_tokens_per_request: 1024
+      assumed_context_tokens: 32768
+      provider_truncation_unverified: true
+      one_request_token_overshoot_possible: true
+    gemini:
+      maximum_generation_requests: 9910
+      maximum_count_tokens_requests: 9910
+      maximum_input_tokens: 6000000
+      maximum_output_tokens: 200000
+      maximum_wall_seconds: 43200
+      selector_count_tokens_scope: all_1001_full_generate_content_requests
+      workflow_preflight: exact_historical_payload_usage_plus_current_generation_smoke
+      count_margin_tokens: 128
+  automatic_retries: 0
+  startup_calls: within_the_above_caps_and_separately_recorded
+outputs:
+  private_root: .private-artifacts/averitec-controller-reliability-2026/three-pass-verdict-2026
+  tracked: [manifests, results, publication]
+publication:
+  target: Ukrainian CSIT manuscript after validated results
+  contribution: link_repeated_process_and_evidence_decisions_to_fixed_candidate_verdict_quality
+dissertation_links: [dissertation/chapters/03_methodology.typ, dissertation/chapters/04_experiments.typ]
+authorization:
+  user_authorized_vega_work: true
+  launch_blocked_until_exact_manifest_astra_review_and_numeric_caps: true

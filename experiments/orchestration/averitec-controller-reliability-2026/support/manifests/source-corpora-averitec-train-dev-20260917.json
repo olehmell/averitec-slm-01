@@ -1,0 +1,49 @@
+{
+  "schema": "averitec-source-corpora/v1",
+  "dataset": "chenxwh/AVeriTeC",
+  "revision": "17af92cdc7d51b0ca4c285f9d3fac5a7dfb1b6bf",
+  "license": "cc-by-nc-4.0",
+  "stores": {
+    "dev": {
+      "archives": [
+        {
+          "bytes": 11537899362,
+          "first_index": 0,
+          "last_index": 499,
+          "member_template": "output_dev/{index}.json",
+          "path": "data_store/knowledge_store/dev_knowledge_store.zip",
+          "sha256": "021e258cd6fb5fe6d627a4667d663e95c184c966939c15124df9206142fc2212"
+        }
+      ]
+    },
+    "train": {
+      "archives": [
+        {
+          "bytes": 20730339734,
+          "first_index": 0,
+          "last_index": 999,
+          "member_template": "{index}.json",
+          "path": "data_store/knowledge_store/train/train_0_999.zip",
+          "sha256": "389d2284c5f25410205ec530c2101c3e6d575eae460731e1909ad19192dcb810"
+        },
+        {
+          "bytes": 21273604733,
+          "first_index": 1000,
+          "last_index": 1999,
+          "member_template": "{index}.json",
+          "path": "data_store/knowledge_store/train/train_1000_1999.zip",
+          "sha256": "e2bf5c1dccc855cf3474ccd3f14678fe60f21e6c69685a34d7bc884996fec446"
+        },
+        {
+          "bytes": 21520772573,
+          "first_index": 2000,
+          "last_index": 3067,
+          "member_template": "{index}.json",
+          "path": "data_store/knowledge_store/train/train_2000_3068.zip",
+          "sha256": "d3e27cc4072cd085dbac44272f1ea918dd3ff970b39d94f143e40c51bbde43d0"
+        }
+      ]
+    }
+  },
+  "upstream_layout_note": "Official train shards use root members such as 0.json; the dev ZIP uses output_dev/<index>.json. The final train filename ends in 3068 although valid source indices end at 3067."
+}
