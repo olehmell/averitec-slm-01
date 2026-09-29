@@ -1,0 +1,201 @@
+evidence_set,gold_label,predicted_label,mean_cases_per_pass
+include_all,Supported,Supported,19.0
+include_all,Supported,Refuted,5.0
+include_all,Supported,Not Enough Evidence,0.0
+include_all,Supported,Conflicting Evidence/Cherrypicking,0.0
+include_all,Supported,Invalid/missing,0.0
+include_all,Refuted,Supported,22.0
+include_all,Refuted,Refuted,37.0
+include_all,Refuted,Not Enough Evidence,1.0
+include_all,Refuted,Conflicting Evidence/Cherrypicking,1.0
+include_all,Refuted,Invalid/missing,1.0
+include_all,Not Enough Evidence,Supported,3.0
+include_all,Not Enough Evidence,Refuted,1.0
+include_all,Not Enough Evidence,Not Enough Evidence,0.0
+include_all,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+include_all,Not Enough Evidence,Invalid/missing,0.0
+include_all,Conflicting Evidence/Cherrypicking,Supported,5.0
+include_all,Conflicting Evidence/Cherrypicking,Refuted,5.0
+include_all,Conflicting Evidence/Cherrypicking,Not Enough Evidence,0.0
+include_all,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+include_all,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0
+include_none,Supported,Supported,0.0
+include_none,Supported,Refuted,0.0
+include_none,Supported,Not Enough Evidence,24.0
+include_none,Supported,Conflicting Evidence/Cherrypicking,0.0
+include_none,Supported,Invalid/missing,0.0
+include_none,Refuted,Supported,0.0
+include_none,Refuted,Refuted,6.0
+include_none,Refuted,Not Enough Evidence,56.0
+include_none,Refuted,Conflicting Evidence/Cherrypicking,0.0
+include_none,Refuted,Invalid/missing,0.0
+include_none,Not Enough Evidence,Supported,0.0
+include_none,Not Enough Evidence,Refuted,0.0
+include_none,Not Enough Evidence,Not Enough Evidence,4.0
+include_none,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+include_none,Not Enough Evidence,Invalid/missing,0.0
+include_none,Conflicting Evidence/Cherrypicking,Supported,0.0
+include_none,Conflicting Evidence/Cherrypicking,Refuted,1.0
+include_none,Conflicting Evidence/Cherrypicking,Not Enough Evidence,9.0
+include_none,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+include_none,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0
+majority_class,Supported,Supported,0.0
+majority_class,Supported,Refuted,24.0
+majority_class,Supported,Not Enough Evidence,0.0
+majority_class,Supported,Conflicting Evidence/Cherrypicking,0.0
+majority_class,Supported,Invalid/missing,0.0
+majority_class,Refuted,Supported,0.0
+majority_class,Refuted,Refuted,62.0
+majority_class,Refuted,Not Enough Evidence,0.0
+majority_class,Refuted,Conflicting Evidence/Cherrypicking,0.0
+majority_class,Refuted,Invalid/missing,0.0
+majority_class,Not Enough Evidence,Supported,0.0
+majority_class,Not Enough Evidence,Refuted,4.0
+majority_class,Not Enough Evidence,Not Enough Evidence,0.0
+majority_class,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+majority_class,Not Enough Evidence,Invalid/missing,0.0
+majority_class,Conflicting Evidence/Cherrypicking,Supported,0.0
+majority_class,Conflicting Evidence/Cherrypicking,Refuted,10.0
+majority_class,Conflicting Evidence/Cherrypicking,Not Enough Evidence,0.0
+majority_class,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+majority_class,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0
+jev,Supported,Supported,16.0
+jev,Supported,Refuted,4.0
+jev,Supported,Not Enough Evidence,4.0
+jev,Supported,Conflicting Evidence/Cherrypicking,0.0
+jev,Supported,Invalid/missing,0.0
+jev,Refuted,Supported,14.0
+jev,Refuted,Refuted,30.0
+jev,Refuted,Not Enough Evidence,15.0
+jev,Refuted,Conflicting Evidence/Cherrypicking,2.0
+jev,Refuted,Invalid/missing,1.0
+jev,Not Enough Evidence,Supported,2.0
+jev,Not Enough Evidence,Refuted,1.0
+jev,Not Enough Evidence,Not Enough Evidence,1.0
+jev,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+jev,Not Enough Evidence,Invalid/missing,0.0
+jev,Conflicting Evidence/Cherrypicking,Supported,4.0
+jev,Conflicting Evidence/Cherrypicking,Refuted,4.0
+jev,Conflicting Evidence/Cherrypicking,Not Enough Evidence,2.0
+jev,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+jev,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0
+gemini,Supported,Supported,17.333333333333332
+gemini,Supported,Refuted,2.6666666666666665
+gemini,Supported,Not Enough Evidence,4.0
+gemini,Supported,Conflicting Evidence/Cherrypicking,0.0
+gemini,Supported,Invalid/missing,0.0
+gemini,Refuted,Supported,10.666666666666666
+gemini,Refuted,Refuted,33.333333333333336
+gemini,Refuted,Not Enough Evidence,16.0
+gemini,Refuted,Conflicting Evidence/Cherrypicking,2.0
+gemini,Refuted,Invalid/missing,0.0
+gemini,Not Enough Evidence,Supported,3.0
+gemini,Not Enough Evidence,Refuted,1.0
+gemini,Not Enough Evidence,Not Enough Evidence,0.0
+gemini,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+gemini,Not Enough Evidence,Invalid/missing,0.0
+gemini,Conflicting Evidence/Cherrypicking,Supported,4.0
+gemini,Conflicting Evidence/Cherrypicking,Refuted,3.0
+gemini,Conflicting Evidence/Cherrypicking,Not Enough Evidence,3.0
+gemini,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+gemini,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0
+qwen,Supported,Supported,17.0
+qwen,Supported,Refuted,3.0
+qwen,Supported,Not Enough Evidence,4.0
+qwen,Supported,Conflicting Evidence/Cherrypicking,0.0
+qwen,Supported,Invalid/missing,0.0
+qwen,Refuted,Supported,15.0
+qwen,Refuted,Refuted,23.0
+qwen,Refuted,Not Enough Evidence,23.0
+qwen,Refuted,Conflicting Evidence/Cherrypicking,1.0
+qwen,Refuted,Invalid/missing,0.0
+qwen,Not Enough Evidence,Supported,3.0
+qwen,Not Enough Evidence,Refuted,1.0
+qwen,Not Enough Evidence,Not Enough Evidence,0.0
+qwen,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+qwen,Not Enough Evidence,Invalid/missing,0.0
+qwen,Conflicting Evidence/Cherrypicking,Supported,5.0
+qwen,Conflicting Evidence/Cherrypicking,Refuted,2.0
+qwen,Conflicting Evidence/Cherrypicking,Not Enough Evidence,3.0
+qwen,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+qwen,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0
+lfm26,Supported,Supported,17.0
+lfm26,Supported,Refuted,4.0
+lfm26,Supported,Not Enough Evidence,3.0
+lfm26,Supported,Conflicting Evidence/Cherrypicking,0.0
+lfm26,Supported,Invalid/missing,0.0
+lfm26,Refuted,Supported,16.333333333333332
+lfm26,Refuted,Refuted,28.666666666666668
+lfm26,Refuted,Not Enough Evidence,15.0
+lfm26,Refuted,Conflicting Evidence/Cherrypicking,2.0
+lfm26,Refuted,Invalid/missing,0.0
+lfm26,Not Enough Evidence,Supported,3.0
+lfm26,Not Enough Evidence,Refuted,1.0
+lfm26,Not Enough Evidence,Not Enough Evidence,0.0
+lfm26,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+lfm26,Not Enough Evidence,Invalid/missing,0.0
+lfm26,Conflicting Evidence/Cherrypicking,Supported,5.0
+lfm26,Conflicting Evidence/Cherrypicking,Refuted,3.0
+lfm26,Conflicting Evidence/Cherrypicking,Not Enough Evidence,2.0
+lfm26,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+lfm26,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0
+jeff,Supported,Supported,16.0
+jeff,Supported,Refuted,5.0
+jeff,Supported,Not Enough Evidence,3.0
+jeff,Supported,Conflicting Evidence/Cherrypicking,0.0
+jeff,Supported,Invalid/missing,0.0
+jeff,Refuted,Supported,17.0
+jeff,Refuted,Refuted,26.0
+jeff,Refuted,Not Enough Evidence,19.0
+jeff,Refuted,Conflicting Evidence/Cherrypicking,0.0
+jeff,Refuted,Invalid/missing,0.0
+jeff,Not Enough Evidence,Supported,3.0
+jeff,Not Enough Evidence,Refuted,0.0
+jeff,Not Enough Evidence,Not Enough Evidence,1.0
+jeff,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+jeff,Not Enough Evidence,Invalid/missing,0.0
+jeff,Conflicting Evidence/Cherrypicking,Supported,5.0
+jeff,Conflicting Evidence/Cherrypicking,Refuted,4.0
+jeff,Conflicting Evidence/Cherrypicking,Not Enough Evidence,1.0
+jeff,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+jeff,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0
+laya_typed,Supported,Supported,16.666666666666668
+laya_typed,Supported,Refuted,6.333333333333333
+laya_typed,Supported,Not Enough Evidence,1.0
+laya_typed,Supported,Conflicting Evidence/Cherrypicking,0.0
+laya_typed,Supported,Invalid/missing,0.0
+laya_typed,Refuted,Supported,25.666666666666668
+laya_typed,Refuted,Refuted,31.0
+laya_typed,Refuted,Not Enough Evidence,4.0
+laya_typed,Refuted,Conflicting Evidence/Cherrypicking,0.0
+laya_typed,Refuted,Invalid/missing,1.3333333333333333
+laya_typed,Not Enough Evidence,Supported,3.0
+laya_typed,Not Enough Evidence,Refuted,1.0
+laya_typed,Not Enough Evidence,Not Enough Evidence,0.0
+laya_typed,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+laya_typed,Not Enough Evidence,Invalid/missing,0.0
+laya_typed,Conflicting Evidence/Cherrypicking,Supported,6.0
+laya_typed,Conflicting Evidence/Cherrypicking,Refuted,4.0
+laya_typed,Conflicting Evidence/Cherrypicking,Not Enough Evidence,0.0
+laya_typed,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+laya_typed,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0
+lfm,Supported,Supported,19.0
+lfm,Supported,Refuted,5.0
+lfm,Supported,Not Enough Evidence,0.0
+lfm,Supported,Conflicting Evidence/Cherrypicking,0.0
+lfm,Supported,Invalid/missing,0.0
+lfm,Refuted,Supported,22.0
+lfm,Refuted,Refuted,37.0
+lfm,Refuted,Not Enough Evidence,1.0
+lfm,Refuted,Conflicting Evidence/Cherrypicking,1.0
+lfm,Refuted,Invalid/missing,1.0
+lfm,Not Enough Evidence,Supported,3.0
+lfm,Not Enough Evidence,Refuted,1.0
+lfm,Not Enough Evidence,Not Enough Evidence,0.0
+lfm,Not Enough Evidence,Conflicting Evidence/Cherrypicking,0.0
+lfm,Not Enough Evidence,Invalid/missing,0.0
+lfm,Conflicting Evidence/Cherrypicking,Supported,5.0
+lfm,Conflicting Evidence/Cherrypicking,Refuted,5.0
+lfm,Conflicting Evidence/Cherrypicking,Not Enough Evidence,0.0
+lfm,Conflicting Evidence/Cherrypicking,Conflicting Evidence/Cherrypicking,0.0
+lfm,Conflicting Evidence/Cherrypicking,Invalid/missing,0.0

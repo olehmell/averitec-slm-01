@@ -17,6 +17,9 @@ The command recalculates Tables 2–5 from the released
 [case- and candidate-level results](results/article/README.md). It requires no
 model access or AVeriTeC source text.
 
+The revised Table 5, class-level results, and workflow-state accounting are
+verified with the commands in the [revision analysis](results/article/analysis-20260929/README.md).
+
 ## Files
 
 - [Article results](results/article/README.md): final reference grades, selector

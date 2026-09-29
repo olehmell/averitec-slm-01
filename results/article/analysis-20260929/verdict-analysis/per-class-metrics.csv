@@ -1,0 +1,41 @@
+evidence_set,label,support_per_pass,mean_precision,mean_recall,mean_f1
+include_all,Supported,24,0.3877551020408163,0.7916666666666666,0.5205479452054794
+include_all,Refuted,62,0.7708333333333334,0.5967741935483871,0.6727272727272727
+include_all,Not Enough Evidence,4,0.0,0.0,0.0
+include_all,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0
+include_none,Supported,24,0.0,0.0,0.0
+include_none,Refuted,62,0.8571428571428571,0.09677419354838708,0.17391304347826086
+include_none,Not Enough Evidence,4,0.04301075268817204,1.0,0.08247422680412371
+include_none,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0
+majority_class,Supported,24,0.0,0.0,0.0
+majority_class,Refuted,62,0.62,1.0,0.7654320987654321
+majority_class,Not Enough Evidence,4,0.0,0.0,0.0
+majority_class,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0
+jev,Supported,24,0.4444444444444444,0.6666666666666666,0.5333333333333333
+jev,Refuted,62,0.7692307692307693,0.4838709677419355,0.594059405940594
+jev,Not Enough Evidence,4,0.04545454545454545,0.25,0.07692307692307693
+jev,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0
+gemini,Supported,24,0.49523809523809526,0.7222222222222223,0.5875706214689266
+gemini,Refuted,62,0.8333333333333334,0.5376344086021505,0.6535947712418301
+gemini,Not Enough Evidence,4,0.0,0.0,0.0
+gemini,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0
+qwen,Supported,24,0.425,0.7083333333333334,0.53125
+qwen,Refuted,62,0.7931034482758621,0.3709677419354838,0.5054945054945055
+qwen,Not Enough Evidence,4,0.0,0.0,0.0
+qwen,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0
+lfm26,Supported,24,0.41134339914827717,0.7083333333333334,0.5204351204351204
+lfm26,Refuted,62,0.7817817817817817,0.46236559139784944,0.581048581048581
+lfm26,Not Enough Evidence,4,0.0,0.0,0.0
+lfm26,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0
+jeff,Supported,24,0.39024390243902446,0.6666666666666666,0.49230769230769234
+jeff,Refuted,62,0.7428571428571429,0.41935483870967744,0.5360824742268041
+jeff,Not Enough Evidence,4,0.041666666666666664,0.25,0.07142857142857142
+jeff,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0
+laya_typed,Supported,24,0.3246153846153846,0.6944444444444445,0.44238975817923193
+laya_typed,Refuted,62,0.7323735695828719,0.5,0.5942612942612943
+laya_typed,Not Enough Evidence,4,0.0,0.0,0.0
+laya_typed,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0
+lfm,Supported,24,0.3877551020408163,0.7916666666666666,0.5205479452054794
+lfm,Refuted,62,0.7708333333333334,0.5967741935483871,0.6727272727272727
+lfm,Not Enough Evidence,4,0.0,0.0,0.0
+lfm,Conflicting Evidence/Cherrypicking,10,0.0,0.0,0.0

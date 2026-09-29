@@ -1,0 +1,11 @@
+evidence_set,mean_cases_corrected_vs_all,mean_cases_harmed_vs_all,mean_predictions_changed_vs_all,mean_invalid_per_100
+include_all,0.0,0.0,0.0,1.0
+include_none,7.0,53.0,96.0,0.0
+majority_class,25.0,19.0,52.0,0.0
+jev,5.0,14.0,33.0,1.0
+gemini,7.666666666666667,13.0,35.666666666666664,0.0
+qwen,2.0,18.0,39.0,0.0
+lfm26,3.6666666666666665,14.0,28.666666666666668,0.0
+jeff,7.666666666666667,20.666666666666668,38.666666666666664,0.0
+laya_typed,2.0,10.333333333333334,16.0,1.3333333333333333
+lfm,0.0,0.0,0.0,1.0

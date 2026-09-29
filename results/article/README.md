@@ -24,3 +24,8 @@ bootstrap intervals (2,000 resamples; seed 20260923). The IDs are stable
 pseudonyms within this package. Claims, snippets, and model completions are
 not included, so the package supports recalculation of the tables without
 rerunning inference or inspecting source text.
+
+The [revision analysis](analysis-20260929/README.md) contains the updated
+Table 5 calculations, class-level CSVs, reproducible workflow audit, frozen
+observation-state hashes, figure source, and checksums. Run its two verification
+commands to check the revised results without access to private logs.

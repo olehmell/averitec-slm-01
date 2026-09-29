@@ -1,0 +1,94 @@
+{
+  "version": "2026-09-29",
+  "source_commit": "3b87b9dd0c55eb3ba6973bff9c8f9657364c60fb",
+  "files": {
+    "README.md": {
+      "sha256": "f595cd3d98c6d1bfc84def8b2d9dc423c19325c03a083b562d4d495b0245726c"
+    },
+    "complete_verdict_analysis.py": {
+      "sha256": "99266af3bbc8cc3c9a6f72d3e8932815e44948543b23dff4c396108715836f3f"
+    },
+    "count-matched-protocol.md": {
+      "sha256": "838157c0bce76a75ca44845306cbd143204a65840cee56dacc0f09321ae9b7d3"
+    },
+    "expected-table5.json": {
+      "sha256": "805549a74400ccdccb73cd5a5aee669b3f6bc3498a5b122ec0918aedf695a5c9"
+    },
+    "export_workflow_observations.py": {
+      "sha256": "ab3f458f8904cf7742859886bbf8c280586c6c29f14f1648c2460be0efe8ea5b"
+    },
+    "figures/figure2.png": {
+      "sha256": "b3a3186e115f71451bfd9c5ecd88a715bac02311ed220c78a432e87c42cb565c"
+    },
+    "figures/figure2.svg": {
+      "sha256": "85778186259f801049d23a40a1e0972ffb1842db7b85e8e71503564cdfbcaa96"
+    },
+    "figures/figure2c.png": {
+      "sha256": "3d91dd6fda4ddf829889f74bc8487136f5ed85199686154bff672f2f7ef4d578"
+    },
+    "figures/figure2c.svg": {
+      "sha256": "13d7902f1e9abcc30e4b98d36fa47f5cdd9433edfce9bbf5013dba7c7c968c40"
+    },
+    "figures/source_panels_ab.png": {
+      "sha256": "53301eb91cbb1c7a87c37be536d3e5608b83dcfe9dd6aef03f19ac143ce5955c"
+    },
+    "frozen_workflow_audit.py": {
+      "sha256": "f7e9d7ec267d055cc56f9bba160b97aee418b85cfa5de17eb2abbc72fe02791d"
+    },
+    "make_figure2.py": {
+      "sha256": "ad217211dc781add1321ddd68f5cc8bc1bf4edf6e34bf35a39b485e7a38d638a"
+    },
+    "source-map.md": {
+      "sha256": "ba0d92807616425861a00e45acd03665c7337fdfccdf328b47c6a8a0c5c0a93b"
+    },
+    "verdict-analysis/analysis-metadata.json": {
+      "sha256": "4c5e5eda440e86974bdc4b8323657544079aaca53f98084a2b416907a42056ca"
+    },
+    "verdict-analysis/confusion-matrices.csv": {
+      "sha256": "eeeb29d7131e35e64b35201eb61df75ec42bace602846188a4f30c0479b15cea",
+      "rows": 200
+    },
+    "verdict-analysis/paired-changes.csv": {
+      "sha256": "b4ebdc75479957b7c3f58e88643d90bf2123b02de7e080c0edda7b3f07089a0f",
+      "rows": 10
+    },
+    "verdict-analysis/per-class-metrics.csv": {
+      "sha256": "5ff8071300fc7c94d16b9e21c9fcd9951a6eb447ec20335e70452f2de37ae755",
+      "rows": 40
+    },
+    "verdict-analysis/verdict-summary.csv": {
+      "sha256": "7a99904749ca14bd82832a63239e34dfcceb5aa6cf461ecada665fec7771a946",
+      "rows": 10
+    },
+    "verdict-analysis/verdict-summary.md": {
+      "sha256": "abc3563f4a9cea553d6c10a0276fa928a491a71b39340b6c28f134f7c34b0eec"
+    },
+    "verify_revision.py": {
+      "sha256": "19389b798babbc0cf507fe206c3f09c32509101846186a76a425d2f51eb24bc8"
+    },
+    "verify_workflow.py": {
+      "sha256": "6ad426aa6396110e8e8ece160d0398bd1ad574e7aa932e5d6334a12cf90f6f59"
+    },
+    "workflow-audit/audit.json": {
+      "sha256": "14141a32d68daeabd4799d20f0ce0a1fb564ac2b894ecc84db3ffdd32986f918"
+    },
+    "workflow-audit/scenario-counts.csv": {
+      "sha256": "68afd6280af3c66792cb81645ef3b1169e3c9c42443be11bef52f8519575fa4e",
+      "rows": 60
+    },
+    "workflow-observation-audit.json": {
+      "sha256": "5e1b09ef40f862c637005e0fb0a0c259f24a15252b09ec4eef0013678f247e7f"
+    },
+    "workflow-observations.csv": {
+      "sha256": "55c0c9ae5e2edd6e42d5703d2eddcf10edd7b094ebb6210d5bd48180c1fe12f1",
+      "rows": 2299
+    },
+    "workflow-state-hashes.csv": {
+      "sha256": "ce3a5f3c0e460cd179f4536f59a200a77672eaedb56f5aef5c0f1a6ee7c2b05d",
+      "rows": 45980
+    },
+    "workflow_audit.py": {
+      "sha256": "006d168b70ecf18be6826127d0dc475b6486d0178a094046add5a8b005d638ae"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "input_file": "results/article/verdict-outcomes.csv",
+  "input_sha256": "e2b2d3fe46090efd777e100df08e9bc23bfdc961bb2f7a42bcba9197a0d1ad83",
+  "input_manifest_verified": true,
+  "claims": 100,
+  "passes": 3,
+  "resampling_unit": "claim; all conditions and three passes retained together",
+  "bootstrap_replicates": 10000,
+  "seed": 20260929,
+  "numpy_version": "2.3.5",
+  "interval_type": "pointwise 95% percentile; not multiplicity-adjusted",
+  "labels": [
+    "Supported",
+    "Refuted",
+    "Not Enough Evidence",
+    "Conflicting Evidence/Cherrypicking"
+  ],
+  "gold_counts": {
+    "Supported": 24,
+    "Refuted": 62,
+    "Not Enough Evidence": 4,
+    "Conflicting Evidence/Cherrypicking": 10
+  },
+  "majority_label": "Refuted",
+  "majority_policy_is_inference": false,
+  "partial_input": false
+}

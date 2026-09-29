@@ -7,3 +7,4 @@ dependencies = ["PyYAML>=6.0"]
 
 [project.optional-dependencies]
 test = ["pytest>=8.0"]
+article = ["numpy==2.3.5", "matplotlib==3.10.8", "Pillow==12.3.0"]
